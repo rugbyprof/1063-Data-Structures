@@ -6,15 +6,12 @@
 I usually discuss setting up a development environment here, but in 1063 things are pretty simple. So we only need to address a couple of things. Both things however are super important. See below: 
 
 ### Intructors Note:
->As you read below (and no TL;DR excuses) it will seem like overkill for this level of programming. Some of the terminology and software components will be confusing, but only at first. After your initial setup (all of the components below are installed), there will be a repetative series of steps used to write, edit, and save (commit) your code. It will be so repetative that it will become second nature. I guarantee that you will learn to appreciate and probably start to prefer the power of the command line and gaining more control over your dev environment.
 >
 >This is an important step to getting your semester off on the right foot. **It's so important that:**
 >- If you don't complete it, drop the course because you will fail.
 >- If you complete it late, you will lose 1 letter grade off of your final grade.
 >- If you complete it wrong, you will lose 1/2 of one letter grade off of your final grade.
->- Having said that, feel free to get help from me at anytime.
->- And no I will not penalize you if there are configuration problems or other issues that present themselves after each thing is installed. I only want you to get this done as soon as possible, so don't wait.
->
+>- Having said that, feel free to ask for help from me at anytime.
 
 
 ### Team Chat
