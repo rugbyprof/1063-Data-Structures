@@ -18,6 +18,8 @@
 - Arrays
 - Records/structs (heterogeneous aggregates)
 - Strings and string processing 
+- Array based structures vs List based structures
+- Pointers
 - Abstract data types and their implementation using classes:
     - Stacks 
     - Queues
