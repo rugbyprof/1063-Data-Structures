@@ -36,3 +36,24 @@ To flip an image across either axis is a pretty simple process.
 | ![](https://d3vv6lp55qjaqc.cloudfront.net/items/44052x1L2w2S010f2u1m/flip_horizontal.png?X-CloudApp-Visitor-Id=1094421) |
 | To flip an image horizontally, you simply copy each column as if you were folding the image in half from left to right or vice to versa. So `Col[i]` gets swapped with `Col[Width-1 - i]` where `0 <= i <= Width/2` | |
 
+### Requirements
+
+- Download the starter code.
+
+- Complete the following 3 functions:
+
+```cpp
+
+void flipVert(rgb** image,int width,int height){
+    // your code
+}
+
+void flipHorz(rgb** image,int width,int height){
+    // your code
+}
+
+void grayScale(rgb** image,int width,int height){
+    // your code
+}
+
+```
