@@ -27,8 +27,9 @@ We can think of an image as a two dimensional array of RGB values. We've discuss
 | Flip Vertical |
 |:-------:|
 | ![](https://d3vv6lp55qjaqc.cloudfront.net/items/1K280C2Y3S2H2S3U2B07/flip%20_vertical.png?X-CloudApp-Visitor-Id=1094421) |
-| To flip an image vertically, you simply copy each row as if you were folding the image in half from top to bottom or bottom to top. 
+| To flip an image vertically, you simply copy each row as if you were folding the image in half from top to bottom or bottom to top. |
 
 | Flip Horizontal |
 |:-------:|
 | ![](https://d3vv6lp55qjaqc.cloudfront.net/items/44052x1L2w2S010f2u1m/flip_horizontal.png?X-CloudApp-Visitor-Id=1094421) |
+| To flip an image horizontally, you simply copy each column as if you were folding the image in half from left to right or vice to versa. |
