@@ -1,3 +1,5 @@
+# Not totally compltete ...
+
 ## Program 1 - Image Manipulation
 Due February 3<sup>rd</sup> at the beginning of class.
 
@@ -57,6 +59,12 @@ void grayScale(rgb** image,int width,int height){
 }
 
 ```
+
+Make sure you place your functions above main, and also include a comment block for each function:
+
+```cpp
+```
+
 
 You don't have to create a `class` in your solution. That's going to be the next program! If you want to get a head start, you may want to read / write your image file via functions:
 
