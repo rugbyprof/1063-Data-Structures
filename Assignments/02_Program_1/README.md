@@ -57,3 +57,17 @@ void grayScale(rgb** image,int width,int height){
 }
 
 ```
+
+You don't have to create a `class` in your solution. That's going to be the next program! If you want to get a head start, you may want to read / write your image file via functions:
+
+```cpp
+
+
+void readImage(rgb** image,int &width,int &height,ofstream &ofile){
+    // Hmmm, what's up with the width and height references
+}
+void saveImage(rgb** image,int width,int height,ofstream &ofile){
+    // your code
+}
+
+```
