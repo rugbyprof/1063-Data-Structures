@@ -24,6 +24,8 @@ We can think of an image as a two dimensional array of RGB values. We've discuss
 |:-------:|
 | ![](https://d3vv6lp55qjaqc.cloudfront.net/items/1X0Z2W0t432k0x3w2U1u/2d_array.png?X-CloudApp-Visitor-Id=1094421) |
 
+To flip an image across either axis is a pretty simple process. 
+
 | Flip Vertical |
 |:-------:|
 | ![](https://d3vv6lp55qjaqc.cloudfront.net/items/1K280C2Y3S2H2S3U2B07/flip%20_vertical.png?X-CloudApp-Visitor-Id=1094421) |
@@ -33,3 +35,4 @@ We can think of an image as a two dimensional array of RGB values. We've discuss
 |:-------:|
 | ![](https://d3vv6lp55qjaqc.cloudfront.net/items/44052x1L2w2S010f2u1m/flip_horizontal.png?X-CloudApp-Visitor-Id=1094421) |
 | To flip an image horizontally, you simply copy each column as if you were folding the image in half from left to right or vice to versa. So `Col[i]` gets swapped with `Col[Width-1 - i]` where `0 <= i <= Width/2` | |
+
