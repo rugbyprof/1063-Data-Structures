@@ -22,7 +22,10 @@ We can think of an image as a two dimensional array of RGB values. We've discuss
 
 ![](https://d3vv6lp55qjaqc.cloudfront.net/items/3H2R3i1g1A3A121T0u0C/rgb_array.jpg?X-CloudApp-Visitor-Id=1094421)
 
+| Flip Vertical |
+|:-------:|
+| ![](https://d3vv6lp55qjaqc.cloudfront.net/items/1K280C2Y3S2H2S3U2B07/flip%20_vertical.png?X-CloudApp-Visitor-Id=1094421) |
 
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/1K280C2Y3S2H2S3U2B07/flip%20_vertical.png?X-CloudApp-Visitor-Id=1094421)
-
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/44052x1L2w2S010f2u1m/flip_horizontal.png?X-CloudApp-Visitor-Id=1094421)
+| Flip Horizontal |
+|:-------:|
+| ![](https://d3vv6lp55qjaqc.cloudfront.net/items/44052x1L2w2S010f2u1m/flip_horizontal.png?X-CloudApp-Visitor-Id=1094421) |
