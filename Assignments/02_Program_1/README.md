@@ -20,11 +20,14 @@ it allows uploads, it has a username/password associated with it: ***mustang/mus
 
 We can think of an image as a two dimensional array of RGB values. We've discussed this in class. 
 
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/3H2R3i1g1A3A121T0u0C/rgb_array.jpg?X-CloudApp-Visitor-Id=1094421)
+| 2D Image |
+|:-------:|
+| ![](https://d3vv6lp55qjaqc.cloudfront.net/items/1X0Z2W0t432k0x3w2U1u/2d_array.png?X-CloudApp-Visitor-Id=1094421) |
 
 | Flip Vertical |
 |:-------:|
 | ![](https://d3vv6lp55qjaqc.cloudfront.net/items/1K280C2Y3S2H2S3U2B07/flip%20_vertical.png?X-CloudApp-Visitor-Id=1094421) |
+| To flip an image vertically, you simply copy each row as if you were folding the image in half from top to bottom or bottom to top. 
 
 | Flip Horizontal |
 |:-------:|
