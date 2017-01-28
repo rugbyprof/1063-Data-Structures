@@ -60,16 +60,42 @@ void grayScale(rgb** image,int width,int height){
 
 ```
 
-Make sure you place your functions above main, and also include a comment block for each function:
+Make sure you place your functions above main, and also include comment blocks for each function and your program as a whole:
 
+Main Program Comment Block:
 ```cpp
+/**
+* @ProgramName: Program-1
+* @Author: Your Name 
+* @Description: 
+*     This program reads in images stored as rgb values in a space delimited file format.
+* @Course: 1063 Data Structures
+* @Semester: Spring 2017
+* @Date: DD MM YYYY
+*/
 ```
 
+Function Comment Block:
+```cpp
+/**
+* @FunctionName: grayScale
+* @Description: 
+*     Loops through a 2D array and turns every RGB value into its grayscale equivalent.
+* @Params:
+*    rgb** image - 2D array holding rgb values
+*    int width - width of image
+*    int height - height of image
+* @Returns:
+*    void
+*/
+void grayScale(rgb** image,int width,int height){
+    // your code
+}
+```
 
 You don't have to create a `class` in your solution. That's going to be the next program! If you want to get a head start, you may want to read / write your image file via functions:
 
 ```cpp
-
 
 void readImage(rgb** image,int &width,int &height,ofstream &ofile){
     // Hmmm, what's up with the width and height references
@@ -79,3 +105,5 @@ void saveImage(rgb** image,int width,int height,ofstream &ofile){
 }
 
 ```
+
+
