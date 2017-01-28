@@ -115,7 +115,7 @@ When writing your programs, especially at this level, you should start small and
 
 Convert the pink image to a text file, you will see that it is a ***44x44*** sized image and every pixel has the values: ***255 82 135***.
 
-If you make this your starter programs input file, it shouldn't be to hard to add some code to simply change each pixel to a different color. Try ***any*** other color. [Here](http://www.rapidtables.com/web/color/RGB_Color.htm) is an rgb color chart. Place your code snippet here: `//We could make any changes we want to the color image here` in the code. 
+If you make this your starter programs input file, it shouldn't be to hard to add some code to simply change each pixel to a different color. Try ***any*** other color. [Here](http://www.rapidtables.com/web/color/RGB_Color.htm) is an rgb color chart. Place your code wherever you find this comment in the starter: `//We could make any changes we want to the color image here`. 
 
 Now upload your new file, and see your new image. If it's correct, then you have the basic process down. 
 
