@@ -106,8 +106,55 @@ void saveImage(rgb** image,int width,int height,ofstream &ofile){
 
 ```
 
-### Testing
+## Incremental Programming
 
-When writing your programs, especially at this level, you should start small and incrementally add logic to your solution. Which means that you shouldn't jump right in and start to try flipping your image. One problem is that your working with starter code written by someone else, so you might want to familiarize yourself with the code. One way of doing this is to start with a small simple image, lets say this one:
+#### Step 1:
+When writing your programs, especially at this level, you should start small and incrementally add logic to your solution. Which means that you shouldn't jump right in and start to try flipping your image. One problem is that your working with starter code written by someone else, so you might want to familiarize yourself with the code. One way of doing this is to start with a smaller problem (like a small simple image), and do something simple to it. Here is a small pink image (included in this folder):
+
+![](./pink.jpg)
+
+Convert the pink image to a text file, you will see that it is a ***44x44*** sized image and every pixel has the values: ***255 82 135***.
+
+If you make this your starter programs input file, it shouldn't be to hard to add some code to simply change each pixel to a different color. Try ***any*** other color. [Here](http://www.rapidtables.com/web/color/RGB_Color.htm) is an rgb color chart.
 
 
+Now upload your new file, and see your new image. If it's correct, then you have the basic process down. 
+
+####  Step 2:
+
+Now move the snippet of code you used to change the image color to a function. Maybe something similar to:
+
+```cpp
+/**
+* @FunctionName: changeColor
+* @Description: 
+*     Loops through a 2D array and turns every RGB value into the new color.
+* @Params:
+*    rgb** image - 2D array holding rgb values
+*    int width - width of image
+*    int height - height of image
+*    rgb newColor - a struct holding the new color for the image.
+* @Returns:
+*    void
+*/
+void changeColor(rgb** image,int width, int height, rgb newColor){
+   // loop through image
+   // assign newColor to each location in array
+}
+```
+
+Make sure your program still works and now your ready to tackle the actual assignment functions. This may seem like extra work, but is it? Writing your assignment functions at this stage will be much easier. Especially the `grayScale` function. Why? Because the `grayScale` function works nearly identicle to the `changeColor` function, except that it alters the RGB values instead of re-assigning them. Here is the formula to gray scale an image:
+
+```
+gray = (RGB.R + RGB.G + RGB.B) / 3;
+RGB.R = gray
+RGB.G = gray
+RGB.B = gray
+```
+
+Each channel gets assigned the average of all three.
+
+
+## What to Turn In
+
+TBD
