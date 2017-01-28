@@ -106,4 +106,6 @@ void saveImage(rgb** image,int width,int height,ofstream &ofile){
 
 ```
 
+### Testing
 
+When writing your programs, especially at this level, you should start small and incrementally add logic to your solution. 
