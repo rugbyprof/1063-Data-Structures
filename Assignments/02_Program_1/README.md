@@ -108,4 +108,6 @@ void saveImage(rgb** image,int width,int height,ofstream &ofile){
 
 ### Testing
 
-When writing your programs, especially at this level, you should start small and incrementally add logic to your solution. 
+When writing your programs, especially at this level, you should start small and incrementally add logic to your solution. Which means that you shouldn't jump right in and start to try flipping your image. One problem is that your working with starter code written by someone else, so you might want to familiarize yourself with the code. One way of doing this is to start with a small simple image, lets say this one:
+
+
