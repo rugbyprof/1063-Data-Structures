@@ -17,12 +17,14 @@ Remember the website to convert images to txt is here: http://cs.mwsu.edu/~griff
 ```cpp
 
 class ImageManip{
+private:
     rgb** image;
     int width;
     int height;
     ifstream infile;
     ofstream ofile;
     
+public:
     ImageManip(){
     }
     
