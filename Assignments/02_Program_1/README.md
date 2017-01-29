@@ -1,5 +1,5 @@
 ## Program 1 - Image Manipulation
-Due February 8<sup>th</sup> at the beginning of class.
+Due Monday February 6<sup>th</sup> at the beginning of class.
 
 ### Overview
 
@@ -157,4 +157,4 @@ Each channel gets assigned the average of all three.
 - In the `assignments` folder, create a folder called `program_1` (not Program_1 or PROGRAM1 or program1 or you get it).
 - Your code should be in a file called `main.cpp` within the `program_1` folder. 
 - Any input files (txt or image) that you used to test your program should be in this folder as well.
-- At the beginning of class on the 8<sup>th</sup>, bring in a printout of your `main.cpp` printed out using **gitprint**.
+- At the beginning of class on the 6<sup>th</sup>, bring in a printout of your `main.cpp` printed out using **gitprint**.
