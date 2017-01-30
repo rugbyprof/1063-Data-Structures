@@ -1,4 +1,15 @@
+//
+//  linked_list.cpp
+//  
+//
+//  Created by Terry Griffin on 1/29/17.
+//
+//
+
+#include "linked_list.hpp"
+
 #include <iostream>
+#include <fstream>
 
 struct Node{
     int data;
@@ -7,60 +18,75 @@ struct Node{
 
 class List{
 private:
-  Node* Head;
-  int size;
+    Node* Head;
+    int size;
 public:
-
-  List(){
-    Head = NULL;
-    size = 0;
-  }
-
-  void Push(int val){
-    if(Head == NULL){
-      Head = new Node;
-      Head->data = val;
-      Head->next = NULL;
-    }else{
-      Node* Curr = Head;
-      Node* Prev = Head;
-      while(Curr != NULL){
-        Prev = Curr;
-        Curr = Curr->next;
-      }
-      Prev->next = new Node;
-      Prev->next->data = val;
-      Prev->next->next = NULL;
+    
+    List(){
+        Head = NULL;
+        size = 0;
     }
-    size++;
-  }
-  
-  int Pop(){
-    int data = Head->data;
-    Node* Temp = Head;
-    Head = Head->next;
-    delete Temp;
-    size--;
-    return data;
-  }
-  
-  void PrintList(){
-    Node * current = Head;
-    while(current != NULL){
-      std::cout<<current->data;
-      if(current->next != NULL){
-        std::cout<<"->";
-      }
-      current = current->next;
+    
+    void Push(int val){
+        if(Head == NULL){
+            Head = new Node;
+            Head->data = val;
+            Head->next = NULL;
+        }else{
+            Node* Curr = Head;
+            Node* Prev = Head;
+            while(Curr != NULL){
+                Prev = Curr;
+                Curr = Curr->next;
+            }
+            Prev->next = new Node;
+            Prev->next->data = val;
+            Prev->next->next = NULL;
+        }
+        size++;
     }
-    std::cout<<std::endl;
-  }
-  
-  int Size(){
-    return size;
-  }
-  
+    
+    int Pop(){
+        int data = Head->data;
+        Node* Temp = Head;
+        Head = Head->next;
+        delete Temp;
+        size--;
+        return data;
+    }
+    
+    void PrintList(){
+        Node * current = Head;
+        while(current != NULL){
+            std::cout<<current->data;
+            if(current->next != NULL){
+                std::cout<<"->";
+            }
+            current = current->next;
+        }
+        std::cout<<std::endl;
+    }
+    
+    int Size(){
+        return size;
+    }
+    
+    friend std::ostream& operator<<(std::ostream& os,const List &l)
+    {
+        Node * current = l.Head;
+        while(current != NULL){
+            os<<current->data;
+            if(current->next != NULL){
+                os<<"->";
+            }
+            current = current->next;
+        }
+        os<<"\n";
+        return os;
+    }
 };
+
+
 
 int main() {
     std::cout << "Hello World!\n";
@@ -72,12 +98,13 @@ int main() {
     
     List L;
     for(int i=0;i<10;i++){
-      L.Push(i);
+        L.Push(i);
     }
     L.PrintList();
     L.Pop();
     L.Pop();
     L.PrintList();
     std::cout<<L.Size()<<std::endl;
-
+    std::cout<<L;
+    
 }
