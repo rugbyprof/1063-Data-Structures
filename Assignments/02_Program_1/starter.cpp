@@ -39,14 +39,16 @@ int main(){
     int width;               //width of image
     int height;              //height of image
     
-    rgb **imgArray;         //Pointer var for our 2D array          
-    
+    rgb **imgArray;         //Pointer var for our 2D array because we         
+                            //don't know how big the image will be!
+
     ifile>>width>>height;   //Read in width and height from top of input file
                             //We need this so we can make the array the right 
-                            //size.
-    
+                            //size. After we get these two values, we can
+                            //now allocate memory for our 2D array.
+
     imgArray = new rgb*[height];    //This array points to every row
-    
+
     for(int i=0;i<height;i++){
         imgArray[i] = new rgb[width]; //Now allocate each row of rgb's
     }
