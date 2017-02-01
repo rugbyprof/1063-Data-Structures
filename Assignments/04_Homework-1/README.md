@@ -14,4 +14,6 @@ Due: February 10th by Class time.
 ## Deliverables
 
 - Create a file called `tail_insertion.cpp` and place your solution in this file.
-- Add your `tail_insertion.cpp` to your `Assignments` folder.
+- Add your `tail_insertion.cpp` to your `assignments` folder.
+- Make sure you place a comment block at the top of your document, as well as a comment block on your added method.
+- Print out a copy of your code and bring to class. 
