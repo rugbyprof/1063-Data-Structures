@@ -16,4 +16,36 @@ Due: February 10th by Class time.
 - Create a file called `tail_insertion.cpp` and place your solution in this file.
 - Add your `tail_insertion.cpp` to your `assignments` folder.
 - Make sure you place a comment block at the top of your document, as well as a comment block on your added method.
+
+Main Program Comment Block:
+```cpp
+/**
+* @ProgramName: Program-1
+* @Author: Your Name 
+* @Description: 
+*     This program reads in images stored as rgb values in a space delimited file format.
+* @Course: 1063 Data Structures
+* @Semester: Spring 2017
+* @Date: DD MM YYYY
+*/
+```
+
+Function Comment Block:
+```cpp
+/**
+* @FunctionName: grayScale
+* @Description: 
+*     Loops through a 2D array and turns every RGB value into its grayscale equivalent.
+* @Params:
+*    rgb** image - 2D array holding rgb values
+*    int width - width of image
+*    int height - height of image
+* @Returns:
+*    void
+*/
+void grayScale(rgb** image,int width,int height){
+    // your code
+}
+```
+
 - Print out a copy of your code and bring to class. 
