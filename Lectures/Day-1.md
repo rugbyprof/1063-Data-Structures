@@ -1,3 +1,4 @@
+```cpp
 #include <iostream>
 #include <ctime>
 using namespace std;
@@ -78,3 +79,4 @@ int main() {
     printArray(B,size2);
     
 }
+```
