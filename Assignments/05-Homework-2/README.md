@@ -25,6 +25,8 @@ void A (char ch){
 
 ***Trace A(‘C’)***  and   ***Trace A(‘3’)***
 
+-----
+
 ### Q3
 
 ***Trace B(4)***
@@ -39,6 +41,9 @@ int B (int n){
   }
 }
 ```
+
+-----
+
 ### Q4
 
 ***Trace C(16)***
@@ -52,6 +57,8 @@ int C (int n){
     return (1 + C(n/2));
 }
 ```
+
+-----
 
 ### Q5
 
@@ -85,6 +92,8 @@ int NumDigits(int num){
 }
 ```
 
+-----
+
 ### Q7
 
 Write a function `MyPow()` - Which will raise a given number to a power. Trace for ***2<sup>3</sup>***.
@@ -96,6 +105,8 @@ int MyPow(int base, int exp)
     
 )
 ```
+
+-----
 
 ### Q8
 
