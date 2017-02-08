@@ -8,7 +8,9 @@ Due: TBD
 - Turn a printed copy of your assignment on the day it is due. Place it in front of class at the beginning of class.
 - A fully digital document is preferred, but if you need to draw by hand, simply take a clear photo of your drawing, crop it and link to it by adding your image to your `Homework_2` folder and use the following markdown syntax: `![](./photoname.extension)` (e.g. `![](./trace1.jpg)`)
 
-1. Trace A(‘C’)    2.Trace A(‘3’)
+## Part 1
+
+### Q1 , Q2
 
 ```cpp
 void A (char ch){
@@ -21,7 +23,11 @@ void A (char ch){
 }
 ```
 
-3. Trace B(4)
+***Trace A(‘C’)***  and   ***Trace A(‘3’)***
+
+### Q3
+
+***Trace B(4)***
 
 ```cpp
 int B (int n){
@@ -33,7 +39,9 @@ int B (int n){
   }
 }
 ```
-4. Trace C(16)
+### Q4
+
+***Trace C(16)***
 
 ```cpp
 int C (int n){
@@ -45,7 +53,9 @@ int C (int n){
 }
 ```
 
-5. Trace D(-2365)
+### Q5
+
+***Trace D(-2365)***
 
 ```cpp
 int D (int n){
@@ -61,9 +71,13 @@ int D (int n){
 }
 ```
 
+## Part 2
+
 Write recursive functions to solve the following problems then trace the given value(s).
 
-6. Write a function that will count the number of digits in a nonnegative integer. Trace for ***5679***.
+### Q6
+
+Write a function that will count the number of digits in a nonnegative integer. Trace for ***5679***.
 
 ```cpp
 int NumDigits(int num){
@@ -71,7 +85,9 @@ int NumDigits(int num){
 }
 ```
 
-7. Write a function `MyPow()` - Which will raise a given number to a power. Trace for ***2<sup>3</sup>***.
+### Q7
+
+Write a function `MyPow()` - Which will raise a given number to a power. Trace for ***2<sup>3</sup>***.
 
 ```cpp
 int MyPow(int base, int exp)
@@ -81,7 +97,9 @@ int MyPow(int base, int exp)
 )
 ```
 
-8. Complete the function and trace for ***`A[2,4,5,7,8,11]`***
+### Q8
+
+Complete the function and trace for ***`A[2,4,5,7,8,11]`***
 
 ```cpp
 int SumArray(int A[], int n)
