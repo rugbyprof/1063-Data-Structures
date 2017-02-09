@@ -23,10 +23,8 @@ private:
     int height;
     ifstream infile;
     ofstream ofile;
-    
-public:
-    ImageManip(){
-    }
+    string ifile_name;
+    string ofile_name
     
     void readFile(){
     }
@@ -34,19 +32,20 @@ public:
     void writeFile(){
     }
     
-    void grayScale(){
-         // your code
+public:
+    ImageManip(){
     }
-    
-    void flipVert(){
+       
+    void flipVert(string ifile_name,string ofile_name){
+        
         // your code
     }
 
-    void flipHorz(){
+    void flipHorz(string ifile_name,string ofile_name){
         // your code
     }
 
-    void grayScale(){
+    void grayScale(string ifile_name,string ofile_name){
         // your code
     }
     ~ImagerManip(){
