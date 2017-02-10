@@ -112,3 +112,24 @@ CurrentNode->Next = NULL;
 CurrentNode->Data = nhead->data+4;
 PreviousNode->Next = CurrentNode;
 ```
+-----
+
+Given the following function prototypes, write a class definition called MovieClass that could incorporate these as methods. You will need to create a structure called MovieData that has the following information:
+
+```
+- Title                       //example: “Gone With the Wind”
+- Director                    //example: “Victor Fleming”
+- Year Released               //example: 1939
+- Running Time (in minutes)   //example: 226
+```
+
+**Functions:**
+
+```cpp
+void PrintMoviesByReleaseYear(int year);      //prints all movies released
+                                              //in specified year
+void PrintMoviesByDirector(string Director);  //prints all movies directed
+                                              //by director
+void AddMovie(MovieData Movie);               //Adds a movie to a linked list
+                                              //of movies
+```
