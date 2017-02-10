@@ -114,6 +114,10 @@ PreviousNode->Next = CurrentNode;
 ```
 -----
 
+Write a function that receives a `Head` Node pointer and returns `True` if the sum of the values in the list is over the length of the list * 10.
+
+-----
+
 Given the following function prototypes, write a class definition called MovieClass that could incorporate these as methods. You will need to create a structure called MovieData that has the following information:
 
 ```
