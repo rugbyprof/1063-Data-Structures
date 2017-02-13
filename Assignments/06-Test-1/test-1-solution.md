@@ -175,6 +175,7 @@ while(CurPtr->Data < 32){
 head=CurPtr;
 ```
 ***Answer:***
+
 ![](https://d3vv6lp55qjaqc.cloudfront.net/items/3L0R0E45211h0s3j3A2a/solution7a.png?X-CloudApp-Visitor-Id=1094421)
 
 -----
@@ -192,5 +193,7 @@ while(CurPtr->next != NULL){
     CurPtr=CurPtr->next;
 }
 ```
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/3k3A1A3Q3X3m1s0M290k/listhelp.png?X-CloudApp-Visitor-Id=1094421)
+***Answer:***
+
+![](https://d3vv6lp55qjaqc.cloudfront.net/items/2G3Z0e2z1V2a2b1W1M36/delete_node.png?X-CloudApp-Visitor-Id=1094421)
 
