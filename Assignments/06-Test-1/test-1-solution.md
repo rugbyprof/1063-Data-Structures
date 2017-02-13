@@ -53,16 +53,16 @@ int A[5][5] = {{0}};
 | 11 | 12 | 13 | 14 | 15 |
 | 16 | 17 | 18 | 19 | 20 |
 
-Solution:
-
+***Answer:***
 ```cpp
-
 int i,j,k;
 for (i=0,k=1;i<5;i++){
     for (j=0;j<5;j++,k++){
         A[i][j] = k;
     }
 }
+```
+
 
 ### 4: Class Syntax
 -----
@@ -74,10 +74,34 @@ Write a class definition for a class called CharManip. It doesn’t have any pri
 1. ***RetInt*** (returns the ascii (integer) value of a single character)
 1. ***Reverse*** (returns the character array reversed)
 
+***Answer:***
+```cpp
+class CharManip{
+    CharManip();
+    void UpperCase(char*);
+    void LowerCase(char*);
+    int RetInt(char);
+    char* Reverse(char*);
+};
+```
+
 ### 5: List Function
 -----
 
 Write a function that receives a `Head` Node pointer and returns `True` if each of the values in the list is even and `Odd` otherwise.
+
+***Answer:***
+```cpp
+bool Func(Node *head){
+    while(head){
+        if(head->data % 2 == 1){
+            return false;
+        }
+        head = head->next;
+    }
+    return true;
+}
+```
 
 ### 6: List Creation
 -----
