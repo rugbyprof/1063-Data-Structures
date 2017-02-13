@@ -140,11 +140,6 @@ Nhead = Temp;
 ![](https://d3vv6lp55qjaqc.cloudfront.net/items/0W2v052p0C3k39031u2Z/list_create.png?X-CloudApp-Visitor-Id=1094421)
 
 
-```
-          nHead               PreviousNode              CurrentNode           Temp
-```
-
-
 ### 7: List Manipulation
 -----
 
