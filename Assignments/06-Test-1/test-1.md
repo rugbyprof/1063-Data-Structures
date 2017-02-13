@@ -10,11 +10,11 @@
 ### 1: List or Array
 -----
 
-- ***List***: Grow and shrink dynamically
-- ***Array***: Give access each element directly
-- ***List***: Inserting and Deleting elements is easy
-- ***Array***: Doesn't have as much overhead
-- ***Array***: Easier to implement
+- ___________________ Grow and shrink dynamically
+- ___________________ Give access each element directly
+- ___________________ Inserting and Deleting elements is easy
+- ___________________ Doesn't have as much overhead
+- ___________________ Easier to implement
 
 
 ### 2: Pointers
