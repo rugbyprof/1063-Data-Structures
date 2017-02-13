@@ -28,16 +28,16 @@ Use the following memory snapshot to answer the questions. Write in the address,
 
 | Command           | Result |
 |:-----------------:|:------:|
-|  `cout<<&D`       |        |
-|  `cout<<&E`       |        |
-|  `cout<<*D`       |        |
-|  `cout<<*F`       |        |
-|  `cout<<F`        |        |
-|  `cout<<A`        |        |
-|  `cout<<*E`       |        |
-| `cout<<&G`        |        |
-| `C = &A; cout<<*C`|        |
-|  `*F=*D; cout<<*F`|        |
+|  `cout<<&D`       |   4000 |
+|  `cout<<&E`       | 5000 |
+|  `cout<<*D`       |   42 |
+|  `cout<<*F`       |   73 |
+|  `cout<<F`        |   1000 |
+|  `cout<<A`        |   73     |
+|  `cout<<*E`       |   Error  |
+| `cout<<&G`        |   7000   |
+| `C = &A; cout<<*C`|   73     |
+|  `*F=*D; cout<<*F`|   42     |
 
 ### 3: 2D Arrays
 -----
