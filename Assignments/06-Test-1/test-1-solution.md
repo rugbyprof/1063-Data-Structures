@@ -135,12 +135,9 @@ Temp->Next = nHead;
 Nhead = Temp;
 ```
 
-```
-        
-        
-```
+***Answer:***
 
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/2b3b2A1U3l3E1a32000u/dupes.png?X-CloudApp-Visitor-Id=1094421)
+![](https://d3vv6lp55qjaqc.cloudfront.net/items/2q3e3u02240R0H2z340f/list_create.png?X-CloudApp-Visitor-Id=1094421)
 
 
 ```
