@@ -114,10 +114,10 @@ Write a class definition for a class called CharManip. It doesn’t have any pri
 ```cpp
 class CharManip{
     CharManip();
-    void UpperCase(char*);
-    void LowerCase(char*);
+    void UpperCase(char*,int);
+    void LowerCase(char*,int);
     int RetInt(char);
-    char* Reverse(char*);
+    char* Reverse(char*,int);
 };
 ```
 
