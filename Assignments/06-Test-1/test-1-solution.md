@@ -223,5 +223,5 @@ while(CurPtr->next != NULL){
 ```
 ***Answer:***
 
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/1t3k1S1T162T231F2M1X/ll7a.png?X-CloudApp-Visitor-Id=1094421)
+![](https://d3vv6lp55qjaqc.cloudfront.net/items/0N383g0P0g1p0u3w2g3c/ll7a2.png?X-CloudApp-Visitor-Id=1094421)
 
