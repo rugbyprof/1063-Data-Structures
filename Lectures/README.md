@@ -1,0 +1,2 @@
+- [Day01](./Day02) - Functions and Array overview
+- Day02 
