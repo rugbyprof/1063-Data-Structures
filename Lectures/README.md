@@ -13,4 +13,4 @@
 | [Day10](./Day10) | Seperating Implementation Files |
 | [Day11](./Day11) | Day10 + Use of Private methods |
 | [Day12](./Day12.cpp) | Array Based Circular Queue |
-| [Day12a](./Day12a.cpp)vBinary Function Fun |
+| [Day12a](./Day12a.cpp) | Binary Function Fun |
