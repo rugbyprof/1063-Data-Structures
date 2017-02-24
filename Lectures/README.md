@@ -14,3 +14,4 @@
 | [Day11](./Day11) | Day10 + Use of Private methods |
 | [Day12](./Day12.cpp) | Array Based Circular Queue |
 | [Day12a](./Day12a.cpp) | Binary Function Fun |
+| [Day13](./Day13.cpp) | Structs in arrays just for review|
