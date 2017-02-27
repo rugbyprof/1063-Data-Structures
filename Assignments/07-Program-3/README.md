@@ -9,9 +9,9 @@ You are going to implement a simple calculator.
 - **Your inputs are:**
 
 >- String infix. (defined as char[ ] or string, however you see fit)
->- Example: (4+7)-7*(3+9)
-The expression will be read from the command line (NOT using cin), but passed as an argument to the program (argc/argv).
-	For example: eval (4+7)-7*(3+9) (enter) would print the answer to the expression.
+>- Example:`(4+7)-7*(3+9)`
+>- The expression will be read from the command line (NOT using cin), but passed as an argument to the program (argc/argv).
+>- For example: **`eval (4+7)-7*(3+9)`** (enter) would print the answer to the expression.
 
 - **Your output is:**
 
@@ -27,33 +27,32 @@ Example:
 
 ### Requirements:
 
-Your calculator is required to do the following operations (minimum):
-					**`+, -, *, / , ^ `**
+Your calculator is required to do the following operations (minimum): **`+, -, *, / , ^ `**
 	
 
-Algorithm to convert from Infix notation to Postfix notation
-Data structures used:
-Stack
-Queue
-Input:
-string infix;
-Integers are single digits.
-Output:
-Queue postfix;
+#### Algorithm to convert from Infix notation to Postfix notation
+- Data structures used:
+    - Stack
+    - Queue
+- Input:
+    - `string` infix expression;
+    - Integers are single digits only.
+- Output:
+    - `Queue` postfix;
 
-Algorithm:
-1.	Push a left parenthesis ‘(‘ onto the stack;
-2.	Append a right parenthesis ‘)’ to the end of infix.
-3.	While the stack is not empty, read infix from left to right and do the following:
-a.	If the current character in infix is a white space, simply ignore it.
-b.	If the current character in infix is a digit, copy it to the next element of    postfix.
-c.	If the current character in infix is a left parenthesis, push it onto the stack.
-d.	If the current character in infix is an operator,
-•	Pop operators (if there are any) at the top of the stack while they have equal or  higher precedence than the current operator, and insert the popped operators in postfix.
-•	Push the current character in infix onto the stack.
-e.	If the current character in infix is a right parenthesis,
-•	Pop operators from the top of the stack and insert them in postfix until a left parenthesis is at the top of the stack.
-•	Pop (and discard) the left parenthesis from the stack.
+- Algorithm:
+    1.	Push a left parenthesis ‘(‘ onto the stack;
+    2.	Append a right parenthesis ‘)’ to the end of infix.
+    3.	While the stack is not empty, read infix from left to right and do the following:
+        a. If the current character in infix is a white space, simply ignore it.
+        b. If the current character in infix is a digit, copy it to the next element of    postfix.
+        c. If the current character in infix is a left parenthesis, push it onto the stack.
+        d. If the current character in infix is an operator,
+            • Pop operators (if there are any) at the top of the stack while they have equal or higher precedence than the current operator, and insert the popped operators in postfix.
+            • Push the current character in infix onto the stack.
+        e. If the current character in infix is a right parenthesis,
+            • Pop operators from the top of the stack and insert them in postfix until a left parenthesis is at the top of the stack.
+            • Pop (and discard) the left parenthesis from the stack.
 
 The following arithmetic operations are allowed in an expression:
 +, –, *, /
