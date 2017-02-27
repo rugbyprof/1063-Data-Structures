@@ -68,25 +68,26 @@ The following arithmetic operations are allowed in an expression: **`+, –, *, 
 
 Notice that parenthesis are not needed in the postfix string.
 
+#### Algorithm to evaluate a Postfix expression
 
+- Data structures used:
+    - Stack
+    - Queue
+- Input:
+    - Queue containing a Postfix expression;
+- Output:
+    - Evaluated expression.
 
-Algorithm to evaluate a Postfix expression
-
-Data structures used:
-Stack
-Queue
-Input:
-Queue containing a Postfix expression;
-Output:
-Evaluated expression.
-
-Algorithm:
-1.	While the Queue is not empty, Dequeue a character from the Queue.
-a.	If the character is a digit:
-Push its integer value onto the stack (the integer value of a digit character is its ASCII value minus the ASCII value of zero).
-b.	Otherwise, if the character is an operator (one of +, –, *, /),
-•	Pop the two top elements off the stack into variables x and y.
-•	Calculate y operator x.
-•	Push the result of the calculation onto the stack.
-2.	When the Queue is empty, the value remaining on the Stack is the result of the postfix expression.
-
+#### Algorithm:
+```
+1. While the Queue is not empty, Dequeue (Pop) a character from the Queue.
+    a. If the character is a digit:
+            Push its integer value onto the stack (the integer value of a digit 
+	    character is its ASCII value minus the ASCII value of zero).
+    b. Otherwise, if the character is an operator (one of +, –, *, /),
+        • Pop the two top elements off the stack into variables x and y.
+        • Calculate y operator x.
+        • Push the result of the calculation onto the stack.
+2. When the Queue is empty, the value remaining on the Stack is the result of the 
+   postfix expression.
+```
