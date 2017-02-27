@@ -328,3 +328,4 @@ Note, that division is not a commutative operation, so 2/3 is not the same as 3/
 * * *
 
 Victor S.Adamchik, CMU, 2009
+https://www.cs.cmu.edu/~adamchik/15-121/lectures/Stacks%20and%20Queues/Stacks%20and%20Queues.html
