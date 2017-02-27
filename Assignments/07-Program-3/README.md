@@ -27,7 +27,7 @@ Example:
 
 ### Requirements:
 
-Your calculator is required to do the following operations (minimum): **`+, -, *, / , ^ `**
+Your calculator is required to do the following operations (minimum): **`+, -, *, / , ^ %`**
 	
 
 #### Algorithm to convert from Infix notation to Postfix notation
@@ -58,7 +58,7 @@ Your calculator is required to do the following operations (minimum): **`+, -, *
             • Pop (and discard) the left parenthesis from the stack.
 ```
 
-The following arithmetic operations are allowed in an expression: **`+, –, *, /`**
+The following arithmetic operations are allowed in an expression: **`+, –, *, / ^ % `**
 
 #### Example:
 | Infix string       | Postfix string      | Value |
@@ -84,7 +84,7 @@ Notice that parenthesis are not needed in the postfix string.
     a. If the character is a digit:
             Push its integer value onto the stack (the integer value of a digit 
 	    character is its ASCII value minus the ASCII value of zero).
-    b. Otherwise, if the character is an operator (one of +, –, *, /),
+    b. Otherwise, if the character is an operator (one of +, –, *, / ^ %),
         • Pop the two top elements off the stack into variables x and y.
         • Calculate y operator x.
         • Push the result of the calculation onto the stack.
