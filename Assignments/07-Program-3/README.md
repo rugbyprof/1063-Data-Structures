@@ -40,13 +40,13 @@ Your calculator is required to do the following operations (minimum): **`+, -, *
 - Output:
     - `Queue` postfix;
 
-- Algorithm:
+#### Algorithm:
 ```
     1.	Push a left parenthesis ‘(‘ onto the stack;
     2.	Append a right parenthesis ‘)’ to the end of infix.
     3.	While the stack is not empty, read infix from left to right and do the following:
         a. If the current character in infix is a white space, simply ignore it.
-        b. If the current character in infix is a digit, copy it to the next element of    postfix.
+        b. If the current character in infix is a digit, copy it to the next element of postfix.
         c. If the current character in infix is a left parenthesis, push it onto the stack.
         d. If the current character in infix is an operator,
             • Pop operators (if there are any) at the top of the stack while they have equal or higher 
@@ -58,13 +58,13 @@ Your calculator is required to do the following operations (minimum): **`+, -, *
             • Pop (and discard) the left parenthesis from the stack.
 ```
 
-The following arithmetic operations are allowed in an expression:
-+, –, *, /
+The following arithmetic operations are allowed in an expression: **`+, –, *, /`**
 
-Example:
-Infix string 	Postfix string 	Value
-(6+2) * 5 – 8 / 4	6 2 + 5 * 8 4 / -	38
-2+3*4+5-6	234*+5+6-	13
+#### Example:
+| Infix string       | Postfix string      | Value |
+|:-------------------|:--------------------|-------|
+| `(6+2) * 5 – 8 / 4` |	`6 2 + 5 * 8 4 / -` |38  |
+| `2+3*4+5-6`	      |  `234*+5+6-`	    | 13 |
 
 Notice that parenthesis are not needed in the postfix string.
 
