@@ -38,11 +38,11 @@ void Print(){
   }
   cout<<endl;
 }
-  ```
-  
-  ### Deliverables
-  
-  - Bring a printout of your method to class on wednesday. JUST the method and both comment blocks. (See Above Example).
-  - Describe your solution in the comment block above the method.
-  - Place your solution in your assignments folder in a file called **`homework-3.cpp`**
+```
+
+### Deliverables
+
+- Bring a printout of your method to class on wednesday. JUST the method and both comment blocks. (See Above Example).
+- Describe your solution in the comment block above the method.
+- Place your solution in your assignments folder in a file called **`homework-3.cpp`**
   
