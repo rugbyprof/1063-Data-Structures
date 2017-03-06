@@ -15,3 +15,4 @@
 | [Day12](./Day12.cpp) | Array Based Circular Queue |
 | [Day12a](./Day12a.cpp) | Binary Function Fun |
 | [Day13](./Day13.cpp) | Structs in arrays just for review|
+| [Day14](./Day14.cpp) | Binary Search (not complete)|
