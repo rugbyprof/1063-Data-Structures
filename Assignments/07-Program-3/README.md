@@ -1,4 +1,3 @@
-# Not Done
 #CS 1063 Program 3
 ###Infix Calculator
 ***Due: 10 Mar 2016***
@@ -10,7 +9,8 @@ You are going to implement a simple calculator.
 
 >- String infix. (defined as char[ ] or string, however you see fit)
 >- Example:`(4+7)-7*(3+9)`
->- The expression will be read from the command line (NOT using cin), but passed as an argument to the program (argc/argv).
+>- ~~The expression will be read from the command line (NOT using cin), but passed as an argument to the program (argc/argv).~~
+>- You CAN use cin.
 >- For example: **`eval (4+7)-7*(3+9)`** (enter) would print the answer to the expression.
 
 - **Your output is:**
