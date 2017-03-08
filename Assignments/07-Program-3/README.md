@@ -95,3 +95,29 @@ Notice that parenthesis are not needed in the postfix string.
 2. When the Queue is empty, the value remaining on the Stack is the result of the 
    postfix expression.
 ```
+### Deliverables
+
+- Place your code in a folder called **`program_3`** in your **`assignments`** folder.
+- There should be a `cpp` file called `calculator.cpp`
+- I will compile your code, and run it on my machine. 
+- If the folders or files are not named correctly multiply your program grade by **`.5`**.
+- Have your main program read in a file called **`exp.txt`** that will have the number of expressions to be read on the top line, and then one expression per line with NO spaces within each expression:
+
+```
+5
+1+2+3
+2*3*(4+2)
+9+4+9/2
+(3*3)/(4*2)+9
+7-3+2/4
+```
+- Your program should print out the expression along with the answers:
+
+```
+1+2+3 = 6
+2*3*(4+2) = 36
+9+4+9/2 = 17.5
+(3*3)/(4*2)+9 = 10.12
+7-3+2/4 = 4.5
+```
+- I will evaluate your code based on the answers printed.
