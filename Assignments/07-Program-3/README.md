@@ -13,6 +13,10 @@ You are going to implement a simple calculator.
 >- You CAN use cin.
 >- For example: **`eval (4+7)-7*(3+9)`** (enter) would print the answer to the expression.
 
+***CORRECTION***
+
+- Read in the expression with NO spaces like this: `(3+4)*9-(3+4)*8`
+
 - **Your output is:**
 
 >A file containing: the expression that is evaluated, the postfix conversion, and the answer. You will open the file for appending, so that every expression from the command line will be saved at the end of the file, and not overwrite the previous expression and answer. 
