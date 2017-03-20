@@ -104,20 +104,24 @@ Notice that parenthesis are not needed in the postfix string.
 - Have your main program read in a file called **`exp.txt`** that will have the number of expressions to be read on the top line, and then one expression per line with NO spaces within each expression:
 
 ```
-5
+7
 1+2+3
-2*3*(4+2)
-9+4+9/2
-(3*3)/(4*2)+9
-7-3+2/4
+(1+1+1+1+1-1-1-1)*2
+2+4+2/2
+(2+4+2)/2
+(3*2)/(3*2)+4
+((3*2)/(3*2)+4) % 3
+2+2^2
 ```
 - Your program should print out the expression along with the answers:
 
 ```
 1+2+3 = 6
-2*3*(4+2) = 36
-9+4+9/2 = 17.5
-(3*3)/(4*2)+9 = 10.12
-7-3+2/4 = 4.5
+(1+1+1+1+1-1-1-1)*2 = 4
+2+4+2/2 = 7
+(2+4+2)/2 = 4
+(3*2)/(3*2)+4 = 5
+((3*2)/(3*2)+4) % 3 = 2
+2+2^2 = 6
 ```
 - I will evaluate your code based on the answers printed.
