@@ -16,4 +16,4 @@
 | [Day12a](./Day12a.cpp) | Binary Function Fun |
 | [Day13](./Day13.cpp) | Structs in arrays just for review|
 | [Day14](./Day14.cpp) | Binary Search (not complete)|
-| [Day16](./Day16.cpp) | Starter of a Heap|
+| [Day15](./Day15.cpp) | Starter of a Heap|
