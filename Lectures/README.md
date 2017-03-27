@@ -17,3 +17,4 @@
 | [Day13](./Day13.cpp) | Structs in arrays just for review|
 | [Day14](./Day14.cpp) | Binary Search (not complete)|
 | [Day15](./Day15.cpp) | Starter of a Heap|
+| [Day16](./Day16.cpp) | Heap |
