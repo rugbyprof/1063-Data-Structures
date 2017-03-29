@@ -1,7 +1,7 @@
 ## Recursive backtracker
 
 
-*** The depth-first search algorithm of maze generation is frequently implemented using backtracking:***
+***The depth-first search algorithm of maze generation is frequently implemented using backtracking:***
 
 - Make the initial cell the current cell and mark it as visited
 - While there are unvisited cells
