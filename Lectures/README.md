@@ -19,3 +19,5 @@
 | [Day15](./Day15.cpp) | Starter of a Heap|
 | [Day16](./Day16.cpp) | Heap |
 | [Day17](./Day17) | Color Maze List Stack |
+| [Day18](./Day18.cpp) |  |
+| [Day19](./Day19.cpp) | List based stack and queue|
