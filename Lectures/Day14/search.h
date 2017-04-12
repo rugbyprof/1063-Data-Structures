@@ -17,4 +17,5 @@ public:
   Search(int,int,string);
   int BinarySearch(int);
   int LinearSearch(int);
+  void PrintData();
 };
