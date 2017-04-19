@@ -7,8 +7,9 @@
 You are going to add a few fixes to our game of life solution: 
 
 ### Requirements:
-- Turn our world into a never ending plane. Meaning if a life form falls off of the world at any of the extremes, it will be transported to the opposite side.
-- Add the functionality to "stop" the evolving if the world has reached a "stable" state. This means, no changes occured between 2 generations.
+- Turn our world into a never ending plane. Meaning if a life form falls off of the world at any of the extremes, it will be transported to the opposite side and not just disappear.
+- Add the functionality to "stop" the evolving if the world has reached a "stable" state. This means, no changes occured between 2 consecutive generations.
+- Add a function to create a "glider gun" on your world. 
 
 ### Deliverables
 
