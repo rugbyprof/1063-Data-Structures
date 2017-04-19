@@ -11,8 +11,11 @@ You are going to add a few fixes to our game of life solution:
 - Add the functionality to "stop" the evolving if the world has reached a "stable" state. This means, no changes occured between 2 consecutive generations.
 - Add a function to place a "glider gun" on your world. 
 
->![](https://upload.wikimedia.org/wikipedia/commons/e/e0/Game_of_life_glider_gun.svg)
->![](https://github.com/rugbyprof/1063-Data-Structures/blob/master/Assignments/11-Homework-4/Gospers_glider_gun.gif)
+|         Glider Gun                                                                    |
+|:------------------------------------------------------------------------------------:|
+|![](https://upload.wikimedia.org/wikipedia/commons/e/e0/Game_of_life_glider_gun.svg) |
+| Results In This |
+| ![](https://github.com/rugbyprof/1063-Data-Structures/blob/master/Assignments/11-Homework-4/Gospers_glider_gun.gif) |
 
 ### Deliverables
 
