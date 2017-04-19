@@ -13,7 +13,7 @@ You are going to add a few fixes to our game of life solution:
 
 |         Glider Gun                                                                    |
 |:------------------------------------------------------------------------------------:|
-|![](https://upload.wikimedia.org/wikipedia/commons/e/e0/Game_of_life_glider_gun.svg) |
+|<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Game_of_life_glider_gun.svg" width="300"> |
 | Results In This |
 | ![](https://github.com/rugbyprof/1063-Data-Structures/blob/master/Assignments/11-Homework-4/Gospers_glider_gun.gif) |
 
@@ -23,7 +23,7 @@ You are going to add a few fixes to our game of life solution:
 - There should be a `cpp` file called `gameoflife.cpp`
 - I will compile your code, and run it on my machine. 
 - If the folders or files are not named correctly multiply your program grade by **`.5`**.
-- Have your main program read in a file called **`gen_one.txt`** that will have a representation of the 1<sup>st<sup> generation for your program to start with.
+- Have your main program read in a file called **`gen_one.txt`** that will have a representation of the 1<sup>st</sup> generation for your program to start with.
 
 
 
