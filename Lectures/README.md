@@ -21,3 +21,4 @@
 | [Day17](./Day17) | Color Maze List Stack |
 | [Day18](./Day18.cpp) |  |
 | [Day19](./Day19.cpp) | List based stack and queue|
+| [Day19](./Day20.cpp) | Binary Search Tree|
