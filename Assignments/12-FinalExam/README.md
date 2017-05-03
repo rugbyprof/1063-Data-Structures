@@ -76,7 +76,13 @@ int List::Remove() {
 
 ```
 
+## Array Based Stacks and Queues
+
+- More to come
 
 ## List Based Stacks and Queues
-https://github.com/rugbyprof/1063-Data-Structures/blob/master/Lectures/Day19.cpp
+
+- https://github.com/rugbyprof/1063-Data-Structures/blob/master/Lectures/Day19.cpp
+- More to come
+
 
