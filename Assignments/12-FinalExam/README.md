@@ -4,6 +4,8 @@
 
 - What is the worst case search time for a singly linked list? Discuss what advantages / disadvantages a doubly linked list would have for: (1) Searching (2) Inserting (3) Deleting
 
+-----
+
 - Write a c++ function the will return the largest and smallest values from any given linked list.
  - Write a function to merge two linked lists of integers that are sorted into ascending order. The result should be a third linked list that is the sorted combination of the original lists. Do not destroy the original lists. Do not assume you have a class with methods to complete this problem.
  
@@ -21,6 +23,8 @@ Node* MergeLists(Node* L1, Node* L2){
 
 
 ```
+-----
+
 Write a `Count()` function that counts the number of times a given int occurs in a list.
 
 ```cpp
@@ -39,6 +43,29 @@ int List::Count(int searchFor) {
 
 
 ```
+-----
+
+- Write a `Remove()` function that removes the front node from a linked list. Pop takes a non-empty list, deletes the head node, and returns the head node's data. Here is how it could be used:
+
+```cpp
+void main() {
+    List MyList;
+    MyList.BuildOneTwoThree(); // build {1, 2, 3}
+    int a = MyList.Remove (); // deletes "1" node and returns 1
+    int b = MyList.Remove (); // deletes "2" node and returns 2
+    int c = MyList.Remove (); // deletes "3" node and returns 3
+    int len = MyList.Length(); // the list is now empty, so len == 0
+}
+/*
+Takes a non-empty list and removes the front node, and returns the data
+which was in that node.
+*/
+int List::Remove() {
+// your code...
+
+
+```
+
 
 ## List Based Stacks and Queues
 https://github.com/rugbyprof/1063-Data-Structures/blob/master/Lectures/Day19.cpp
