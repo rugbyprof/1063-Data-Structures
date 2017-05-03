@@ -1,4 +1,14 @@
 ## Arrays
+- Write functions to do the following to a an array:
+    - Sum integer values 
+        - Receives array, its size, and returns the sum of the values.
+    - Avg integer values
+        - Receives array, its size, and returns the sum of the values.
+    - Max integer
+        - Receives array, its size, and returns the maximum value in the array.
+    - Count occurences of a specified string in an array
+        - Receives an array of words, a key to search for, and returns the number of times that key occurs in the array.
+
 
 ## Lists
 
