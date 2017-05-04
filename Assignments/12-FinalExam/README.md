@@ -110,6 +110,6 @@ int List::Remove() {
 
 #### Array vs List
 - What are benefits of using an array based implementation?
-- What are benefits of using a list based implementation>
+- What are benefits of using a list based implementation?
 - Explain why we need to implement a queue using the "circular" technique when using an array, but not when using a list.
 
