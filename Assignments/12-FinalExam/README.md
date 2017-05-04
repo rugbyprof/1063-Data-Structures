@@ -17,7 +17,7 @@
 | `C = &A; cout<<*C`|        |
 |  `*F=*D; cout<<*F`|        |
 
-solution: https://github.com/rugbyprof/1063-Data-Structures/edit/master/Assignments/06-Test-1/test-1-solution.md
+<sub>Solution: https://github.com/rugbyprof/1063-Data-Structures/edit/master/Assignments/06-Test-1/test-1-solution.md</sub>
 
 ## Arrays
 - Write functions to do the following to a an array:
@@ -98,15 +98,15 @@ int List::Remove() {
 
 ## Array Based Stacks and Queues
 
-- https://github.com/rugbyprof/1063-Data-Structures/blob/master/Lectures/Day04.cpp
 - Write a complete class implementation of an array based stack
 - Write a complete class implementation of an array based queue
+- <sub>https://github.com/rugbyprof/1063-Data-Structures/blob/master/Lectures/Day04.cpp</sub>
 
 ## List Based Stacks and Queues
 
-- https://github.com/rugbyprof/1063-Data-Structures/blob/master/Lectures/Day19.cpp
 - Write a complete class implementation of a list based stack
 - Write a complete class implementation of a list based queue
+- <sub>https://github.com/rugbyprof/1063-Data-Structures/blob/master/Lectures/Day19.cpp</sub>
 
 #### Array vs List
 - What are benefits of using an array based implementation?
