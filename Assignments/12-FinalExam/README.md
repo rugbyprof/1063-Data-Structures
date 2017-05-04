@@ -96,6 +96,16 @@ int List::Remove() {
 
 ```
 
+## Using Stacks And Queues
+- Below you see a stack `S` in its initial state. (Stack uses Push and Pop)
+- A queue `Q`, in its initial state. (Queue uses Add and Remove)
+- And a list `L` that’s in its FINAL state. (List uses Add)
+
+![](https://d3vv6lp55qjaqc.cloudfront.net/items/091O2N250w1c2h0S0e1W/Image%202017-05-03%20at%208.49.23%20PM.png?X-CloudApp-Visitor-Id=1094421)
+
+- You need to write a series of `push`, `pops`, `adds`, and `removes` to get the values from `S` and `Q` into `L` in the order displayed. 
+- `L.Add` adds the values to the rear of the list.
+
 ## Array Based Stacks and Queues
 
 - Write a complete class implementation of an array based stack
