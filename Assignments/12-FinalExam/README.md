@@ -108,6 +108,8 @@ int List::Remove() {
 - Write a complete class implementation of a list based stack
 - Write a complete class implementation of a list based queue
 
-#### Queue Question
-- Explain why we need to implement a queue using the "circular" technique when using an array, but not when using a list. 
+#### Array vs List
+- What are benefits of using an array based implementation?
+- What are benefits of using a list based implementation>
+- Explain why we need to implement a queue using the "circular" technique when using an array, but not when using a list.
 
