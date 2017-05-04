@@ -97,9 +97,9 @@ int List::Remove() {
 ```
 
 ## Using Stacks And Queues
-- Below you see a stack ***`S`*** in its initial state. (For this question: Stack uses ***`Push`*** and ***`Pop`***)
-- A queue ***`Q`***, in its initial state. (For this question: Queue uses ***`Add`*** and ***`Remove`***)
-- And a list ***`L`*** that’s in its FINAL state. (List uses ***`Add`***)
+- Below you see a stack ***`S`*** in its initial state. (For this question: Stack uses ***`Push`*** and ***`Pop`*** )
+- A queue ***`Q`*** , in its initial state. (For this question: Queue uses ***`Add`*** and ***`Remove`*** )
+- And a list ***`L`*** that’s in its FINAL state. (List uses ***`Add`*** )
 
 ![](https://d3vv6lp55qjaqc.cloudfront.net/items/091O2N250w1c2h0S0e1W/Image%202017-05-03%20at%208.49.23%20PM.png?X-CloudApp-Visitor-Id=1094421)
 
