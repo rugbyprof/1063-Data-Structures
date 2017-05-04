@@ -1,7 +1,7 @@
 # Study Guide
 Final Exam: Monday May 8th, 3:30 p.m. - 5:30 p.m.
 
-I uploaded a final exam from 2012, so you can see that I have actually scaled it back! So be happy :) 
+I uploaded a [final exam](https://github.com/rugbyprof/1063-Data-Structures/blob/master/Assignments/12-FinalExam/CMPS_1053_Final_Exam.fall.12.pdf) from 2012, so you can see that I have actually scaled it back! So be happy :) 
 
 ## Pointers
 
