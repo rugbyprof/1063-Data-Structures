@@ -35,7 +35,7 @@ Node* MergeLists(Node* L1, Node* L2){
 ```
 -----
 
-Write a `Count()` function that counts the number of times a given int occurs in a list.
+- Write a `Count()` function that counts the number of times a given int occurs in a list.
 
 ```cpp
 void main() {
@@ -67,8 +67,7 @@ void main() {
     int len = MyList.Length(); // the list is now empty, so len == 0
 }
 /*
-Takes a non-empty list and removes the front node, and returns the data
-which was in that node.
+Takes a non-empty list and removes (deletes) the front node, and returns the data which was in that node.
 */
 int List::Remove() {
 // your code...
