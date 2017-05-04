@@ -118,7 +118,7 @@ Use a standard binary search method to find the value 10  within the following a
 - ***`L.Add`*** adds the values to the rear of the list.
 
 ## ~~Array Based Stacks and Queues~~
-
+(concentrate on list implementations)
 - ~~Write a complete class implementation of an array based stack~~
 - ~~Write a complete class implementation of an array based queue~~
 - ~~<sub>https://github.com/rugbyprof/1063-Data-Structures/blob/master/Lectures/Day04.cpp</sub>~~
