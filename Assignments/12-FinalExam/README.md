@@ -1,3 +1,24 @@
+## Pointers
+
+| Memory Snapshot |
+|:-------------:|
+| ![](https://d3vv6lp55qjaqc.cloudfront.net/items/1s0J3A0J2T3i1l0p2g2b/pointer_memory.png?X-CloudApp-Visitor-Id=1094421) |
+
+| Command           | Result |
+|:-----------------:|:------:|
+|  `cout<<&D`       |    |
+|  `cout<<&E`       |  |
+|  `cout<<*D`       |    |
+|  `cout<<*F`       |    |
+|  `cout<<F`        |    |
+|  `cout<<A`        |        |
+|  `cout<<*E`       |     |
+| `cout<<&G`        |      |
+| `C = &A; cout<<*C`|        |
+|  `*F=*D; cout<<*F`|        |
+
+solution: https://github.com/rugbyprof/1063-Data-Structures/edit/master/Assignments/06-Test-1/test-1-solution.md
+
 ## Arrays
 - Write functions to do the following to a an array:
     - Sum integer values 
@@ -77,11 +98,13 @@ int List::Remove() {
 
 ## Array Based Stacks and Queues
 
-- More to come
+- Write a complete class implementation of an array based stack
+- Write a complete class implementation of an array based queue
 
 ## List Based Stacks and Queues
 
 - https://github.com/rugbyprof/1063-Data-Structures/blob/master/Lectures/Day19.cpp
-- More to come
+- Write a complete class implementation of a list based stack
+- Write a complete class implementation of a list based queue
 
 
