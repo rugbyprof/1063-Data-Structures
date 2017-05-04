@@ -101,6 +101,12 @@ int List::Remove() {
 
 ```
 
+## Searching 
+
+Use a standard binary search method to find the value 10  within the following array. Do anything necessary to the array to assist in your binary search. At each step, be sure to label the First, Middle, and Last (you can use F,M and L) locations. 
+
+![](https://d3vv6lp55qjaqc.cloudfront.net/items/1M0N0K1h3N0O2T291I3Z/Image%202017-05-03%20at%209.01.01%20PM.png?X-CloudApp-Visitor-Id=1094421)
+
 ## Using Stacks And Queues
 - Below you see a stack ***`S`*** in its initial state. (For this question: Stack uses ***`Push`*** and ***`Pop`*** )
 - A queue ***`Q`*** , in its initial state. (For this question: Queue uses ***`Add`*** and ***`Remove`*** )
