@@ -117,11 +117,11 @@ Use a standard binary search method to find the value 10  within the following a
 - You need to write a series of `push`, `pops`, `adds`, and `removes` to get the values from ***`S`*** and ***`Q`*** into ***`L`*** in the order displayed. 
 - ***`L.Add`*** adds the values to the rear of the list.
 
-## Array Based Stacks and Queues
+## ~~Array Based Stacks and Queues~~
 
-- Write a complete class implementation of an array based stack
-- Write a complete class implementation of an array based queue
-- <sub>https://github.com/rugbyprof/1063-Data-Structures/blob/master/Lectures/Day04.cpp</sub>
+- ~~Write a complete class implementation of an array based stack~~
+- ~~Write a complete class implementation of an array based queue~~
+- ~~<sub>https://github.com/rugbyprof/1063-Data-Structures/blob/master/Lectures/Day04.cpp</sub>~~
 
 ## List Based Stacks and Queues
 
