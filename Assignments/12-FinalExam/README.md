@@ -1,3 +1,8 @@
+# Study Guide
+Final Exam: Monday May 8th, 3:30 p.m. - 5:30 p.m.
+
+
+
 ## Pointers
 
 | Memory Snapshot |
