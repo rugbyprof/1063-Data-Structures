@@ -11,16 +11,16 @@ I uploaded a [final exam](https://github.com/rugbyprof/1063-Data-Structures/blob
 
 | Command           | Result |
 |:-----------------:|:------:|
-|  `cout<<&D`       |    |
-|  `cout<<&E`       |  |
-|  `cout<<*D`       |    |
-|  `cout<<*F`       |    |
-|  `cout<<F`        |    |
-|  `cout<<A`        |        |
-|  `cout<<*E`       |     |
-| `cout<<&G`        |      |
-| `C = &A; cout<<*C`|        |
-|  `*F=*D; cout<<*F`|        |
+|1|  `cout<<&D`       |    |
+|2|  `cout<<&E`       |  |
+|3|  `cout<<*D`       |    |
+|4|  `cout<<*F`       |    |
+|5|  `cout<<F`        |    |
+|6|  `cout<<A`        |        |
+|7|  `cout<<*E`       |     |
+|8| `cout<<&G`        |      |
+|9| `C = &A; cout<<*C`|        |
+|10|  `*F=*D; cout<<*F`|        |
 
 <sub>Solution: https://github.com/rugbyprof/1063-Data-Structures/edit/master/Assignments/06-Test-1/test-1-solution.md</sub>
 
