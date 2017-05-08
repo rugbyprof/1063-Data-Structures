@@ -9,8 +9,8 @@ I uploaded a [final exam](https://github.com/rugbyprof/1063-Data-Structures/blob
 |:-------------:|
 | ![](https://d3vv6lp55qjaqc.cloudfront.net/items/1s0J3A0J2T3i1l0p2g2b/pointer_memory.png?X-CloudApp-Visitor-Id=1094421) |
 
-| Command           | Result |
-|:-----------------:|:------:|
+| #|Command           | Result |
+|--|:-----------------:|:------:|
 |1|  `cout<<&D`       |    |
 |2|  `cout<<&E`       |  |
 |3|  `cout<<*D`       |    |
