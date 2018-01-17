@@ -1,21 +1,17 @@
 # 1063 Data Structures
 
-
-
 ### Roster
 ![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1ihSQSGoxeHuIUkp5mkOuUACwQA5XRTwbzbwgHyiaVHw/edit?usp=sharing)
 
 ### General Course Info
-- Days: MWF 10:00 a.m. - 10:50 a.m. 
-- Location: BO 320
-
-- Semester Start: January 13 -  Ends: May 4
-- Holidays:
-    - Spring Break begins 5:00 p.m March 10 (March 12-17)
-    - Classes resume:  March 19
-- Last Day for “W”, 4:00 p.m. – Drops after this date will receive grades of “F.” ..... March 26
-- Holiday Break begins 10:00 p.m March 28 - Classes resume April 2
-- Final Exam: Wednesday May 9<sup>th</sup>, 10:30 p.m. - 12:30 p.m.
+- ___Days:___ MWF 10:00 a.m. - 10:50 a.m. 
+- ___Location:___ BO 320
+- ___Semester:___ January 13 - May 4
+- ___Holidays:___
+    - ___Spring Break:___ Sat March 10 - Sun March 18
+    - ___Holiday Break:___ begins 10:00 p.m March 29 - April 1
+- ___Last Day for “W”:___ March 26
+- ___Final Exam:___ Wednesday May 9<sup>th</sup>, 10:30 p.m. - 12:30 p.m.
 
 
 ### Topics:
