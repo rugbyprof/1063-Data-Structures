@@ -50,23 +50,23 @@
 |:------------------------------ |:---:|:--------:|:--------:|
 | Exams (3)<sup>**1**</sup>	     | 35% |  A       | 89-100   |
 | Programs (5-8)<sup>**2**</sup> | 15% |  B       |  79-88   |
-| Homework/Quizzes<sup>**3**</sup>|	25%|  C       | 69-78    |
+| Homework/Quizzes<sup>**3**</sup>|	20%|  C       | 69-78    |
 | Final<sup>**4**</sup>	         | 20% |  D       | 59-68    |
-| Participation	                 | 05% |  F       | below 59 |
+| Github Portfolio	             | 10% |  F       | below 59 |
 
 
->**1**. Lowest exam grade replaced by Final Exam grade (if beneficial and deemed ok by instructor).
+>**1**. Lowest exam grade replaced by Final Exam grade (Not a "right" but a privilege based on effort and attendance).
 >
 **2**. Despite the low overall value of the programming portion of the course, ALL programs must be turned in running to pass the course.  They don't have to be necessarily correct, but they must run and they need to at least approach the solution (a "Hello World" program will not work). 
 >
->**3**. The worth of the "homework/quizzes" section of the course will be calculated by a function based on the number of assignments and quizzes. If zero homeworks / quizzes are assigned then they will be assigned a 0% portion. If at least 10 are assigned then the full 25% will be assigned as its weight. If the full weight is not used the class will decide how the remaining percentage points will be assigned. 
+>**3**. The worth of the "homework/quizzes" section of the course will be calculated by a function based on the number of assignments and quizzes. If zero homeworks / quizzes are assigned then they will be assigned a 0% portion. If at least 10 are assigned then the full 20% will be assigned as its weight. If the full weight is not used the class will decide how the remaining percentage points will be assigned. 
 >
 >**4**. Plane ticket prices, events like weddings, or trips out of the country are not valid excuses for missing the final exam at its scheduled time. I will not make accommodations for anything other than an issue vetted by the dean of students. 
 
 ## Misc:
 
-- https://stackedit.io/editor
-- https://app.classeur.io
+- https://repl.it
+- https://code.visualstudio.com/download
 
 - Attending class is one of the primary keys to doing well in this class. Students may be dropped for excessive absences. There is no distinction made between excused and unexcused. 
 
