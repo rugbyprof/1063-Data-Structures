@@ -6,11 +6,11 @@
 ### General Course Info
 - ___Days:___ MWF 10:00 a.m. - 10:50 a.m. 
 - ___Location:___ BO 320
-- ___Semester:___ January 13 - May 4
+- ___Semester:___ Mon January 15<sup>th</sup> - Fri May 4<sup>th</sup>
 - ___Holidays:___
-    - ___Spring Break:___ Sat March 10 - Sun March 18
-    - ___Holiday Break:___ begins 10:00 p.m March 29 - April 1
-- ___Last Day for “W”:___ March 26
+    - ___Spring Break:___ Sat March 10<sup>th</sup> - Sun March 18<sup>th</sup>
+    - ___Holiday Break:___ Fri March 30<sup>th</sup> - Sun April 1<sup>st</sup>
+- ___Last Day for “W”:___ Mon March 26<sup>th</sup>
 - ___Final Exam:___ Wednesday May 9<sup>th</sup>, 10:30 p.m. - 12:30 p.m.
 
 
