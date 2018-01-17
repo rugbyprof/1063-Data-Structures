@@ -3,17 +3,19 @@
 
 
 ### Roster
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1nw7IszG82-yBjgojeC6F2NuT_r2QU1z0M1-XlFA7vhg/edit?usp=sharing)
+![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1ihSQSGoxeHuIUkp5mkOuUACwQA5XRTwbzbwgHyiaVHw/edit?usp=sharing)
 
 ### General Course Info
-- Days: MWF 1:00 p.m. - 1:50 p.m. 
-- Location: BO 209
-- Final Exam: Monday May 8<sup>th</sup>, 3:30 p.m. - 5:30 p.m.
-- Dates: August 29 - Dec 9
-- Holidays: 
-    - Spring Break March 13-18
-    - Easter Break April 13-14
-- Last Day for “W” @ 4:00 p.m. : March 27
+- Days: MWF 10:00 a.m. - 10:50 a.m. 
+- Location: BO 320
+
+- Semester Start: January 13 -  Ends: May 4
+- Holidays:
+    - Spring Break begins 5:00 p.m March 10 (March 12-17)
+    - Classes resume:  March 19
+- Last Day for “W”, 4:00 p.m. – Drops after this date will receive grades of “F.” ..... March 26
+- Holiday Break begins 10:00 p.m March 28 - Classes resume April 2
+- Final Exam: Wednesday May 9<sup>th</sup>, 10:30 p.m. - 12:30 p.m.
 
 
 ### Topics:
