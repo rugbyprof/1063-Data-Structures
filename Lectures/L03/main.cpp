@@ -69,22 +69,17 @@ int main() {
   srand(923784);
   
   //Declared some variables
-  int size = 100;
-  int max = 10;
-  int A[100] = {0};
-  int counts[10] = {0};
+  int size = 100;           // size of array to count
+  int max = 10;             // max value to place in array
+  int A[100] = {0};         // declare array of size 100 (dynamic allocation later) init to 0's
+  int counts[10] = {0};     // declare array of "max" size. 
   
   // loaded up an array with random nums
+  // between 0 and max-1
   for(int i=0;i<size;i++){
     A[i] = rand() % max;
   }
-  
-  //printed out the array
-  for(int i=0;i<size;i++){
-    cout<<A[i]<<" ";
-  }
-  
+    
   countItem(A,counts,size);
-  
   
 }
