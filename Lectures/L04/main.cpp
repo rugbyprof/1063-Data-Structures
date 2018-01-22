@@ -45,12 +45,17 @@ int main() {
       //Loop "wordCount" times (wordCount == number of words currently in array)
       for(int i=0;i<wordCount;i++){
         
-        // 
+        // if we find a match in the array
+        // we increment the word count 
+        // and we set "found" to true
         if(wordArray[i].word == word){
           wordArray[i].count++;
           found = true;
         }
       }
+      
+      //If we have NOT found this word in the array
+      // add it to the end!
       if(!found){
         wordArray[wordCount].word = word;
         wordArray[wordCount].count;
@@ -59,8 +64,8 @@ int main() {
     }
   }
   
-  
-  //initialize wordArray
+ 
+  //Print out all the word counts
   for(int i=0;i<wordCount;i++){
     cout<<wordArray[i].word<<" "<<wordArray[i].count<<endl;
   }
