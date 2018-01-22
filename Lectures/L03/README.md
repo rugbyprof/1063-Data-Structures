@@ -1,3 +1,2 @@
 
-```cpp
-```
+## Overview of Functions and Arrays
