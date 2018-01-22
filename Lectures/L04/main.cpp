@@ -65,8 +65,4 @@ int main() {
     cout<<wordArray[i].word<<" "<<wordArray[i].count<<endl;
   }
   
-  
-  
-
-  
 }
