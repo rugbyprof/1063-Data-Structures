@@ -1,6 +1,6 @@
 ## Assignments
 | Folder | Assignment | Description | Due|
  | ------------|------------|------------|------------|
- | [01-Getting_Started](./01-Getting_Started) |  Assignment 1  |  Getting Started | Due: Friday January 20th by 5:00pm |
+ | [A01](./A01) | [ Assignment 1 ](./A01) | [ Getting Started](./A01) | [Due: Friday January 20th by 5:00pm](./A01) |
 
-<sup>Last Updated: 2018-01-22 (Mon @ 11:12)</sup>
+<sup>Last Updated: 2018-01-22 (Mon @ 11:28)</sup>

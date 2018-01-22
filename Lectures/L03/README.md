@@ -1,2 +1,2 @@
 
-## Overview of Functions and Arrays
+## Day 3 - Overview of Functions and Arrays
