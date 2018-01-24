@@ -6,4 +6,4 @@
  | [L03](./L04) | [ Day 3 ](./L04) | [ Overview of Functions and Arrays](./L04) |
  | [L04](./L04) | [ Day 4 ](./L04) | [ Still Reviewing Arrays, Structs, and Functions](./L04) |
 
-<sup>Last Updated: 2018-01-24 (Wed @ 09:38)</sup>
+<sup>Last Updated: 2018-01-24 (Wed @ 09:39)</sup>

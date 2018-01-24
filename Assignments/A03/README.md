@@ -1,4 +1,5 @@
 ## Homework 2 - 2D Array Fun
+Due: Whenever
 
 - Given the following array: 
 
@@ -27,4 +28,4 @@ for(i=0;i<15;i++){
 - In your `assignments` folder on github:
    - Create a folder called `homework_2`
    - In this folder have a file called `print_2d.cpp` with your solution
-   
+
