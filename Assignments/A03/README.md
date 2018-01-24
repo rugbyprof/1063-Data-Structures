@@ -1,5 +1,5 @@
 ## Homework 2 - 2D Array Fun
-Due: Whenever
+#### Due: Whenever
 
 - Given the following array: 
 

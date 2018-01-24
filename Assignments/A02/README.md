@@ -1,5 +1,5 @@
 ## Homework 1 - Practice with arrays
-Due: whenever
+Due: Not Sure
 
 #### Given
 
