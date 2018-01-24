@@ -9,6 +9,7 @@ struct wordNode{
 };
 
 
+
 int main() {
 
   ifstream fin;             // create handle for input file
@@ -58,12 +59,11 @@ int main() {
       // add it to the end!
       if(!found){
         wordArray[wordCount].word = word;
-        wordArray[wordCount].count;
+        wordArray[wordCount].count = 1;
         wordCount++;
       }
     }
   }
-  
  
   //Print out all the word counts
   for(int i=0;i<wordCount;i++){

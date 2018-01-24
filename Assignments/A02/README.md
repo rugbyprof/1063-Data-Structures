@@ -1,4 +1,4 @@
-## Array Homework - Practice with arrays
+## Homework 1 - Practice with arrays
 
 #### Given
 
@@ -114,3 +114,9 @@ a =
 ```
 
 
+#### Deliverables
+
+- In your `assignments` folder on github:
+   - Create a folder called `homework_1`
+   - In this folder have a file called `1d_answers.md` with your solution
+   
