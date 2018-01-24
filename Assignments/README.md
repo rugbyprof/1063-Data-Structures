@@ -5,4 +5,4 @@
  | [A02](./A02) | [ Homework 1 ](./[A02](./A02)) | [ Practice with arrays](./[A02](./A02)) | [Due: Not Sure](./[A02](./A02)) |
  | [A03](./A03) | [ Homework 2 ](./[A03](./A03)) | [ 2D Array Fun](./[A03](./A03)) | [Due: Whenever](./[A03](./A03)) |
 
-<sup>Last Updated: 2018-01-24 (Wed @ 09:53)</sup>
+<sup>Last Updated: 2018-01-24 (Wed @ 09:53)</sup>>
