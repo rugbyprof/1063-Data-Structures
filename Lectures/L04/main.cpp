@@ -9,7 +9,6 @@ struct wordNode{
 };
 
 
-
 int main() {
 
   ifstream fin;             // create handle for input file
