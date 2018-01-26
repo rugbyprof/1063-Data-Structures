@@ -7,4 +7,4 @@
  | [L04](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L05) | [ Day 4 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L05) | [ Still Reviewing Arrays, Structs, and Functions](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L05) |
  | [L05](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L05) | [ Lectures L05 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L05) | [ No Description](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L05) |
 
-<sup>Last Updated: 2018-01-26 (Fri @ 13:18)</sup>
+<sup>Last Updated: 2018-01-26 (Fri @ 13:19)</sup>
