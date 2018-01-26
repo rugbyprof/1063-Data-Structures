@@ -5,5 +5,6 @@
  | [A02](A02) | [ Homework 1 ]([A02](A02)) | [ Practice with arrays]([A02](A02)) | [Due: Not Sure]([A02](A02)) |
  | [A03](A03) | [ Homework 2 ]([A03](A03)) | [ 2D Array Fun]([A03](A03)) | [Due: Whenever]([A03](A03)) |
  |  |
+ | [A05](A05) | [ Program 1 ]([A05](A05)) | [ Image Manipulation]([A05](A05)) | [Due Monday February 6<sup>th</sup> at the beginning of class.]([A05](A05)) |
 
-<sup>Last Updated: 2018-01-25 (Thu @ 11:51)</sup>
+<sup>Last Updated: 2018-01-26 (Fri @ 09:46)</sup>
