@@ -1,10 +1,10 @@
 ## Assignments
 | Folder | Assignment | Description | Due|
  | ------------|------------|------------|------------|
- | [A01](A01) | [ Assignment 1 ]([A01](A01)) | [ Getting Started]([A01](A01)) | [Due: Friday January 20th by 5:00pm]([A01](A01)) |
- | [A02](A02) | [ Homework 1 ]([A02](A02)) | [ Practice with arrays]([A02](A02)) | [Due: Not Sure]([A02](A02)) |
- | [A03](A03) | [ Homework 2 ]([A03](A03)) | [ 2D Array Fun]([A03](A03)) | [Due: Whenever]([A03](A03)) |
+ | [A01](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) | [ Assignment 1 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) | [ Getting Started](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) | [Due: Friday January 20th by 5:00pm](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) |
+ | [A02](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) | [ Homework 1 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) | [ Practice with arrays](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) | [Due: Not Sure](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) |
+ | [A03](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) | [ Homework 2 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) | [ 2D Array Fun](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) | [Due: Whenever](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) |
  |  |
- | [A05](A05) | [ Program 1 ]([A05](A05)) | [ Image Manipulation]([A05](A05)) | [Due Monday February 6<sup>th</sup> at the beginning of class.]([A05](A05)) |
+ | [A05](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) | [ Program 1 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) | [ Image Manipulation](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) | [Due Monday February 6<sup>th</sup> at the beginning of class.](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) |
 
-<sup>Last Updated: 2018-01-26 (Fri @ 09:46)</sup>
+<sup>Last Updated: 2018-01-26 (Fri @ 13:15)</sup>
