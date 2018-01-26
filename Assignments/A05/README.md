@@ -1,5 +1,5 @@
 ## Program 1 - Image Manipulation
-Due Monday February 6<sup>th</sup> at the beginning of class.
+Due Monday February 5<sup>th</sup> at the beginning of class.
 
 ### Overview
 
@@ -96,7 +96,7 @@ You don't have to create a `class` in your solution. That's going to be the next
 ```cpp
 
 void readImage(rgb** image,int &width,int &height,ofstream &ofile){
-    // Hmmm, what's up with the width and height references
+    // Hmmm, what's up with the width and height references?
 }
 void saveImage(rgb** image,int width,int height,ofstream &ofile){
     // your code
