@@ -1,4 +1,4 @@
-## 2D Array - General Overview
+## 2D Array - General Overview + dynamic array allocation
 
 ### Overview
 
@@ -32,3 +32,11 @@ int A[10] = {0};
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:| 
 |<sub>0</sub>|<sub>1</sub>|<sub>2</sub>|<sub>3</sub>|<sub>4</sub>|<sub>5</sub>|<sub>6</sub>|<sub>7</sub>|<sub>8</sub>|<sub>9</sub>|
 
+
+We still have the issue where this array was allocated using a static integer (10 in this case). What if we're not sure what size of an array we want to allocate? We can use dynamic array allocation...
+
+```cpp
+int *B;
+//or
+int* B;
+```
