@@ -39,4 +39,16 @@ We still have the issue where this array was allocated using a static integer (1
 int *B;
 //or
 int* B;
+
+int array_size = 0;
+
+cout<<"Enter size to allocate array: ";
+cin>>array_size;
+
+B = new int[array_size];
+
+for(int j=0 ; j<array_size ; j++){
+    B[j] = 0;
+}
 ```
+
