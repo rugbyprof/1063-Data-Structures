@@ -59,10 +59,10 @@ for(int j=0 ; j < array_size ; j++){
 ### 2 Dimensional
 
 ```cpp
-int A[5][5];
+int C[5][5];
 ```
 
-This allocates 10 4byte memory locations with the starting address stored at a location pointed to by `A`. Each memory location is undefined. 
+This allocates 10 4byte memory locations with the starting address stored at a location pointed to by `C`. Each memory location is undefined. 
 
 |            |<sub>0</sub>|<sub>1</sub>|<sub>2</sub>|<sub>3</sub>|<sub>4</sub>|
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:| 
@@ -71,3 +71,20 @@ This allocates 10 4byte memory locations with the starting address stored at a l
 |<sub>2</sub>| und   | und   |  und  | und   | und   |
 |<sub>3</sub>| und   | und   |  und  | und   | und   |
 |<sub>4</sub>| und   | und   |  und  | und   | und   |
+
+We initialize each array location like so:
+
+```cpp
+for(int i=0;i<10;i++){
+    for(int j=0;j<10;j++){
+        C[i][j] = 0;
+    }
+}
+```
+|            |<sub>0</sub>|<sub>1</sub>|<sub>2</sub>|<sub>3</sub>|<sub>4</sub>|
+|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:| 
+|<sub>0</sub>| 0  | 0   | 0   |  0  | 0   |
+|<sub>1</sub>| 0   | 0   |  0  | 0   | 0   |
+|<sub>2</sub>| 0   | 0   |  0  | 0   | 0   |
+|<sub>3</sub>| 0   | 0   |  0  | 0   | 0   |
+|<sub>4</sub>| 0   | 0   |  0  | 0   | 0   |
