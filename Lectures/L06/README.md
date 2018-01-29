@@ -66,8 +66,8 @@ This allocates 10 4byte memory locations with the starting address stored at a l
 
 |            |<sub>0</sub>|<sub>1</sub>|<sub>2</sub>|<sub>3</sub>|<sub>4</sub>|
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:| 
-| 0  | und  | und   | und   |  und  | und   |
-| 1  | und   | und   |  und  | und   | und   |
-| 2  | und   | und   |  und  | und   | und   |
-| 3  | und   | und   |  und  | und   | und   |
-| 4  | und   | und   |  und  | und   | und   |
+|<sub>0</sub>| und  | und   | und   |  und  | und   |
+|<sub>1</sub>| und   | und   |  und  | und   | und   |
+|<sub>2</sub>| und   | und   |  und  | und   | und   |
+|<sub>3</sub>| und   | und   |  und  | und   | und   |
+|<sub>4</sub>| und   | und   |  und  | und   | und   |
