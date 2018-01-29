@@ -75,8 +75,8 @@ This allocates 10 4byte memory locations with the starting address stored at a l
 We initialize each array location like so:
 
 ```cpp
-for(int i=0;i<10;i++){
-    for(int j=0;j<10;j++){
+for(int i=0;i<5;i++){
+    for(int j=0;j<5;j++){
         C[i][j] = 0;
     }
 }
