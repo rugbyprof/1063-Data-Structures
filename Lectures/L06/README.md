@@ -12,7 +12,7 @@ This allocates 10 4byte memory locations with the starting address stored at a l
 
 | und  | und   | und   |  und  | und   |  und  | und   | und   |  und  | und   |
 |:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|  
-| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| <sub>0</sub> | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 
 We could initialize each array location like so:
 
