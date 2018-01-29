@@ -63,7 +63,6 @@ int A[10];
 ```
 
 This allocates 10 4byte memory locations with the starting address stored at a location pointed to by `A`. Each memory location is undefined. 
-
-| und  | und   | und   |  und  | und   |
-|:----------:|:----------:|:----------:|:----------:|:----------:| 
 |<sub>0</sub>|<sub>1</sub>|<sub>2</sub>|<sub>3</sub>|<sub>4</sub>|
+|:----------:|:----------:|:----------:|:----------:|:----------:| 
+| und  | und   | und   |  und  | und   |
