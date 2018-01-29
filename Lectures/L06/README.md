@@ -89,3 +89,39 @@ for(int i=0;i<5;i++){
 |<sub>3</sub>| 0   | 0   |  0  | 0   | 0   |
 |<sub>4</sub>| 0   | 0   |  0  | 0   | 0   |
 
+We still have the same "static" declaration problem as before, but dynamically allocating memory for a 2D array is slightly different than for a 1D array. 
+
+To allocate memory for a 2D array dynamically we do ___NOT___ do this:
+
+```cpp
+int size = 5;
+int *D = new int[size][size]
+// Will discuss why more in class
+```
+
+What we need to do is this:
+
+```cpp
+int size=0;
+int rows=0;
+int cols=0;
+int ** Arr2D;
+
+// Just for example (most likely we get sizes from another 
+// resource like a database or a file etc.)
+cout<<"How many rows?";
+cin>>rows;
+cout<<"how many cols?";
+cin>>cols;
+
+Arr2D = new int*[rows];
+
+for(int i=0;i<cols;i++){
+    Arr2D[i] = new int[cols];
+}
+```
+
+
+Resources:
+- https://brianbondy.com/blog/91/arrays-are-not-the-same-as-pointers
+- https://www.tutorialcup.com/cplusplus/dynamic-memory.htm
