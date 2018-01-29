@@ -11,8 +11,8 @@ int A[10];
 This allocates 10 4byte memory locations with the starting address stored at a location pointed to by `A`. Each memory location is undefined. 
 
 | und  | und   | und   |  und  | und   |  und  | und   | und   |  und  | und   |
-|:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|  
-| <sub>0</sub> | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:| 
+|<sub>0</sub>|<sub>0</sub>|<sub>0</sub>|<sub>0</sub>|<sub>0</sub>|<sub>0</sub>|<sub>0</sub>|<sub>0</sub>|<sub>0</sub>|<sub>0</sub>|
 
 We could initialize each array location like so:
 
@@ -29,6 +29,7 @@ int A[10] = {0};
 ```
 
 | 0  | 0   | 0   |  0  | 0   |  0  | 0   | 0   |  0  | 0   |
-|:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|  
-| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| und  | und   | und   |  und  | und   |  und  | und   | und   |  und  | und   |
+|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:| 
+|<sub>0</sub>|<sub>0</sub>|<sub>0</sub>|<sub>0</sub>|<sub>0</sub>|<sub>0</sub>|<sub>0</sub>|<sub>0</sub>|<sub>0</sub>|<sub>0</sub>|
 
