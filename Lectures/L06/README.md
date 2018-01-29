@@ -10,7 +10,7 @@ int A[10];
 
 This allocates 10 4byte memory locations with the starting address stored at a location pointed to by `A`. Each memory location is undefined. 
 
-| unk  | unk   | unk   |  unk  | unk   |  unk  | unk   | unk   |  unk  | unk   |
+| und  | und   | und   |  und  | und   |  und  | und   | und   |  und  | und   |
 |:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|  
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 
@@ -27,4 +27,8 @@ OR, we could initialize each memory location like:
 ```cpp
 int A[10] = {0};
 ```
+
+| 0  | 0   | 0   |  0  | 0   |  0  | 0   | 0   |  0  | 0   |
+|:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|  
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 
