@@ -105,7 +105,7 @@ What we need to do is this:
 int size=0;
 int rows=0;
 int cols=0;
-int ** Arr2D;
+int **Arr2D;
 
 // Just for example (most likely we get sizes from another 
 // resource like a database or a file etc.)
