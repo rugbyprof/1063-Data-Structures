@@ -102,7 +102,6 @@ int *D = new int[size][size]
 What we need to do is this:
 
 ```cpp
-int size=0;
 int rows=0;
 int cols=0;
 int **Arr2D;
