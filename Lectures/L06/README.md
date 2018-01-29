@@ -59,10 +59,15 @@ for(int j=0 ; j < array_size ; j++){
 ### 2 Dimensional
 
 ```cpp
-int A[10];
+int A[5][5];
 ```
 
 This allocates 10 4byte memory locations with the starting address stored at a location pointed to by `A`. Each memory location is undefined. 
-|<sub>0</sub>|<sub>1</sub>|<sub>2</sub>|<sub>3</sub>|<sub>4</sub>|
-|:----------:|:----------:|:----------:|:----------:|:----------:| 
-| und  | und   | und   |  und  | und   |
+
+|            |<sub>0</sub>|<sub>1</sub>|<sub>2</sub>|<sub>3</sub>|<sub>4</sub>|
+|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:| 
+| 0  | und  | und   | und   |  und  | und   |
+| 1  | und   | und   |  und  | und   | und   |
+| 2  | und   | und   |  und  | und   | und   |
+| 3  | und   | und   |  und  | und   | und   |
+| 4  | und   | und   |  und  | und   | und   |
