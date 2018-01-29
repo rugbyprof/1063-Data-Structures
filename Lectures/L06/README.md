@@ -62,7 +62,7 @@ for(int j=0 ; j < array_size ; j++){
 int C[5][5];
 ```
 
-This allocates 10 4byte memory locations with the starting address stored at a location pointed to by `C`. Each memory location is undefined. 
+This allocates `5*5` 4byte memory locations with the starting address stored at a location pointed to by `C`. Each memory location is undefined. 
 
 |            |<sub>0</sub>|<sub>1</sub>|<sub>2</sub>|<sub>3</sub>|<sub>4</sub>|
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:| 
@@ -88,3 +88,4 @@ for(int i=0;i<5;i++){
 |<sub>2</sub>| 0   | 0   |  0  | 0   | 0   |
 |<sub>3</sub>| 0   | 0   |  0  | 0   | 0   |
 |<sub>4</sub>| 0   | 0   |  0  | 0   | 0   |
+
