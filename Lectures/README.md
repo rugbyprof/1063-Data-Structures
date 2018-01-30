@@ -9,4 +9,4 @@
  | [L06](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L06) | [ 2D Array ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L06) | [ General Overview + dynamic array allocation](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L06) | [L06](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L06) | [ Single Dimensional](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L06) | [L06](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L06) | [ 2 Dimensional](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L06) |
  | [L07](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L07) | [ Intro to Classes](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L07) |
 
-<sup>Last Updated: 2018-01-30 (Tue @ 00:38)</sup>
+<sup>Last Updated: 2018-01-30 (Tue @ 00:50)</sup>

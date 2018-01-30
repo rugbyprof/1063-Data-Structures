@@ -30,20 +30,27 @@ struct rgb{
     int b;
 };
 
+//Class declaration
 class Color{
-  
+// Private section holds data and methods that shouldn't be accessed
+// by any code outside of the class directly.
 private:
-  // Data members
+  // Data member declarations 
+  // (all the "data" our methods will work on)
   rgb ** imgArray;
   int width;
   int height;
   ifstream ifile;
   ofstream ofile;
   int r,g,b,gray;
+
   //Methods
-  
 public:
-  //Constructor
+  // Constructor is a function with the same name as the class
+  // it initializes an data members we need initialized.
+  // This constructor has a "filename" as a parameter
+  // and it will use the file to get the proper info to build
+  // and load a dynamic 2D array.
   Color (string filename){
     ifile.open(filename);
     ifile>>width>>height;
@@ -59,6 +66,10 @@ public:
     }
   }
   
+  // This method writes the contents of our 2D array
+  // to a file (we specify which file with the name
+  // we pass in to the function (or method as class
+  // functions are methods).
   void writeFile(string filename){
       //Write out our color data to a new file
     ofile.open(filename);
@@ -71,6 +82,21 @@ public:
     }
   }
   
+  // This is a PROPER comment for a function:
+  /**
+   * Function: grayScale
+   * Description:
+   *     This method loops through a 2D array of RGB values and turns each pixel into a gray
+   *     scaled pixel. It does this by averaging the 3 RGB values, then writing a single value
+   *     back to each R, G, B. 
+   *     Example:   rgb(255,192,203) (pink) would turn into 
+   *                (255+192+203)/3 = 216
+   *                rgb(216,216,216) 
+   * Params:
+   *    none
+   * Returns:
+   *    none
+   */
   void grayScale(){
       for(int i=0;i<height;i++){
           for(int j=0;j<width;j++){
@@ -89,7 +115,8 @@ public:
 };
 
 
-
+// Main reads much nicer with all the work
+// now in the class!
 int main(){
   
   Color myImage("bot.txt");
