@@ -167,3 +167,54 @@ gpaClass G1("someOtherFile.txt");  // opens someOtherFile and uses the default 1
 
 gpaClass G2("fileWith2000Gpas.txt",2000); // opens someFile and uses 2000 for numGpas 
 ```
+
+We still haven't added any `methods`!! What we just completed is getting our data ready to get worked on. So lets add a method to our class.
+
+```cpp
+class gpaClass{
+private:
+
+  ifstream fin;    // reference to my input file
+  double *data;   // array of doubles to hold my gpa's
+  int numGpas;    // number of gpas to read in.
+  
+public:
+  /**
+  * Constructor
+  */
+  gpaClass(string filename,int numGpas=1000){
+      //Now we open "filename" instead of "gpa.txt"
+      fin.open(filename);
+      
+      data = new double[numGpas];
+      
+      // Load array from file
+      int i = 0;  // we need a looping index
+      while(!fin.eof()){
+        fin>>data[i];
+        i++;
+      }
+  }
+  
+  double maxGpa(){
+    // implement find max here ... 
+  }
+  
+  double minGpa(){
+  }
+  
+  double avgGpa(){
+  }
+  
+  // How do find the gpa distributions? How would we return an answer from a function that computed something like:
+  //     - 0   < gpa <= 1.5 
+  //     - 1.6 < gpa <= 2.5
+  //     - 2.5 < gpa <= 3.0
+  //     - 3.0 < gpa <= 3.5
+  //     - 3.5 < gpa <= 4.0  
+  //  
+  //  Think about this ... 
+
+};
+
+```
