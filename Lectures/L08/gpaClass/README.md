@@ -218,3 +218,17 @@ public:
 };
 
 ```
+To user our (somewhat finished) class...
+
+```cpp
+
+gpaClass G1("myGpaFile.txt"); 
+
+double max = G1.maxGpa();
+double min = G1.minGpa();
+double avg = G1.avgGpa();
+
+// Keep thinking about that distribution problem ?!? 
+
+```
+
