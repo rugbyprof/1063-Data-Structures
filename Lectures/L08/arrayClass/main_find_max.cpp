@@ -1,14 +1,14 @@
-#include <iostream>
-#include <ctime>
-
-using namespace std;
-
 //////////////////////////////////////////////////////
 // This is a copy of the findMax function we wrote earlier
 // this semester going over functions. Lets do the same
 // thing we did with the word count (turn it into a class)
 // but hopefull less confusing.
 //////////////////////////////////////////////////////
+
+#include <iostream>
+#include <ctime>
+
+using namespace std;
 
 /**
  * Function: printArray
