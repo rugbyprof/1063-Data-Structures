@@ -1,4 +1,4 @@
-## Classes Again - Moving from functionss to classes and methods
+## Classes Again - Moving from functions to classes and methods
 
 #### Related Repl.it code:
 - https://repl.it/@rugbyprof/wordCountSp2018
