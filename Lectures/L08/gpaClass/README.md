@@ -11,11 +11,11 @@ Using the code in [main_find_max.cpp](https://github.com/rugbyprof/1063-Data-Str
     - Find the Min Gpa (not sure of the results)
     - Find the Avg Gpa 
     - Count the number of Gpa's in the following categories:
-        0   < gpa <= 1.5
-        1.6 < gpa <= 2.5
-        2.5 < gpa <= 3.0
-        3.0 < gpa <= 3.5
-        3.5 < gpa <= 4.0        
+       - 0   < gpa <= 1.5
+       - 1.6 < gpa <= 2.5
+       - 2.5 < gpa <= 3.0
+       - 3.0 < gpa <= 3.5
+       - 3.5 < gpa <= 4.0        
 
 #### Solution 
 
