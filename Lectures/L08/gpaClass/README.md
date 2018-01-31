@@ -56,7 +56,7 @@ So ...
 class gpaClass{
 private:
 
-  ifile fin;    // reference to my input file
+  ifstream fin;    // reference to my input file
   double *data; // array of doubles to hold my gpa's (remember it has to be a pointer because
                    we can't assign anything to this variable yet).
   int numGpas;  // number of gpas to read in.
@@ -94,18 +94,20 @@ Creating an instance of the `gpaClass` would open the `gpa.txt` file and read in
 class gpaClass{
 private:
 
-  ifile fin;    // reference to my input file
-  double *data; // array of doubles to hold my gpa's
-  int numGpas;  // number of gpas to read in.
+  ifstream fin;    // reference to my input file
+  double *data;   // array of doubles to hold my gpa's
+  int numGpas;    // number of gpas to read in.
   
 public:
 
   // remember to include string!
   gpaClass(string filename){
-      numGpas = 1000;   //max size for our loops
-      
+  
+      numGpas = 1000;
       //Now we open "filename" instead of "gpa.txt"
       fin.open(filename);
+      
+      data = new double[numGpas];
       
       // Load array from file
       int i = 0;  // we need a looping index
@@ -114,6 +116,7 @@ public:
         i++;
       }
   }
+
 };
 
 ```
@@ -126,3 +129,41 @@ gpaClass G("someOtherFile.txt"); //creates an instance of gpaClass called G and
                                  // passes "someOtherFile.txt" to the constructor. 
 ```
 
+We can make another simple addition, and add a `default` param to also pass the array size into the constructor:
+
+```cpp
+class gpaClass{
+private:
+
+  ifstream fin;    // reference to my input file
+  double *data;   // array of doubles to hold my gpa's
+  int numGpas;    // number of gpas to read in.
+  
+public:
+
+  // remember to include string!
+  gpaClass(string filename,int numGpas=1000){
+      //Now we open "filename" instead of "gpa.txt"
+      fin.open(filename);
+      
+      data = new double[numGpas];
+      
+      // Load array from file
+      int i = 0;  // we need a looping index
+      while(!fin.eof()){
+        fin>>data[i];
+        i++;
+      }
+  }
+
+};
+
+```
+To create an instance of this version we could do:
+
+```cpp
+
+gpaClass G1("someOtherFile.txt");  // opens someOtherFile and uses the default 1000 for numGpas 
+
+gpaClass G2("fileWith2000Gpas.txt",2000); // opens someFile and uses 2000 for numGpas 
+```
