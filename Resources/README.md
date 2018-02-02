@@ -3,4 +3,4 @@
  | ------------|------------|------------|
  | [R01](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/R01) | [ Game of life ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/R01) | [ Solution to the game of life by Conway.](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/R01) |
 
-<sup>Last Updated: 2018-02-01 (Thu @ 19:11)</sup>
+<sup>Last Updated: 2018-02-01 (Thu @ 19:12)</sup>
