@@ -7,4 +7,4 @@
  |  |
  | [A05](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) | [ Program 1 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) | [ Image Manipulation](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) | [Monday February 9<sup>th</sup> at the beginning of class.](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) |
 
-<sup>Last Updated: 2018-01-31 (Wed @ 15:19)</sup>
+<sup>Last Updated: 2018-02-01 (Thu @ 19:11)</sup>
