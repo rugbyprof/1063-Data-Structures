@@ -10,4 +10,4 @@
  | [L07](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L08) | [ Intro to Classes](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L08) |
  | [L08](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L08) | [ Classes Again ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L08) | [ Moving from functions to classes and methods](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L08) | [L08](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L08) | [ Related Repl.it code:](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L08) | [L08](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L08) | [ Folders in this lecture:](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L08) |
 
-<sup>Last Updated: 2018-02-05 (Mon @ 09:46)</sup>
+<sup>Last Updated: 2018-02-05 (Mon @ 09:49)</sup>
