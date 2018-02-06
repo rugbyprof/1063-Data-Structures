@@ -38,14 +38,18 @@ class List{
   * of he list.
   */
   void Insert(int x){
+    // if the list is empty
     if(Head == NULL){
-      Head = new Node;
-      Head->data = x;
+      Head = new Node;          // allocate new memory
+      Head->data = x;           // put our value into the node
+                                // thats it for an empty list!
     }else{
-      Node* Temp = new Node;
-      Temp->data = x;
-      Temp->next = Head;
-      Head = Temp;
+      // We need to add the value in front of the old head
+
+      Node* Temp = new Node;    // allocate new memory
+      Temp->data = x;           // put our value into the temp node
+      Temp->next = Head;        // point the temp node to the head
+      Head = Temp;              // re-assign the head to point to temp
     }
   }
 
@@ -55,10 +59,11 @@ class List{
   void Print(){
     Node* Temp = Head;
     
+    // Typical list iteration (visiting each node so we can do stuff).
     while(Temp != NULL){
-      cout<<Temp->data<<"->";
+      cout<<Temp->data<<"->"; // do whatever here (print in this case)
       //do cool stuff
-      Temp = Temp->next;
+      Temp = Temp->next;      // go to the next node
     }
   }
 };
