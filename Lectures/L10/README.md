@@ -35,7 +35,8 @@ class List{
   
   /**
   * Insert method allows us to add a value to the front (in this implementation)
-  * of he list.
+  * of the list. Some lists may want insert to put a value at the end of the list
+  * or some may want the value to be inserted in order.
   */
   void Insert(int x){
     // if the list is empty
