@@ -157,4 +157,12 @@ Each channel gets assigned the average of all three.
 - In the `assignments` folder, create a folder called `program_1` (not Program_1 or PROGRAM1 or program1 or you get it).
 - Your code should be in a file called `main.cpp` within the `program_1` folder. 
 - Any input files (txt or image) that you used to test your program should be in this folder as well.
+- You should have one example of each flip function. So you should have (for example):
+    - smiley_original.png
+    - smiley_original.txt
+    - smiley_flip_horz.png
+    - smiley_flip_horz.txt  
+    - smiley_flip_vert.png
+    - smiley_flip_vert.txt   
 - At the beginning of class on the 9<sup>th</sup>, bring in a printout of your `main.cpp` printed out using **gitprint**.
+- 
