@@ -47,6 +47,7 @@ void grayScale(rgb** image,int width,int height){
     }
 }
 
+// NOT USED IN ASSIGNMENT, FOR EXAMPLE ONLY!
 void removeRed(rgb** image,int width,int height){
 
     for(int i=0;i<height;i++){
@@ -56,6 +57,7 @@ void removeRed(rgb** image,int width,int height){
     }
 }
 
+// NOT USED IN ASSIGNMENT, FOR EXAMPLE ONLY!
 void makeBlackLine(rgb** image,int width,int height,int line){
 
 
@@ -99,12 +101,10 @@ int main(){
     }
     
     //We could make any changes we want to the color image here
-    removeRed(imgArray,width,height);
+    //removeRed(imgArray,width,height);
     
-    makeBlackLine(imgArray,width,height,50);
-    
+    //makeBlackLine(imgArray,width,height,50);
 
-    
     //Write out our color data to a new file
     ofile<<width<<" "<<height<<endl;
     for(int i=0;i<height;i++){
