@@ -1,3 +1,4 @@
+```cpp
 /**
 * TXT Image Manipulation Starter
 * 
@@ -117,3 +118,4 @@ int main(){
     
   return 0;
 }
+```
