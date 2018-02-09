@@ -1,7 +1,7 @@
 ### Program 1:
 |    #    | Item                                                                                |   Value | Earned |                |
 |:-------:|-------------------------------------------------------------------------------------|--------:|-------:|:--------------:|
-| ***1*** | ***General***                                                                       |      30 |        | ![Alt text][1] |
+| ***1*** | ***General*** (Everything is named correctly and found in it's proper location.)    |      30 |        | ![Alt text][1] |
 |   1.1   | `repository`  exists                                                                |         |        | ![Alt text][1] |
 |   1.2   | `assignments` folder exists                                                         |         |        | ![Alt text][1] |
 |   1.3   | `program_1` folder exists in assignments                                            |         |        | ![Alt text][1] |
