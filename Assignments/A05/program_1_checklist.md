@@ -17,8 +17,8 @@
 |   3.6   | Flipped Vertical version of image                                                   |         |        | ![Alt text][1] |
 |   3.7   | Flipped Vertical text version                                                       |         |        | ![Alt text][1] |
 | ***4*** | ***Correctness***                                                                   |      30 |        | ![Alt text][1] |
-|    -    | Program runs without error                                                          |         |        | ![Alt text][1] |
-|    -    | Program generates correct results                                                   |         |        | ![Alt text][1] |
+|   4.1   | Program runs without error                                                          |         |        | ![Alt text][1] |
+|   4.2   | Program generates correct results                                                   |         |        | ![Alt text][1] |
 | Totals: | **100**                                                                             | **100** |        | ![Alt text][1] |
 
 ### Comments:
