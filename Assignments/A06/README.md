@@ -26,3 +26,5 @@ struct Stats{
 ```
 
 - Write a function that finds the min, max, and avg of some given array, and returns the calculated values in a struct like the one above.
+
+- **12)** Write a constructor for the `Stats` struct to initialize it's data members with correct values. Pay attention to data types.
