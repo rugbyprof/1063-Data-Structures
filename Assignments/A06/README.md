@@ -7,8 +7,7 @@
 - Be able to dynamically allocate memory for a single dimensional array.
 - Be able to dynamically allocate memory for a two dimensional array.
 
-#### Functions
-
+#### Functions using Arrays :)
 - Write a function that sums up all the integers in a single dimensional array and returns the sum.
 - Write a function that finds the smallest value in a 2D array of ints, and returns the smallest value.
 - Write a function to add up and average the even locations in some array. 
