@@ -14,6 +14,7 @@
 - Given two arrays: ***A, B*** (assume they are the same size), write a function to copy the data from ***A*** to ***B***.
 - Given two arrays: ***A, B*** (assume they are the same size), write a function to copy the data from ***A*** to ***B*** but in reverse order.
 - Write a function that will open a file and read the values (1 per line) into some array. 
+
 - Given:
 
 ```cpp
