@@ -24,4 +24,4 @@ struct Stats{
 };
 ```
 
-- Write a function that finds the min, max, and avg in some array, and returns the calculated values in a struct like the one above.
+- Write a function that finds the min, max, and avg of some given array, and returns the calculated values in a struct like the one above.
