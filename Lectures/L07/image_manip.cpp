@@ -28,6 +28,11 @@ struct rgb{
     int r;
     int g;
     int b;
+    rgb(){
+        r=0;
+        g=0;
+        b=0;
+    }
 };
 
 //Class declaration
