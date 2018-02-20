@@ -6,6 +6,8 @@ Some of these patterns may be harder to solve than others. Solve each pattern us
 ><img src="http://cs.mwsu.edu/~griffin/images/one.png" width=16>
 >Write nested for loops that prints out the following pattern:
 >
+> `N = 4`
+
 ```
 ****
 ****
@@ -16,7 +18,9 @@ Some of these patterns may be harder to solve than others. Solve each pattern us
 
 ><img src="http://cs.mwsu.edu/~griffin/images/two.png" width=16>
 >Write nested for loops that prints out the following pattern:
->`N = 3
+>
+> `N = 3`
+
 ```
 ***
 ---
@@ -25,7 +29,8 @@ Some of these patterns may be harder to solve than others. Solve each pattern us
 ***
 ---
 ```
->`N = 4
+>
+> `N = 4`
 ```
 ****
 ----
@@ -39,6 +44,7 @@ Some of these patterns may be harder to solve than others. Solve each pattern us
 
 ><img src="http://cs.mwsu.edu/~griffin/images/three.png" width=16>
 >Write nested for loops that prints out the following pattern:
+>
 >`N = 4`
 ```
 *
@@ -50,6 +56,7 @@ Some of these patterns may be harder to solve than others. Solve each pattern us
 
 ><img src="http://cs.mwsu.edu/~griffin/images/four.png" width=16>
 >Write nested for loops that prints out the following pattern:
+>
 > `N = 6`
 ```
 ******
@@ -62,6 +69,7 @@ Some of these patterns may be harder to solve than others. Solve each pattern us
 
 ><img src="http://cs.mwsu.edu/~griffin/images/five.png" width=16>
 >Write nested for loops that prints out the following pattern:
+>
 > `N = 5`
 ```
     *
@@ -73,6 +81,7 @@ Some of these patterns may be harder to solve than others. Solve each pattern us
 
 ><img src="http://cs.mwsu.edu/~griffin/images/six.png" width=16>
 >Write nested for loops that prints out the following pattern:
+>
 > `N = 4`
 ```
    **
@@ -83,6 +92,7 @@ Some of these patterns may be harder to solve than others. Solve each pattern us
 
 ><img src="http://cs.mwsu.edu/~griffin/images/six.png" width=16>
 >Write nested for loops that prints out the following pattern:
+>
 > `N = 4`
 ```
    **
@@ -93,7 +103,7 @@ Some of these patterns may be harder to solve than others. Solve each pattern us
   ****
    **
 ```
-
+>
 > `N = 6`
 ```
      **
