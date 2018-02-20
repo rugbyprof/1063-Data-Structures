@@ -90,7 +90,7 @@ Some of these patterns may be harder to solve than others. Solve each pattern us
 ********
 ```
 
-><img src="http://cs.mwsu.edu/~griffin/images/six.png" width=16>
+><img src="http://cs.mwsu.edu/~griffin/images/seven.png" width=16>
 >Write nested for loops that prints out the following pattern:
 >
 > `N = 4`
