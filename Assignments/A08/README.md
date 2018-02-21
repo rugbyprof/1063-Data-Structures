@@ -22,7 +22,7 @@ Lets limit (for now) our problem to integers. And if we want to add:
 
 **`42304820394820934820394802394823094802394809 to 2318283123123893786234671923682346734`**
 
-what data type do we use?? Int? Double? Ha! 2<sup>31</sup> = 2147483647 not nearly close enough! 2<sup>63</sup> = 9223372036854775808, still not close enough. I guess we need to solve this ourselves.
+what data type do we use?? Int? Double? Ha! 2<sup>31</sup> = 2147483647 not nearly close enough! 2<sup>63</sup> = 9223372036854775808, still not close enough. I guess we need to solve this ourselves (note: sign bit, that's why 31 and not 32 and 63 and not 64).
 
 
 
