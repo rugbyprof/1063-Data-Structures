@@ -14,7 +14,9 @@ I digress....
 
 The bottom line is that there are times when doing arithmetic with big numbers can be somewhat limiting. Simply 2^<sup>32</sup> isn't big enough! Depending on the computer architecture your working with, you may have access to 8 byte number sizes using `long` or `double`, but depending on the precision you need, this still may not be enough!! (http://floating-point-gui.de/formats/fp/). 
 
-Honestly, for us, <sup>32</sup> **almost always is enough**. But we wouldn't be computer scientists if we settled for ... arghh: `primitive data types` like `int`, `float`, and `double`. I think we should make our own! And now the assignment.
+Honestly, for us, 2<sup>32</sup> **almost always is big enough**. But we wouldn't be computer scientists if we settled for ... arghh: `primitive data types` like `int`, `float`, and `double`. I think we should make our own! 
+
+And now the assignment.
 
 
 
