@@ -9,4 +9,8 @@
  | [A06](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A06) | [ Test 1 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A06) | [ Functions and Arrays and some Structs](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A06) | [A06](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A06) | [ Arrays](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A06) | [A06](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A06) | [ Functions using Arrays :)](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A06) |
  | [A07](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A07) | [ For Loop Fun ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A07) | [ Homework you don't have to turn in.](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A07) |
 
+<<<<<<< HEAD
 <sup>Last Updated: 2018-02-26 (Mon @ 14:58)</sup>
+=======
+<sup>Last Updated: 2018-02-21 (Wed @ 00:02)</sup>
+>>>>>>> 3a3a54fdabfcc7a03187794391817c9b8c83a714
