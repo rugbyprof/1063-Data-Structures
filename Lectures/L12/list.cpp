@@ -134,10 +134,29 @@ public:
     }
   }
   
+  /**
+  * Function: PrintRear()
+  * Description:
+  *     Totally worthless method to print last value in a list
+  * Params:
+  *    None
+  * Returns:
+  *    void
+  */
   void PrintRear(){
     cout<<Rear->word<<endl;
   }
   
+  /**
+  * Function: PrintRear()
+  * Description:
+  *     A not so worthless method that makes us feel better when we see all of our 
+  *     values being printed out correctly.
+  * Params:
+  *    None
+  * Returns:
+  *    void
+  */
   void Print(){
     Node* temp = Top;
     while(Top != NULL){
@@ -149,24 +168,25 @@ public:
 };
 
 int main() {
-  List L1;
-  List L2;
-  string word;
-  char ch;
-  string sch="";
+  List L1;      // Create instance of class.
+  List L2;      // Create another instance of same type.
   
-  ifstream fin;
- 
-  fin.open("animals.txt");
+  string word;  // var to hold word read in from file
   
+  ifstream fin; // input file stream
+  
+  fin.open("animals.txt");  //open our animals file
+  
+  // While its not the end of our animals
+  // file, keep looping
   while(!fin.eof()){
-    fin>>word;
-    L1.Push(word);
-    L2.PushBack(word);
+    fin>>word;          // read in a word
+    L1.Push(word);      // add it to list 1 (front)
+    L2.PushBack(word);  // add it to list 2 (back)
   }
   
-  L1.Print();
-  cout<<endl;
-  L2.Print();
-  
+  L1.Print(); // Print list (should print words in reverse order as read in)
+  cout<<endl; 
+  L2.Print(); // Print list (should print words in same order as read in)
+    
 }
