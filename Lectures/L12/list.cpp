@@ -21,18 +21,18 @@ struct Node{
 
 /**
 * Class that represents a generic list with the following methods:
-*         List()                    // constructor to initialize 
-*   bool  Empty()                   // Is the list empty? (head == NULL)
-*   void  Push(string word)         // Pushes word to front of list
-*   void  PushBack(string word)     // Pushes word to end of list
-*   void  Print()                   // Prints entire list
-*   void  PrintRear()               // Prints value at rear of list
+*         List()                    Constructor to initialize data members
+*   bool  Empty()                   Is the list empty? (head == NULL)
+*   void  Push(string word)         Pushes word to front of list
+*   void  PushBack(string word)     Pushes word to end of list
+*   void  Print()                   Prints entire list
+*   void  PrintRear()               Prints value at rear of list
 */
 class List{
 private:
-  Node* Top;
-  Node* Rear;
-  int listSize;
+  Node* Top;      // Pointer to the first element in our list
+  Node* Rear;     // Pointer to the last element in our list
+  int listSize;   // listSize
   
 public:
   /**
