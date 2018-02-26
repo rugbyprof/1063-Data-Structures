@@ -13,8 +13,5 @@
  | [L10](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L10) | [ Linked List ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L10) | [ Introduction to linked lists](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L10) | [L10](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L10) | [include <iostream>](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L10) |
  | [L11](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L11) | [ Stack ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L11) | [ Integer stack](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L11) | [L11](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L11) | [include <iostream>](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L11) |
 
-<<<<<<< HEAD
+
 <sup>Last Updated: 2018-02-26 (Mon @ 14:58)</sup>
-=======
-<sup>Last Updated: 2018-02-21 (Wed @ 00:02)</sup>
->>>>>>> 3a3a54fdabfcc7a03187794391817c9b8c83a714
