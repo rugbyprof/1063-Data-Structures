@@ -72,19 +72,22 @@ public:
   *    string word
   */
   string Pop(){
+    
+    // Cannot pop from empty list
     if(Empty()){
       return "error!";
     }
-    string word;
     
-    Node* temp = Top;
-    word = Top->word;
+    string word;    // var to hold word from node
     
-    Top = Top->next;
+    Node* temp = Top; // Point a temp to front of list
+    word = Top->word; // get word from front node
     
-    delete temp;
+    Top = Top->next;  // move top pointer to next in list
     
-    return word;
+    delete temp;      // delete the old top node
+    
+    return word;      // return the word
   }
   
   /**
