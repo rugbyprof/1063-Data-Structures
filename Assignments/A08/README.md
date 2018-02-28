@@ -31,7 +31,7 @@ what data type do we use?? Int? Double? Ha! 2<sup>31</sup> = 2147483647 not near
 
 #### Adding Numbers
 
-![](https://www.ideserve.co.in/learn/img/sumOfLists_0.gif)
+![](https://cl.ly/ppxA/carry_add.gif)
 
 
 
