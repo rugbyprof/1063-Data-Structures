@@ -12,4 +12,4 @@
  | [A09](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A09) | [ Extra Credit ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A09) | [ Fix the list insert method](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A09) | [A09](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A09) | [ Deliverables](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A09) |
  | [A10](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A10) | [ List Homework ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A10) | [ Just do it](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A10) | [never](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A10) |
 
-<sup>Last Updated: 2018-02-26 (Mon @ 15:08)</sup>
+<sup>Last Updated: 2018-03-01 (Thu @ 08:37)</sup>
