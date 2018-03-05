@@ -137,9 +137,14 @@ int fib(int x) {
 ```
  
 
-**10.** What operation does the following function implement when `p` is `0`, `1`, and `2`? 
+**10.** Can anyone fix the function below to make it work like the following:
+
+- When p==0, return `n + m`
+- When p==1, return `n * m` 
+- When p==2, return `n ^ m` (n<sup>m</sup>)
 
 ```cpp
+// Not working...
 int mystery(n, m, p)
 {
 	int i, result = 0;
@@ -150,9 +155,7 @@ int mystery(n, m, p)
 }
 ```
 
-- When p==0, this is an addition function. 
-- When p==1, this is a multiplication function. 
-- When p==2, this is a power function.
+
 
 
  
