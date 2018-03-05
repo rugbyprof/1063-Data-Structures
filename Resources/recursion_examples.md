@@ -90,12 +90,12 @@ int remainder(int num, int den) {
 ```cpp
 int exponentiate_i(int x, int n){
 
-// erased
+// erased, you do it!
 
 }
 ```
 
-Write a function to do this recursively in O(n) time).
+Write a function to do this recursively in `O(n)` time).
 
 ```cpp
 int exponentiate_r(int x, int n){
@@ -105,35 +105,42 @@ int exponentiate_r(int x, int n){
 ```
 
 **8.** Use the knowledge that `x`<sup>`n`</sup> `==` `(x2)`<sup>`(n/2)`</sup> when `n` is even to write a more efficient 
-solution to the above problem.
+solution to the above problem. Not totally necessary, but pretty cool.
 
-If n is even, then xn = = (x2)(n/2) . If n is odd, then xn = = x * (x2)((n-1)/2) . So: 
+- If `n` is even, then `x`<sup>`n`</sup> `==` `(x2)`<sup>`(n/2)`</sup> . 
+- If `n` is odd, then `x`<sup>`n`</sup> `==` `x * (x2)`<sup>`((n-1)/2)`</sup> . 
+
+So: 
+
+```cpp
 int exponentiate2_r(int x, int n)
 {
-	if (n==0) return 1;
-	else if (n % 2==0) return exponentiate2_r(x*x, n/2);
-	else return x * exponentiate2_r(x*x, (n-1) / 2);
+    if (n==0) return 1;
+    else if (n % 2==0) return exponentiate2_r(x*x, n/2);
+    else return x * exponentiate2_r(x*x, (n-1) / 2);
 }
+```
 
  
-9.The classic fibonacci problem, where the next term in the sequence is the sum of 
-the previous two terms, is often called fib2. One could also imagine a sequence fibN, 
-where N is the number of previous terms to sum up. Write this function recursively.
+**9.** The classic fibonacci problem is where the next term in the sequence is the sum of the previous two terms. For example: `1 1 2 3 5 8 13 ...`
 
-int fibN(int num, int terms)	/* terms is the N */
-{
-	int i, total = 0;
-	if (num<=1) return 1;
-	else {
-		for(i=1; i <= terms; i++) total += fibN(num-i, terms);
-		return(total);
-	}
+```cpp
+int fib(int x) {
+    if (x == 0)
+        return 0;
+
+    if (x == 1)
+        return 1;
+
+    return fib(x-1)+fib(x-2);
 }
-
+```
  
 
-10. What operation does the following function implement when p is 0, 1, and 2? 
-   int mystery(n, m, p)
+**10.** What operation does the following function implement when `p` is `0`, `1`, and `2`? 
+
+```cpp
+int mystery(n, m, p)
 {
 	int i, result = 0;
 	
@@ -141,9 +148,11 @@ int fibN(int num, int terms)	/* terms is the N */
 	for (i=0; i< m; i++) result += mystery(result,n,p-1);
 	return result;
 }
+```
 
-When p==0, this is an addition function. When p==1, this is a multiplication function. 
-When p==2, this is a power function.
+- When p==0, this is an addition function. 
+- When p==1, this is a multiplication function. 
+- When p==2, this is a power function.
 
 
  
