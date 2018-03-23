@@ -1,5 +1,5 @@
 ## Homework 1 - Practice with arrays
-#### Due: Not Sure
+#### Due: No Due Date
 
 #### Given
 
