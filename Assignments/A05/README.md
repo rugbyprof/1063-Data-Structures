@@ -1,5 +1,5 @@
 ## Program 1 - Image Manipulation
-Due: Monday February 9<sup>th</sup> at the beginning of class.
+#### Due: Monday February 9<sup>th</sup> by 10:00am
 
 ### Overview
 
