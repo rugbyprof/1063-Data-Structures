@@ -5,4 +5,4 @@
  | [R02](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/R02) | [ Linked Lists ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/R02) | [ Study Material](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/R02) |
  | [R03](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/R03) | [ Word Files ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/R03) | [ Adjectives, Adverbs, Nouns, Verbs](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/R03) |
 
-<sup>Last Updated: 2018-03-20 (Tue @ 12:26)</sup>
+<sup>Last Updated: 2018-03-23 (Fri @ 12:38)</sup>
