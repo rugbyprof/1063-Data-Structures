@@ -1,4 +1,5 @@
 ## Extra Credit - Fix the list insert method
+#### Due: Friday February 23<sup>rd</sup> by 10:00am
 
 - Simply fix the insert method so that it is not "leaking" memory.
 - Currently it works for:
