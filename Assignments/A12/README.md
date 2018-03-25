@@ -1,5 +1,5 @@
 ## Program 2 - Priority Queue
-#### Due: Wednesday March 27<sup>th</sup> by 10:00 am
+#### Due: Friday March 29<sup>th</sup> by 10:00 am
 
 ## Priority Queue
 
