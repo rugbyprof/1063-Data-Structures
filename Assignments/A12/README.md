@@ -18,6 +18,7 @@ We will not be implementing a "print queue" or some "packet" priority routing pr
 
 ### Example
 
+Input File
 ```
 push elephant-seal
 push crow
@@ -35,6 +36,7 @@ pop
 
 Base on the above input, your output should be:
 
+Output File
 ```
 Animals Popped off the Queue:
 
