@@ -9,8 +9,8 @@ We will not be implementing a "print queue" or some "packet" priority routing pr
 
 ## Overview
 
-- Take code from here: [](./priority_queue.cpp)
-- Your input file is here: [](./input_data.txt)
+- Take code from here: [priority_queue.cpp](./priority_queue.cpp)
+- Your input file is here: [input_data.txt](./input_data.txt)
 - Turn the starter code into a priority queue based on: "word length" where the shorter the word, the higher the priority.
 - Ties are handled based on alphabetical order.
 - The input file is a list of commands. See example below.
