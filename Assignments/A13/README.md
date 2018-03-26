@@ -1,4 +1,5 @@
-## Homework ? - ToUpper function
+## Homework 1 - ToUpper function
+#### Due: Monday March 26<sup>th</sup> by 10:00 am
 
 Take the function below and turn it into a `toupper` function.
 ```cpp
