@@ -1,17 +1,16 @@
 ## Lectures
-| Folder | Lecture | Description|
- | ------------|------------|------------|
- | [L01](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L01) | [ Day 1 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L01) | [ Overview of functions and arrays](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L01) |
- | [L02](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L02) | [ Day 2 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L02) | [ More array problems (and functions)](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L02) |
- | [L03](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L03) | [ Day 3 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L03) | [ Overview of Functions and Arrays](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L03) |
- | [L04](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L04) | [ Day 4 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L04) | [ Still Reviewing Arrays, Structs, and Functions](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L04) |
- | [L05](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L05) | [ Lectures L05 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L05) | [ No Description](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L05) |
- | [L06](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L06) | [ 2D Array ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L06) | [ General Overview + dynamic array allocation](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L06) | [L06](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L06) | [ Single Dimensional](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L06) | [L06](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L06) | [ 2 Dimensional](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L06) |
- | [L07](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L07) | [ Intro to Classes](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L07) |
- | [L08](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L08) | [ Classes Again ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L08) | [ Moving from functions to classes and methods](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L08) | [L08](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L08) | [ Related Repl.it code:](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L08) | [L08](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L08) | [ Folders in this lecture:](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L08) |
- | [L09](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L09) | [ Project Structure ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L09) | [ Separating implementation and definition files](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L09) |
- | [L10](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L10) | [ Linked List ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L10) | [ Introduction to linked lists](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L10) | [L10](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L10) | [include <iostream>](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L10) |
- | [L11](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L11) | [ Stack ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L11) | [ Integer stack](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L11) | [L11](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L11) | [include <iostream>](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L11) |
- | [L12](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L12) | [ List Code ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L12) | [ More linked list code](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L12) |
 
-<sup>Last Updated: 2018-04-01 (Sun @ 22:01)</sup>
+| Lecture | Description |
+|----------|-------------|
+| include <iostream> | ? |
+| include <iostream> | ? |
+|  Day 3  |  Overview of Functions and Arrays | ? |
+|  Day 4  |  Still Reviewing Arrays, Structs, and Functions | ? |
+|  Lectures L05  |  No Description | ? |
+|  Day 2  |  More array problems (and functions) | ? |
+|  List Code  |  More linked list code | ? |
+|  Project Structure  |  Separating implementation and definition files | ? |
+|  Intro to Classes | ? |
+|  Day 1  |  Overview of functions and arrays | ? |
+|  2 Dimensional | ? |
+|  Folders in this lecture: | ? |
