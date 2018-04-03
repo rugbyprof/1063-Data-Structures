@@ -14,4 +14,4 @@
  | [A12](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A12) | [ Program 2 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A12) | [ Priority Queue](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A12) | [Friday March 29<sup>th</sup> by 10:00 am](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A12) |
  | [A13](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A13) | [ Homework 1 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A13) | [ ToUpper function](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A13) | [Monday March 26<sup>th</sup> by 10:00 am](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A13) |
 
-<sup>Last Updated: 2018-04-02 (Mon @ 23:33)</sup>
+<sup>Last Updated: 2018-04-03 (Tue @ 16:32)</sup>
