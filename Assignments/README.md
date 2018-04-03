@@ -1,16 +1,17 @@
 ## Assignments
+| Folder | Assignment | Description | Due|
+ | ------------|------------|------------|------------|
+ | [A05](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) | [ Program 1 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) | [ Image Manipulation](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) | [Monday February 9<sup>th</sup> by 10:00am](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A05) |
+ | [A02](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A02) | [ Homework 1 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A02) | [ Practice with arrays](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A02) | [No Due Date](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A02) |
+ | [A03](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A03) | [ Homework 2 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A03) | [ 2D Array Fun](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A03) | [No Due Date](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A03) |
+ | [A10](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A10) | [ List Homework ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A10) | [ Just do it](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A10) | [No Due Date](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A10) |
+ | [A11](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A11) | [ Recursion Quiz ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A11) | [ Don't be mad](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A11) | [Wednesday March 7<sup>th</sup>](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A11) |
+ | [A01](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A01) | [ Assignment 1 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A01) | [ Getting Started](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A01) | [Friday January 20th by 5:00pm](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A01) |
+ | [A06](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A06) | [ Test 1 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A06) | [ Functions and Arrays and some Structs](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A06) | [No Due Date](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A06) |
+ | [A08](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A08) | [ Arbitrary Precision Arithmetic ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A08) | [ Sounds freakin hard (but is it?)](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A08) | [No Due Date](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A08) |
+ | [A09](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A09) | [ Extra Credit ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A09) | [ Fix the list insert method](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A09) | [Friday February 23<sup>rd</sup> by 10:00am](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A09) |
+ | [A07](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A07) | [ For Loop Fun ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A07) | [ Homework you don't have to turn in.](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A07) | [No Due Date](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A07) |
+ | [A13](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A13) | [ Homework 1 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A13) | [ ToUpper function](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A13) | [Monday March 26<sup>th</sup> by 10:00 am](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A13) |
+ | [A12](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A12) | [ Program 2 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A12) | [ Priority Queue](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A12) | [Friday March 29<sup>th</sup> by 10:00 am](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/A12) |
 
-| Assignment | Description | Due |
-|----------|-------------|-------------|
-|  Program 1  |  Image Manipulation | Due: Monday February 9<sup>th</sup> by 10:00am |
-|  Homework 1  |  Practice with arrays | Due: No Due Date |
-|  Homework 2  |  2D Array Fun | Due: No Due Date |
-|  List Homework  |  Just do it | Due: No Due Date |
-|  Recursion Quiz  |  Don't be mad | Due: Wednesday March 7<sup>th</sup> |
-|  Assignment 1  |  Getting Started | Due: Friday January 20th by 5:00pm |
-|  Test 1  |  Functions and Arrays and some Structs | Due: No Due Date |
-|  Arbitrary Precision Arithmetic  |  Sounds freakin hard (but is it?) | Due: No Due Date |
-|  Extra Credit  |  Fix the list insert method | Due: Friday February 23<sup>rd</sup> by 10:00am |
-|  For Loop Fun  |  Homework you don't have to turn in. | Due: No Due Date |
-|  Homework 1  |  ToUpper function | Due: Monday March 26<sup>th</sup> by 10:00 am |
-|  Program 2  |  Priority Queue | Due: Friday March 29<sup>th</sup> by 10:00 am |
+<sup>Last Updated: 2018-04-02 (Mon @ 23:28)</sup>
