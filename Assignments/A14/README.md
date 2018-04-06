@@ -1,5 +1,5 @@
 ## Test 2 - Linked Lists & Recursion
-## Due: Friday April 13<sup>th</sup>
+### Due: Friday April 13<sup>th</sup>
 
 - [Linked List Basics](https://github.com/rugbyprof/1063-Data-Structures/blob/master/Resources/R02/LinkedListBasics.pdf)
 - [Linked List Problems](https://github.com/rugbyprof/1063-Data-Structures/blob/master/Resources/R02/LinkedListProblems.pdf)
