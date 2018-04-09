@@ -1,8 +1,10 @@
 ## Resources
 | Folder | Resource | Description|
  | ------------|------------|------------|
- | [R01](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/R01) | [ Game of life ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/R01) | [ Solution to the game of life by Conway.](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/R01) |
- | [R02](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/R02) | [ Linked Lists ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/R02) | [ Study Material](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/R02) |
- | [R03](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/R03) | [ Word Files ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/R03) | [ Adjectives, Adverbs, Nouns, Verbs](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/R03) |
+ | [GameOfLife](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/GameOfLife) | [ Game of life ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/GameOfLife) | [ Solution to the game of life by Conway.](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/GameOfLife) |
+ | [LinkedLists](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/LinkedLists) | [ Linked Lists ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/LinkedLists) | [ Study Material](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/LinkedLists) |
+ | [MazeCode](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/MazeCode) | [ Maze ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/MazeCode) | [ Starter Code](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/MazeCode) |
+ | [Recursion](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/Recursion) | [ Recursion ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/Recursion) | [ Materials](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/Recursion) |
+ | [WordDataFiles](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/WordDataFiles) | [ Word Files ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/WordDataFiles) | [ Adjectives, Adverbs, Nouns, Verbs](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Resources/WordDataFiles) |
 
-<sup>Last Updated: 2018-04-06 (Fri @ 11:06)</sup>
+<sup>Last Updated: 2018-04-09 (Mon @ 00:08)</sup>
