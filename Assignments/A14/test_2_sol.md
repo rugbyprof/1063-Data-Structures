@@ -105,20 +105,7 @@ theList.orderedInsert(6);
 theList.orderedInsert(4);
 // Which results in an ordered ascending list:
 ```
-```mermaid
-graph LR
-A(04)
-B(06)
-C(09)
-D(11)
-F(23)
-theList --> A
-A --> B
-B --> C
-C --> D
-D --> F
-F --> Null
-```
+![](https://d3vv6lp55qjaqc.cloudfront.net/items/3p0f0K0l3M040b150L2H/list1_test2.png)
 
 **QUESTION 4**
 What will the following code do the the list? 
@@ -131,38 +118,11 @@ theList->data = theList->data + 2;
 // (04)      =        (04) + 2
 
 ```
-
-```mermaid
-graph LR
-A(6)
-B(06)
-C(3)
-D(11)
-F(23)
-theList --> A
-A --> B
-B --> C
-C --> D
-D --> F
-F --> Null
-```
+![](https://d3vv6lp55qjaqc.cloudfront.net/items/1t2V2P2i3l1f2H2D1b0Z/list2_test2.png)
 
 **QUESTION 5**
 
-```mermaid
-graph LR
-A(02)
-B(05)
-C(14)
-D(10)
-F(20)
-theList --> A
-A --> B
-B --> C
-C --> D
-D --> F
-F --> Null
-```
+![](https://d3vv6lp55qjaqc.cloudfront.net/items/2W3e391k1f3p2l0t251v/list3_test2.png)
 
 Use code similar to the question 4's, re-arrange the nodes into proper order (adjust the pointers). Do not try to "loop" or "traverse" the list when fixing.
 
