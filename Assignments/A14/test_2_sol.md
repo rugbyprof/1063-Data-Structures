@@ -151,7 +151,7 @@ five->next = ten;
 
 
 bool delete(Node *&List,int key){
-	//assuming none empty list...
+	//assuming non-empty list...
 	Node* Prev = List;
 	Node* Temp = List;
 	
