@@ -8,7 +8,7 @@ For each of your linked lists, assume the `struct` looks like the following:
 struct Node{  
     int data;  
     Node* next;  
-}  
+};
 ```  
 ----  
 
