@@ -112,13 +112,13 @@ What will the following code do the the list?
 
 ```cpp
 theList->next->next->data = theList->next->next->next->data/3;
-//      (9)               =                   (11) / 3 
+//      (6)               =                   (9) / 3 
 // 
 theList->data = theList->data + 2;
 // (04)      =        (04) + 2
 
 ```
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/1t2V2P2i3l1f2H2D1b0Z/list2_test2.png)
+![](https://d3vv6lp55qjaqc.cloudfront.net/items/0B391p3u1j2q3N31033H/list2a_test2.png)
 
 **QUESTION 5**
 
