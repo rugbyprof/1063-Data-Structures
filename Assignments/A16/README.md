@@ -158,15 +158,15 @@ While(Current != Head){
 Example output file where the animals printed are (besides first and last) printed every 11 animals removed. Or when : `count % 11 == 0`.
 
 ```
-/**
-* ProgramName: Program-x
-* Author: Your Name 
-* Description: 
-*     This program reads in ....
-* Course: 1063 Data Structures
-* Semester: Spring 2018
-* Date: DD MM YYYY
-*/
+/////////////////////////////////////////////////////////////////////////////////////////////
+// ProgramName: Program-x
+// Author: Your Name 
+// Description: 
+//     This program reads in ....
+// Course: 1063 Data Structures
+// Semester: Spring 2018
+// Date: DD MM YYYY
+/////////////////////////////////////////////////////////////////////////////////////////////
 
 First: yak
 - cow
