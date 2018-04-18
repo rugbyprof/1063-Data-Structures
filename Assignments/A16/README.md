@@ -153,9 +153,38 @@ While(Current != Head){
 <img src="https://d3vv6lp55qjaqc.cloudfront.net/items/2Q2M1g300e3a032t1p09/doubly_linked_traverse_prev.png" style="width:450px">
 </center>
 
-#### Implementation
+#### Output File 
 
+Example output file where the animals printed are (besides first and last) printed every 11 animals removed. Or when : `count % 11 == 0`.
 
+```
+/**
+* ProgramName: Program-x
+* Author: Your Name 
+* Description: 
+*     This program reads in ....
+* Course: 1063 Data Structures
+* Semester: Spring 2018
+* Date: DD MM YYYY
+*/
 
+First: yak
+- cow
+- dog
+- turtle
+- ...
+WINNER: aardvark !!
+```
+
+#### Deliverables
+
+- Create a folder called `program_3` and place all files in this folder.
+- If it is not on github, it doesn't exist.
+- Create an output file called `eliminated.txt`
+- Your output file will look as described above.
+- So, count the animals as they are removed and print to file when: `count % 11 == 0`.
+- The last animal printed in this file will be the "winner".
+- Prompt the user for the "multiplier" when the program starts. This value can be anywhere from 1 to 13 (inclusive), so check to make sure it is within range.
+- Print out your **commented** source code and turn it in with your output file on top, then your main, then the rest.
 
 
