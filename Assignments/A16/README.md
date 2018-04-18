@@ -185,6 +185,7 @@ WINNER: aardvark !!
 - So, count the animals as they are removed and print to file when: `count % 11 == 0`.
 - The last animal printed in this file will be the "winner".
 - Prompt the user for the "multiplier" when the program starts. This value can be anywhere from 1 to 13 (inclusive), so check to make sure it is within range.
+- Prompt user for random seed. This can be any valid integer from 0 to RANDMAX.
 - Print out your **commented** source code and turn it in with your output file on top, then your main, then the rest.
 
 
