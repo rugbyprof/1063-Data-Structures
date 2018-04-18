@@ -1,5 +1,5 @@
 ## Program Three - Survival of the Lucky 
-Due: TBD
+Due: Friday, 27 April 2018 by Classtime
 
 
 #### Old Description
