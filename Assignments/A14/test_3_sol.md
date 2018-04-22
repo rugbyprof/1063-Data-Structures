@@ -204,7 +204,7 @@ void traverse(Node* head){
     if(!head){
         return;
     }else{
-        cout<<head->data;
+        cout<<head->data<<" =>";
         traverse(head->next);
     }
 }
