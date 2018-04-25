@@ -31,13 +31,15 @@ The original algorithm jumped __X__ number of spots going in the same direction 
 
 This new implementation requires an input file of names (or animals). 
 
-01. Load a doubly linked list with all the animals from our input file.
+01. Load a doubly linked list with all the animals from our input file (using insert to rear to keep them alphabatized).
 01. Reset the file.
 01. Read in a value from the input file.
 01. Get the length of the value.
 01. Multiply the length by some multiplier __m__ 
-01. Move __m__ spaces along the doubly linked list going to the right if __m__ is even, and left otherwise.
+01. Move __m__ spaces along the doubly linked list going to the right (node->next) if __m__ is even, and left (node->prev) otherwise.
+
 01. The position you land on is the animal you will eliminate (dispatch for you special operators) from the list.
+01. After deleting, set current = node->next (right).
 01. While the size of the list is greater then 1, go to step 3.
 
 ---
