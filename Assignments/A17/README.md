@@ -46,10 +46,11 @@ The following arithmetic operations are allowed in an expression:
 Notice that parenthesis are not needed in the postfix string.
 
 **Routines you need:**
+```
 • Function `convertToPostfix` that converts the infix expression to postfix notation.
 • Function `isOperator` that determines if `c` is an operator.
 • Function `precedence` that determines if the precedence of operator1 is less than, equal to or greater than the precedence of operator2. The function returns –1, 0 and 1, respectively.
-
+```
 
 ## Algorithm to evaluate a Postfix notation
 
