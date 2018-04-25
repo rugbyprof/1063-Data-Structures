@@ -46,11 +46,11 @@ The following arithmetic operations are allowed in an expression:
 Notice that parenthesis are not needed in the postfix string.
 
 **Routines you need:**
-```
-• Function `convertToPostfix` that converts the infix expression to postfix notation.
-• Function `isOperator` that determines if `c` is an operator.
-• Function `precedence` that determines if the precedence of operator1 is less than, equal to or greater than the precedence of operator2. The function returns –1, 0 and 1, respectively.
-```
+
+- • Function `convertToPostfix` that converts the infix expression to postfix notation.
+- • Function `isOperator` that determines if `c` is an operator.
+- • Function `precedence` that determines if the precedence of operator1 is less than, equal to or greater than the precedence of operator2. The function returns –1, 0 and 1, respectively.
+
 
 ## Algorithm to evaluate a Postfix notation
 
@@ -69,11 +69,11 @@ Notice that parenthesis are not needed in the postfix string.
 ```
 
 **Routines you need:**
-• Function `evaluatePostfixExpression` that evaluates the postfix expression.
-• Function `calculate` that evaluates the expression: `op1` operator `op2`.
+- • Function `evaluatePostfixExpression` that evaluates the postfix expression.
+- • Function `calculate` that evaluates the expression: `op1` operator `op2`.
 
 **Routines for the stack:**
-• Function `push` and `pop` for the stack.
-• Function `stackTop` that returns the top value of the stack without popping the stack.
-• Function `isEmpty` that determines if the stack is empty.
-• Function `printStack` that prints the stack.
+- • Function `push` and `pop` for the stack.
+- • Function `stackTop` that returns the top value of the stack without popping the stack.
+- • Function `isEmpty` that determines if the stack is empty.
+- • Function `printStack` that prints the stack.
