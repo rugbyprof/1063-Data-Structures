@@ -6,6 +6,7 @@
 #include <vector>   // stl vector
 #include <map>      // stl map
 #include <string> 
+#include <math.h>
 
 using namespace std;
 
@@ -90,7 +91,6 @@ struct Cell
  * Maze:
  *    Represents a maze or 2D array of Cells
  * 
- * 
  */
 class Maze
 {
@@ -174,6 +174,105 @@ public:
         }
         cout << bottom << "+" << endl
              << endl;
+    }
+
+    void traverseMaze(bool pm=true)
+    {
+        bool print_maze = pm;       // print the maze being built?
+        Cell *current;              // current cell (top of stack)
+        Cell *neighbor;             // neighbor of current (next move)
+        vector<Cell *> moves;       // vector of cell pointers holds possible moves
+        int neighbor_row;           // row of neighboring cell being looked at
+        int neighbor_col;           // column of neighboring cell
+        int rand_index;             // random num to pick random direction
+        string d;                   // direction
+        bool found = false;
+        int best_index=0;
+
+        __reset_maze();
+
+        // Prime the move stack with the "first" move.
+        move_stack.push_back(startCell);
+
+        // While there are still cells to be visited:
+        while (move_stack.size() > 0 && found == false)
+        {
+            //Set current to top of stack (end of list)
+            current = move_stack.back();
+
+            //Mark current as visited
+            current->visited = 1;
+            current->character = '.';
+
+            if(current == exitCell){
+                found = true;
+                break;
+            }
+
+            // Get an array of possible moves from our current location.
+            // Will hold from 0 - 4 neighbors
+            moves = __unvisited_neighbors(current->row, current->col);
+
+            // If there are any moves in our array:
+            if (moves.size())
+            {
+                // randomly choose a neighboring cell from moves array. 
+                rand_index = rand() % moves.size();
+
+                //best_index = __best_choice(moves);
+                
+                neighbor_row = moves[rand_index]->row;
+                neighbor_col = moves[rand_index]->col;
+
+                //pull cell pointer out of array
+                neighbor = moves[rand_index];
+
+                // Set the cell to visited and change its color
+                neighbor->visited = 1;
+                neighbor->color = "red";
+                neighbor->character = '.';
+
+                // Determine what direction we moved to get from current => neighbor
+                d = __get_direction(current->row, current->col, neighbor_row, neighbor_col);
+
+                // We moved North so open up our ceiling
+                if (d == "North"){
+                    current->top = NSOPEN;
+                    current->character = S.arrows["TA"]["N"];
+
+                // We moved East so knock down neighbors left wall
+                }else if (d == "East"){
+                    neighbor->left = EWOPEN;
+                    current->character = S.arrows["TA"]["E"];
+
+                // We moved South so open up the neighbors ceiling
+                }else if (d == "South"){
+                    neighbor->top = NSOPEN;
+                    current->character = S.arrows["TA"]["S"];
+
+                // We moved West so knock down our own left wall
+                }else if (d == "West"){
+                    current->left = EWOPEN;
+                    current->character = S.arrows["TA"]["W"];
+                }
+
+                // Put neighber cell on top of stack
+                move_stack.push_back(neighbor);
+
+            }
+            else
+            {
+                // No moves ... we need to backtrack!
+                move_stack.pop_back();
+            }
+            if(print_maze){
+                usleep(10000);
+                printMaze();
+            }
+            if(found){
+                cout<<"Done!!";
+            }
+        }
     }
 
 private:
@@ -288,11 +387,13 @@ private:
                 move_stack.pop_back();
             }
             if(print_maze){
-                usleep(100000);
+                usleep(30000);
                 printMaze();
             }
         }
     }
+
+
 
     /**
      * __unvisited_neighbors:
@@ -383,13 +484,33 @@ private:
             }
         }
     }
+
+    int __best_choice(vector<Cell*> moves){
+        int min=99999;
+        int d=0;
+        int i=0;
+        for(int j=0;j<moves.size();j++){
+            d = __taxicab_distance(moves[j], exitCell);
+            if(d < min){
+                min = d;
+                i = j;
+            }
+        }
+        return i;
+    }
+
+    int __taxicab_distance(Cell *cell1, Cell *cell2){
+        return abs(cell2->col - cell1->col + abs(cell2->row - cell1->row));
+    }
+
 };
 
 int main()
 {
     srand(time(0));
-    Maze M(16,16);
+    Maze M(10,20);
 
     M.printMaze();
+    M.traverseMaze();
 
 }
