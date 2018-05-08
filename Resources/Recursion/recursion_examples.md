@@ -54,11 +54,12 @@ void print_base(int num, int base)
 ```cpp
 int count_digit(int n, int digit)
 {
-	int count;
 	if (n == 0) return 0;
 
-	if (n % 10 == digit) return 1 + count_digit(n / 10, digit);
-	else return 0 +count_digit(n / 10, digit);
+	if (n % 10 == digit) 
+	    return 1 + count_digit(n / 10, digit);
+	else 
+	    return count_digit(n / 10, digit);
 }
 ```
 
