@@ -58,7 +58,7 @@ int count_digit(int n, int digit)
 	if (n == 0) return 0;
 
 	if (n % 10 == digit) return 1 + count_digit(n / 10, digit);
-	else return count_digit(n / 10, digit);
+	else return 0 +count_digit(n / 10, digit);
 }
 ```
 
