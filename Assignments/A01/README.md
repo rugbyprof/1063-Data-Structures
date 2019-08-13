@@ -45,18 +45,23 @@ Now that we have our communication client set up, we probably need to start gett
 
 <img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/vscode.svg.png" width="200">
 
-Vscode is a lightweight editor that will also let us compile and run C++ programs. I like it much more than Visual Studio because we do not need all of what Visual Studio offers. VsCode is a more straight forward way to running C++ programs, and I think you will benefit from using it.
+Vscode is a lightweight editor that will also let us compile and run C++ programs. I like it much more than Visual Studio because we do not need all of what Visual Studio offers. VsCode is a more straight forward way to running C++ programs, and I think you will benefit from using it. VsCode is NOT a compiler. What does this mean? When you use Visual Studio you are using an IDE (Integrated Development Environment). The `integrated` means that many components are "integrated" within the "environment": editor, compiler, linker, library managament, debugger, team support, version control and much more. It's the kitchen sink of writing programs, and we only need an editor and compiler. The debugger is a good way of tracking down nasty problems, but we mostly debug using `cout` statements. Vscode has debug capabilities which I will touch on during the semester.
 
+To instal VsCode, go here:
+- https://code.visualstudio.com/
+
+To add C++ support go here (don't worry about `Remote Developmen`)
 - https://code.visualstudio.com/docs/languages/cpp
 
 
-### Code Repository
+
+### Your Code Repository
 ---
 
 <img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/github.svg" width="200">
 
 
-In addition to our team chat, we need a place where we can store / retreive our code base. A `code base` is a collection of source code that is used to build a particular software system. Where `software system` in the context of class is basically our programs. Github is where you will get all of your starter code (from my repo) for each of your assignments, and it's also where you will store all of your assignments when completed. 
+In addition to our team chat and code editor, we need a place where we can store / retreive our code base. A `code base` is a collection of source code that is used to build a particular software system. Where `software system` in the context of class is basically our programs. Github is where you will get all of your starter code (from my repo) for each of your assignments, and it's also where you will store all of your own completed assignments. By putting all of your code on GitHub, you are basically starting a code portfolio which, if you continue to add to it after you finish my course, will allow potential employers to view your collection of programs and make you that much more marketable.
 
 
 #### What is Git?
@@ -68,17 +73,15 @@ However lets define it:
 >`Git` is a distributed revision control and source code management (SCM) system with an emphasis on speed,data integrity,and support for distributed, non-linear workflows. Git was initially designed and developed by Linus Torvalds for Linux kernel development in 2005, and has since become the most widely adopted version control system for software development.<br><br>
 As with most other distributed revision control systems, and unlike most client–server systems, every Git working directory is a full-fledged repository with complete history and full version-tracking capabilities, independent of network access or a central server. Like the Linux kernel, Git is free software distributed under the terms of the GNU General Public License  [[1]](http://en.wikipedia.org/wiki/Git_(software)).
 
+So, `Git` is **distributed revision control system** (version control). This is just a fancy way of letting us manage our code. In fact, I really only want to use git so you can `push` our code to a repository that I can access so I can download and run your code. `Github` is such a place. 
 
-`Github` is a social site that allows programmers to share code with other programmers. It's also a great place to discover projects to work on, discover code to use in your own projects, and a great place to start a portfolio. Whereas `Git` is simply the revision control system that can be installed anywhere, and only used locally if that's the users choice. 
+>`Github` is a social site that allows programmers to share code with other programmers. It's also a great place to discover projects to work on, discover code to use in your own projects, and a great place to start a portfolio. Whereas `Git` is simply the revision control system that can be installed anywhere, and only used locally if that's the users choice. 
 
-`Git != Github`
+Remember though: `Git != Github`, Git does version control, but has commands built in to `push` your code to a repository on another computer. This other computer that we will use is `Github`. 
 
 #### Why github for this course?
 
-We will be using github this semester as a means of communicating, storing documents (assignments and programs), as well as 
-a means to push your files to a central repository. So if your using a lab or personal machine, there's a centralized location that we both have access to. With a few commands, I can download all of your source code and run it. Much less needs to be printed, and that's a good thing!
-
----
+I use github as a homebase for all assignments, lectures, and resources. It's basically our courses homepage. That is why I use it. When you push your code to github, you are placing your code in a central location irregardless of what computer your working on. If you do some work in the lab, you can `push` your changes to github. If you go home, you can `pull` your changes to your home machine and continue working. If you only work on a single machine, like a laptop, then github can be your "backup" copy. 
 
 #### Create a Github account. 
 - You won't need this tutorial, but just in case:
@@ -104,10 +107,11 @@ a means to push your files to a central repository. So if your using a lab or pe
 
 ### Class Roster
 ---
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1ihSQSGoxeHuIUkp5mkOuUACwQA5XRTwbzbwgHyiaVHw/edit?usp=sharing)
+
+![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1jJH4T45OiY1M2zkCB3-pI1couGeZUuI1GKYriKuWq0Q/edit?usp=sharing)
 #### Update the Class Roster:
 
-- Here is a link to our class roster on google docs: ![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1ihSQSGoxeHuIUkp5mkOuUACwQA5XRTwbzbwgHyiaVHw/edit?usp=sharing)
+- Here is a link to our class roster on google docs: ![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1jJH4T45OiY1M2zkCB3-pI1couGeZUuI1GKYriKuWq0Q/edit?usp=sharing)
 
 - Update the roster by adding your information to it. 
 
@@ -124,13 +128,7 @@ Add:
 
 #### Rules for emailing me:
 
-Every email must have a minimum of two items included:
-
-- The course number and title in the subject:
-    - `1063 DS`
-- Your name
-
-I can't promise an answer if you don't provide those two pieces of information.
+Don't
 
 
 Sources:
