@@ -40,6 +40,15 @@ So, **NO email!** Unless I specifically ask. Slack is your communication conduit
 
 Now that we have our communication client set up, we probably need to start getting the actual programming environment ready! We will be doing many things from the command line this semester. Windows is not know for it's command line prowess, so we need to give it some assistance.
 
+### VsCode (NOT Visual Studio)
+---
+
+<img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/vscode.svg.png" width="200">
+
+Vscode is a lightweight editor that will also let us compile and run C++ programs. I like it much more than Visual Studio because we do not need all of what Visual Studio offers. VsCode is a more straight forward way to running C++ programs, and I think you will benefit from using it.
+
+- https://code.visualstudio.com/docs/languages/cpp
+
 
 ### Code Repository
 ---
