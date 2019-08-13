@@ -128,7 +128,15 @@ Add:
 
 #### Rules for emailing me:
 
-Don't
+1) Open your email client.
+2) Create a new email.
+3) Put an appropriate subject in the email subject box.
+4) Type a clear message that contains:
+    - first name, 
+    - last name,
+    - course number
+    - Link to any assignment that your asking about
+5)Now CLOSE YOUR EMAIL CLIENT AND MESSAGE ME ON SLACK.
 
 
 Sources:
