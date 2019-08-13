@@ -136,7 +136,7 @@ Add:
     - last name,
     - course number
     - Link to any assignment that your asking about
-5)Now CLOSE YOUR EMAIL CLIENT AND MESSAGE ME ON SLACK.
+5) Now CLOSE YOUR EMAIL CLIENT AND MESSAGE ME ON SLACK.
 
 
 Sources:
