@@ -103,8 +103,6 @@ I use github as a homebase for all assignments, lectures, and resources. It's ba
     - Your email address
     - Your website (if you have one)
 
----
-
 ### Class Roster
 ---
 
@@ -124,9 +122,9 @@ Add:
 
 *Your repository name and your github username are NOT the same thing.
 
----
 
-#### Rules for emailing me:
+### Rules for emailing me:
+---
 
 1) Open your email client.
 2) Create a new email.
@@ -137,6 +135,7 @@ Add:
     - course number
     - Link to any assignment that your asking about
 5) Now CLOSE YOUR EMAIL CLIENT AND MESSAGE ME ON SLACK.
+
 
 
 Sources:
