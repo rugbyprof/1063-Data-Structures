@@ -1,0 +1,450 @@
+push elephant-seal
+push crow
+push water-buffalo
+pop
+pop
+push hippopotamus
+push caterpillar
+push giant-panda
+pop
+pop
+pop
+pop
+push wombat
+push guinea-fowl
+push hummingbird
+pop
+pop
+push trout
+push sand-dollar
+pop
+pop
+pop
+pop
+pop
+push chimpanzee
+push chinchilla
+push salmon
+pop
+pop
+pop
+pop
+pop
+push oryx
+push polar-bear
+push boar
+pop
+pop
+pop
+pop
+push salamander
+push donkey
+push woodpecker
+pop
+pop
+pop
+pop
+pop
+push albatross
+push squirrel
+push turkey
+push barracuda
+push butterfly
+push human
+pop
+pop
+pop
+push penguin
+push cormorant
+push crocodile
+pop
+pop
+push toad
+push clam
+push hawk
+pop
+push kookabura
+push partridge
+push porcupine
+pop
+push red-panda
+push sandpiper
+push spoonbill
+pop
+pop
+pop
+pop
+push wolverine
+push pheasant
+push anteater
+pop
+pop
+pop
+pop
+push sea-lion
+push tapir
+push dinosaur
+pop
+pop
+push dotterel
+push pony
+push frog
+push goldfish
+push wren
+push kangaroo
+pop
+pop
+pop
+pop
+pop
+push lyrebird
+push mandrill
+push dogfish
+pop
+pop
+pop
+pop
+pop
+push guinea-pig
+push nightingale
+push porpoise
+pop
+pop
+pop
+pop
+push red-deer
+push reindeer
+push cheetah
+pop
+pop
+push koala
+push seahorse
+push moose
+pop
+pop
+push starling
+push buffalo
+push stinkbug
+pop
+pop
+push dragonfly
+push fly
+push caribou
+pop
+pop
+pop
+push quail
+push fox
+push chicken
+pop
+pop
+push shrew
+push dolphin
+push finch
+push gazelle
+push giraffe
+push gorilla
+pop
+push opossum
+push guanaco
+push heron
+pop
+pop
+pop
+pop
+push herring
+push kouprey
+push walrus
+push bison
+push gnu
+push mallard
+pop
+pop
+pop
+push ape
+push dog
+push eland
+pop
+pop
+pop
+push mouse
+push viper
+push ostrich
+pop
+pop
+push panther
+push scorpion
+push ibis
+pop
+pop
+pop
+pop
+pop
+push wasp
+push quetzal
+push grasshopper
+pop
+push narwhal
+push spider
+push deer
+pop
+pop
+pop
+push louse
+push termite
+push vulture
+pop
+pop
+pop
+push goose
+push alpaca
+push baboon
+pop
+pop
+pop
+pop
+pop
+push badger
+push kingfisher
+push hyena
+pop
+push sheep
+push coyote
+push eel
+pop
+push eagle
+push dugong
+push dunlin
+pop
+pop
+push falcon
+push ferret
+push gerbil
+pop
+pop
+pop
+pop
+pop
+push grouse
+push hornet
+push jackal
+pop
+pop
+pop
+pop
+push jaguar
+push locust
+push antelope
+push mantis
+push marten
+push monkey
+pop
+push oyster
+push parrot
+push pigeon
+push meerkat
+push rabbit
+push magpie
+pop
+push mongoose
+push armadillo
+push turtle
+push whale
+push weasel
+push raccoon
+pop
+push capybara
+push camel
+push cobra
+pop
+pop
+pop
+push crane
+push sea-urchin
+push sardine
+pop
+pop
+push echidna
+push wallaby
+push alligator
+push horse
+push cassowary
+push cattle
+pop
+pop
+pop
+pop
+pop
+push hare
+push hedgehog
+push llama
+push loris
+push prairie-dog
+push hamster
+pop
+pop
+pop
+pop
+push octopus
+push okapi
+push otter
+pop
+pop
+pop
+push chamois
+push raven
+push shark
+pop
+pop
+pop
+pop
+pop
+push cat
+push tarsier
+push skunk
+pop
+pop
+pop
+pop
+pop
+push snail
+push lemur
+push squid
+pop
+pop
+pop
+pop
+push stork
+push emu
+push tiger
+pop
+pop
+push sparrow
+push vicua
+push goshawk
+pop
+pop
+pop
+pop
+push pelican
+push zebra
+push bear
+pop
+pop
+pop
+push leopard
+push goldfinch
+push crab
+pop
+pop
+pop
+push owl
+push swallow
+push dove
+pop
+pop
+pop
+pop
+push duck
+push fish
+push flamingo
+pop
+pop
+pop
+push gaur
+push gnat
+push goat
+push gull
+push mosquito
+push jellyfish
+push ibex
+push peafowl
+push kudu
+push lark
+push lion
+push mink
+pop
+pop
+pop
+pop
+push mole
+push mule
+push newt
+push seal
+push elephant
+push rail
+pop
+pop
+pop
+pop
+push rook
+push beaver
+push lapwing
+push woodcock
+push cockroach
+push wolf
+pop
+pop
+pop
+pop
+pop
+push worm
+push snake
+push ant
+pop
+pop
+pop
+push manatee
+push bat
+push bee
+pop
+pop
+pop
+push chough
+push cod
+push quelea
+pop
+pop
+pop
+pop
+push curlew
+push elk
+push rhinoceros
+push stingray
+push swan
+push lobster
+push jay
+push komodo-dragon
+push pig
+pop
+push ram
+push rat
+push yak
+pop
+pop
+push aardvark
+push ox
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
