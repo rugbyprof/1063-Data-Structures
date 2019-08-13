@@ -47,26 +47,34 @@ Now that we have our communication client set up, we probably need to start gett
 <img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/github.svg" width="200">
 
 
-In addition to our team chat, we need a place where we can store / retreive our code base. A `code base` is a collection of source code that is used to build a particular software system. Where `software system` in the context of class is basically our programs. Github is where you will get all of your starter code (code base) for each of your assignments, and it's also where you will store all of your assignments when completed. 
+In addition to our team chat, we need a place where we can store / retreive our code base. A `code base` is a collection of source code that is used to build a particular software system. Where `software system` in the context of class is basically our programs. Github is where you will get all of your starter code (from my repo) for each of your assignments, and it's also where you will store all of your assignments when completed. 
 
 
 #### What is Git?
 
->Git is a distributed revision control and source code management (SCM) system with an emphasis on speed,data integrity,and support for distributed, non-linear workflows. Git was initially designed and developed by Linus Torvalds for Linux kernel development in 2005, and has since become the most widely adopted version control system for software development.<br><br>
+Don't let the following definitions scare you. We will use `git` and `github` at a very basic (simple) level. 
+
+However lets define it: 
+
+>`Git` is a distributed revision control and source code management (SCM) system with an emphasis on speed,data integrity,and support for distributed, non-linear workflows. Git was initially designed and developed by Linus Torvalds for Linux kernel development in 2005, and has since become the most widely adopted version control system for software development.<br><br>
 As with most other distributed revision control systems, and unlike most client–server systems, every Git working directory is a full-fledged repository with complete history and full version-tracking capabilities, independent of network access or a central server. Like the Linux kernel, Git is free software distributed under the terms of the GNU General Public License  [[1]](http://en.wikipedia.org/wiki/Git_(software)).
 
-`Git != Github`
 
 `Github` is a social site that allows programmers to share code with other programmers. It's also a great place to discover projects to work on, discover code to use in your own projects, and a great place to start a portfolio. Whereas `Git` is simply the revision control system that can be installed anywhere, and only used locally if that's the users choice. 
+
+`Git != Github`
 
 #### Why github for this course?
 
 We will be using github this semester as a means of communicating, storing documents (assignments and programs), as well as 
-a means to push your files to a central repository. So if your using a lab or personal machine, there's a centralized location that we both have access to.
+a means to push your files to a central repository. So if your using a lab or personal machine, there's a centralized location that we both have access to. With a few commands, I can download all of your source code and run it. Much less needs to be printed, and that's a good thing!
 
 ---
 
 #### Create a Github account. 
+- You won't need this tutorial, but just in case:
+   - https://www.wikihow.com/Create-an-Account-on-GitHub
+
 - When you create a Github account, you must choose a `username`. 
 - This is very important to remember, because you will update the class roster with this username so I know where to find all your assignments.
 - Create a repository named:
@@ -83,13 +91,9 @@ a means to push your files to a central repository. So if your using a lab or pe
     - Your email address
     - Your website (if you have one)
 
-#### Make me a contributer:
+---
 
-- Go to your repo settings and add `rugbyprof` as a collaborater.
-- You can do this in the settings of your repository. 
-- This is vital as I need access to your files with edit permissions.
-
-### Step 6: Class Roster
+### Class Roster
 ---
 ![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1ihSQSGoxeHuIUkp5mkOuUACwQA5XRTwbzbwgHyiaVHw/edit?usp=sharing)
 #### Update the Class Roster:
