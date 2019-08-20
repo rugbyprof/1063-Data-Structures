@@ -1,16 +1,17 @@
 # 1063 Data Structures
 
 ### Roster
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1jJH4T45OiY1M2zkCB3-pI1couGeZUuI1GKYriKuWq0Q/edit?usp=sharing)
+![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1ihSQSGoxeHuIUkp5mkOuUACwQA5XRTwbzbwgHyiaVHw/edit?usp=sharing)
 
 ### General Course Info
-- ___Days:___ TTh 11:00 a.m. - 12:20 p.m. 
+- ___Days:___ MWF 10:00 a.m. - 10:50 a.m. 
 - ___Location:___ BO 320
-- [___Semester:___ ](https://msutexas.edu/registrar/_assets/files/pdfs/acadcal1920.pdf)Tue August 27<sup>th</sup> - Thu Dec 6<sup>th</sup>
-- [___Holidays:___](https://msutexas.edu/registrar/_assets/files/pdfs/acadcal1920.pdf)
-    - ___Thanksgiving:___ Nov 27<sup>th</sup> - Sun Dec 1<sup>st</sup>
-- [___Last Day for “W”:___](https://msutexas.edu/registrar/_assets/files/pdfs/acadcal1920.pdf) Mon Oct 28<sup>th</sup>
-- [___Final Exam:___](https://msutexas.edu/registrar/_assets/files/pdfs/fall19finals.pdf) Tuesday Dec 10<sup>th</sup>, 1:00 p.m. - 3:00 p.m.
+- ___Semester:___ Mon January 15<sup>th</sup> - Fri May 4<sup>th</sup>
+- ___Holidays:___
+    - ___Spring Break:___ Sat March 10<sup>th</sup> - Sun March 18<sup>th</sup>
+    - ___Holiday Break:___ Fri March 30<sup>th</sup> - Sun April 1<sup>st</sup>
+- ___Last Day for “W”:___ Mon March 26<sup>th</sup>
+- ___Final Exam:___ Wednesday May 9<sup>th</sup>, 10:30 a.m. - 12:30 a.m.
 
 
 ### Topics:
