@@ -5,14 +5,6 @@
 
 I usually discuss setting up a development environment for a first assignment, but in 1063 things are pretty simple. So we only need to address a couple of things. Both things however are super important. See below: 
 
-<!-- ### Intructors Note:
->
->This is an important step to getting your semester off on the right foot. **It's so important that:**
->- If you don't complete it, drop the course because you will fail.
->- If you complete it late, you will lose 1 letter grade off of your final grade.
->- If you complete it wrong, you will lose 1/2 of one letter grade off of your final grade.
->- Having said that, feel free to ask for help from me at anytime. -->
-
 
 ### Team Chat
 ---
