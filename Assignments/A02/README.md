@@ -111,13 +111,12 @@ a[3] = a[3]+a[1+3]*2;
 ```
 
 ```cpp
-a = 
-```
+a = ?
 
+```
 
 #### Deliverables
 
 - In your `assignments` folder on github:
-   - Create a folder called `homework_1`
-   - In this folder create a file called `1d_answers.cpp` with your solution.
-   
+  - Create a folder called `homework_1`
+  - In this folder create a file called `1d_answers.cpp` with your solution.

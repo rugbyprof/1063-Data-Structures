@@ -6,7 +6,7 @@
 ### General Course Info
 - ___Days:___ TTh 11:00 a.m. - 12:20 p.m. 
 - ___Location:___ BO 320
-- [___Semester:___ ](https://msutexas.edu/registrar/_assets/files/pdfs/acadcal1920.pdf)Tue August 27<sup>th</sup> - Thu Dec 6<sup>th</sup>
+- [___Semester:___ ](https://msutexas.edu/registrar/_assets/files/pdfs/acadcal1920.pdf)Tue August 27<sup>th</sup> - Thu Dec 5<sup>th</sup>
 - [___Holidays:___](https://msutexas.edu/registrar/_assets/files/pdfs/acadcal1920.pdf)
     - ___Thanksgiving:___ Nov 27<sup>th</sup> - Sun Dec 1<sup>st</sup>
 - [___Last Day for “W”:___](https://msutexas.edu/registrar/_assets/files/pdfs/acadcal1920.pdf) Mon Oct 28<sup>th</sup>

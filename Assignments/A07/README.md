@@ -1,120 +1,37 @@
-## For Loop Fun - Homework you don't have to turn in.
-#### Due: No Due Date
+## Program 2 - Arbitrary Precision Math
+#### Due: TBD
 
-Some of these patterns may be harder to solve than others. Solve each pattern using a single `N` that represents how many times to repeat some pattern. If your struggeling with functions, then for sure solve all of these using functions! However, you can create the solution first (printing the patter) then move your solution into a function. Remember, your solution should work for any N! Have fun!!
+#### What is arbitrary precision math? 
 
+Also called bignum arithmetic, multiple-precision arithmetic, or sometimes infinite-precision arithmetic, indicates that calculations are performed on numbers whose digits of precision are limited only by the available memory of the host system. This contrasts with the faster fixed-precision arithmetic found in most arithmetic logic unit (ALU) hardware, which typically offers between 8 and 64 bits of precision.
 
-><img src="http://cs.mwsu.edu/~griffin/images/one.png" width=16>
->Write nested for loops that prints out the following pattern:
->
-> `N = 4`
+<sup>source: https://en.wikipedia.org/wiki/Arbitrary-precision_arithmetic </sup>
 
-```
-****
-****
-****
-****
-```
+Yaaaaawwwn....  Did you nod off? I did. Ok, just for a second.
+
+This is actually a pretty cool idea. In class we have mentioned that integers are only 4 bytes, which limits the size of the integer to 2<sup>32</sup>-1 What does this mean? Read about this on [Stack Overflow](https://stackoverflow.com/questions/94591/what-is-the-maximum-value-for-an-int32). Yes, this post went Nerd real fast, but the fact that so many individuals obsess over some power of 2 implies a lot! When I started reading the post I was reminded that I'm not the smartest person in the room, but I love the fact that this whole thread went off the rails like it did!!
 
 
-><img src="http://cs.mwsu.edu/~griffin/images/two.png" width=16>
->Write nested for loops that prints out the following pattern:
->
-> `N = 3`
+The bottom line is that there are times when doing arithmetic with big numbers can be somewhat limiting. Simply 2^<sup>32</sup> isn't big enough! Depending on the computer architecture your working with, you may have access to 8 byte number sizes using `long` or `double`, but depending on the precision you need, this still may not be enough!! (http://floating-point-gui.de/formats/fp/). 
 
-```
-***
----
-***
----
-***
----
-```
->
-> `N = 4`
-```
-****
-----
-****
-----
-****
-----
-****
-----
-```
+Honestly, for us, 2<sup>32</sup> **almost always is big enough**. But we wouldn't be computer scientists if we settled for petty `primitive data types` like `int`, `float`, and `double`. Lets make our own!
 
-><img src="http://cs.mwsu.edu/~griffin/images/three.png" width=16>
->Write nested for loops that prints out the following pattern:
->
->`N = 4`
-```
-*
-**
-***
-****
-```
+### Overview
+
+Lets limit (for now) our problem to integers. And if we want to add: 
+
+**`42304820394820934820394802394823094802394809 to 2318283123123893786234671923682346734`**
+
+what data type do we use?? Int? Double? Ha! 2<sup>31</sup> = 2147483647 not nearly close enough! 2<sup>63</sup> = 9223372036854775808, still not close enough. I guess we need to solve this ourselves (note: `sign bit`, that's why `31` and not `32` and `63` and not `64`). In the example below, you can see that the far left bit (8<sup>th</sup> bit) is needed to make a number positive (0) or negative (1).
+
+#### Sign Bit
+
+![](https://cl.ly/pg9C/signbit.png)
 
 
-><img src="http://cs.mwsu.edu/~griffin/images/four.png" width=16>
->Write nested for loops that prints out the following pattern:
->
-> `N = 6`
-```
-******
-*****
-****
-***
-**
-*
-```
+#### Adding Numbers
 
-><img src="http://cs.mwsu.edu/~griffin/images/five.png" width=16>
->Write nested for loops that prints out the following pattern:
->
-> `N = 5`
-```
-    *
-   **
-  ***
- ****
-*****
-```
+![](https://cl.ly/ppxA/carry_add.gif)
 
-><img src="http://cs.mwsu.edu/~griffin/images/six.png" width=16>
->Write nested for loops that prints out the following pattern:
->
-> `N = 4`
-```
-   **
-  ****
- ******
-********
-```
 
-><img src="http://cs.mwsu.edu/~griffin/images/seven.png" width=16>
->Write nested for loops that prints out the following pattern:
->
-> `N = 4`
-```
-   **
-  ****
- ******
-********
- ******
-  ****
-   **
-```
->
-> `N = 6`
-```
-     **
-    ****
-   ******
-  ********
- **********
-************
- **********
-   ******
-    ****
-     **
-```
+
