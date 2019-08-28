@@ -1,3 +1,2 @@
-## Day 1 - Overview of functions and arrays
-
-[main.cpp](./main.cpp)
+## Day One Lecture - Review of 1043
+### Due: NA
