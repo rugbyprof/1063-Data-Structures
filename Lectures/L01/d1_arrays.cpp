@@ -108,7 +108,7 @@ void printArray(int A[], int size)
 int main(int argc, char **argv)
 {
 
-    int A[SIZE];    // declare integer array of SIZE (see CONSTANT at top of file)
+    int A[SIZE];    // declare integer array of SIZE (see CONSTANT at top of this file)
 
     // Since for loops are good with arrays, lets
     // mix it up a little bit!
