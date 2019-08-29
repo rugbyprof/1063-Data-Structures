@@ -1,2 +1,1 @@
-## Day One Lecture - Review of 1043
-### Due: NA
+# Day One Lecture - Review of 1043
