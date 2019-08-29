@@ -1,4 +1,4 @@
 Joseph Wilson 23 34
-Suzy Smart 100 100
+Suzy Smart 100 100 100
 Bill Bob 90 66
-Jon Smith 89 67
+Jon Smith 89 67 77 66

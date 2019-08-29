@@ -107,6 +107,7 @@ void printArray(int A[], int size)
  */
 int main(int argc, char **argv)
 {
+    cout<<argc<<endl;
 
     int A[SIZE];    // declare integer array of SIZE (see CONSTANT at top of this file)
 
