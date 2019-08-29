@@ -42,14 +42,6 @@ struct Student
     string lname;
     int numGrades;
     int grades[10];
-
-    Student(string f,string l,int g,int a[]){
-        fname = f;
-        lname = l;
-        numGrades = g;
-        for(int i=0;i<g;i++)
-            grades[i] = a[i]; 
-    }
 };
 
 /**
