@@ -1,6 +1,8 @@
 ## Homework 2 - 2D Array Fun
 #### Due: No Due Date
 
+# Broken right now ... Images will be replaced shortly
+
 ### 1) Given the following array
 
 <img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/2darray_RowWise.png" width="500">
