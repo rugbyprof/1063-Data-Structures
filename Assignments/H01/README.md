@@ -1,4 +1,4 @@
-## Free Homework 1 - Practice with arrays
+## Homework 1 - File Processing and Arrays of Structs
 #### Due: Tuesday Sep 3<sup>rd</sup> at the beginning of class.
 
 #### Given
