@@ -1,5 +1,5 @@
 ## Test 1 - Functions and Arrays and some Structs
-#### Due: Wednesday September 11<sup>th</sup> at 11:00 a.m.
+#### Due: Thursday September 12<sup>th</sup> at 11:00 a.m.
 
 #### Arrays
 
