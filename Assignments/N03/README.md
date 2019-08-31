@@ -1,4 +1,4 @@
-## Practice - 2D Array Fun
+## Practice 3 - 2D Array Practice
 #### Due: No Due Date
 
 ### 1) Given the following array

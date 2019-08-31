@@ -1,4 +1,4 @@
-## For Loop Fun - Homework you don't have to turn in.
+## Practice 2 - For Loops
 #### Due: No Due Date
 
 Some of these patterns may be harder to solve than others. Solve each pattern using a single `N` that represents how many times to repeat some pattern. If your struggeling with functions, then for sure solve all of these using functions! However, you can create the solution first (printing the patter) then move your solution into a function. Remember, your solution should work for any N! Have fun!!
