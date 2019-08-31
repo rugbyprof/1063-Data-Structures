@@ -1,4 +1,4 @@
-## Free Homework 1 - Practice with arrays
+## Practice 1 - Practice with arrays
 #### Due: No Due Date
 
 #### Given
