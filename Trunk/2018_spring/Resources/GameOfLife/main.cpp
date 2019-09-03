@@ -12,6 +12,12 @@
 
 using namespace std;
 
+bool fileExists(const char *fileName)
+{
+    std::ifstream infile(fileName);
+    return infile.good();
+}
+
 class GameOfLife{
 private:
     int **Board;
@@ -24,20 +30,27 @@ public:
         Generations = 1;
         string line;
         char ch;
-        ifstream fin;
-        fin.open(filename);
-        fin >> Rows >> Cols;
-        InitBoardArray(Board);
-        InitBoardArray(Board2);
-        for (int i = 0; i < Rows; i++){
-            for (int j = 0; j < Cols; j++){
-                fin.get(ch);
-                if (ch == 10){
-                    continue;
-                }
-                Board[i][j] = int(ch) - 48;
-            }
+
+        if(!fileExists(filename.c_str())){
+            cout<<"File doesn't exist!"<<endl;
+            exit(0);
         }
+
+        loadDataFile(filename);
+        // ifstream fin;
+        // fin.open(filename);
+        // fin >> Rows >> Cols;
+        // InitBoardArray(Board);
+        // InitBoardArray(Board2);
+        // for (int i = 0; i < Rows; i++){
+        //     for (int j = 0; j < Cols; j++){
+        //         fin.get(ch);
+        //         if (ch == 10){
+        //             continue;
+        //         }
+        //         Board[i][j] = int(ch) - 48;
+        //     }
+        // }
     }
     
     GameOfLife(int r, int c){
@@ -46,6 +59,22 @@ public:
         InitBoardArray(Board);
         InitBoardArray(Board2);
         PrintBoard();
+    }
+
+    void loadDataFile(string filename){
+        string row;
+        ifstream fin;
+        fin.open(filename);
+        fin >> Rows >> Cols;
+        InitBoardArray(Board);
+        InitBoardArray(Board2);
+        for (int i = 0; i < Rows; i++){
+            fin>>row;
+            for(int j=0;j<Cols;j++){
+                Board[i][j] = int(row[j]) - 48;
+            }
+            
+        }
     }
     
     void InitBoardArray(int **&b){
@@ -69,8 +98,8 @@ public:
             for (int j = 0; j < Cols; j++){
                 if (Board[i][j] == 1)
                     //cout << char('X');
-                    cout << "\u2593";
-                    //cout << "\u25A9";
+                    //cout << "\u2593";
+                    cout << "\u25A9";
                     //cout<<  "\u2b1c";
                     
                 else
@@ -159,7 +188,9 @@ int main(){
 
     GameOfLife G("data.txt");
 
-    G.RandomPopulate(60);
+    //G.PrintBoard();
+
+    //G.RandomPopulate(60);
     G.Run(400);
     return 0;
 }
