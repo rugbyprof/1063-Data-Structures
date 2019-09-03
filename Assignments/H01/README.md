@@ -44,8 +44,45 @@ Where `N` = the number of tests to read.
 And `g1 ... gn` are space delimited grades.
 
 
+### Hint
 
-  
+A hint not using an array of structs:
+
+Given temp.txt:
+
+```txt
+asdf oiuf 
+3 765 990 465
+ljio wesd 
+7 554 284 372 234 711 234 889
+nfhg wasd 
+1 234
+```
+
+```cpp
+void printTemp(string one,string two,int count, int nums){
+  cout<<one<<" "<<two<<" "<<count<<endl;
+  for(int i=0;i<count;i++){
+     cout<<nums[i]<<" ";
+  }
+  cout<<endl;
+}
+
+string one ,two;
+int count;
+int nums[10];
+ifstream temp;
+temp.open("temp.txt");
+
+temp>>one>>two>>count;
+for(int j=0;j<count;j++){
+   temp>>nums[j];
+}
+
+```
+
+
+
 
 
 ### Requirements
