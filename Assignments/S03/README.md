@@ -1,7 +1,5 @@
-## Homework 2 - 2D Array Fun
+## Study 3 - 2D Array Practice
 #### Due: No Due Date
-
-# Broken right now ... Images will be replaced shortly
 
 ### 1) Given the following array
 
