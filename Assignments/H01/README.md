@@ -79,6 +79,8 @@ for(int j=0;j<count;j++){
    temp>>nums[j];
 }
 
+printTemp(one,two,count,nums);  // print first chunk of data
+
 ```
 
 
