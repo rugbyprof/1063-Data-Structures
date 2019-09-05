@@ -206,4 +206,4 @@ for (ii=0; ii < 100; ii++)
 }
 ~~~
 
-The first 2 chapters at this web site might help also. Look [HERE](http://pweb.netcom.com/~tjensen/ptr/pointers.htm).
+The first 2 chapters of this book might help also. Look [HERE](./pointers.pdf)
