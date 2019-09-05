@@ -40,7 +40,7 @@ struct container
         fin.open(filename); // connect fin to our actual file
 
         T dummy; 
-        int count = 0;
+        int count = 1;
 
         while (!fin.eof()) 
         {
@@ -48,8 +48,6 @@ struct container
             cout<<dummy<<endl;
             count++; 
         }
-
-        count++;
 
         fin.clear();  // clear the eof flag
         fin.seekg(0); // go back to beginning of file
@@ -74,12 +72,8 @@ int main()
 
     A.load("data3.dat");
 
-    // arrayInfo AH = loadArray1("data.dat");
+    container<int> B;
 
-    // //printArray(AH.A,AH.size);
-    // printArray(AH);
-    // cout<<endl<<endl;
-    //  arrayInfo AH2 = loadArray2("data2.whocares");
+    B.load("data2.dat");
 
-    //  printArray(AH2);
 }
