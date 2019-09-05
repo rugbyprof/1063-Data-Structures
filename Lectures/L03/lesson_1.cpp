@@ -140,18 +140,23 @@ arrayContainer loadArrayV2(string filename)
         data.size++;        //track how many values being read
     }
 
-    fin.clear();            // clear the eof flag
-    fin.seekg(0);           // go back to beginning of file
+    //fin.clear();            // clear the eof flag
+    //fin.seekg(0);           // go back to beginning of file
+
+    fin.close();
 
     // Now we know how big the file is.
     // Dynamically allocate memory to accomodate that size.
     data.container = new int[data.size];
 
+    ifstream fin2;           // input file type
+    fin2.open(filename);     // connect fin to our actual file
+
     // We are confident in the size, so lets use a for loop to 
     // read the data into our array.
     for (int i = 0; i < data.size; i++)
     {
-        fin >> data.container[i];
+        fin2 >> data.container[i];
     }
 
     return data;

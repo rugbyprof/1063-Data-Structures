@@ -45,20 +45,26 @@ struct container
         while (!fin.eof()) 
         {
             fin >> dummy; 
-            cout<<dummy<<endl;
+            //cout<<dummy<<endl;
             count++; 
         }
-
+        
         fin.clear();  // clear the eof flag
         fin.seekg(0); // go back to beginning of file
 
+        resize(count+5);
 
-        resize(count);
+        cout<<count<<endl;
+        int i = 0;
 
-        
-        for (int i = 0; i < size; i++)
+        cout<<"Size: "<<sizeof(array)<<endl;
+
+        while(!fin.eof())
         {
+            cout<<i<<endl;
             fin >> array[i];
+            cout<<array[i]<< " ";
+            i++;
         }
 
     }
@@ -72,8 +78,8 @@ int main()
 
     A.load("data3.dat");
 
-    container<int> B;
+    // container<int> B;
 
-    B.load("data2.dat");
+    // B.load("data2.dat");
 
 }
