@@ -3,8 +3,8 @@
 
 #### Arrays
 
-- **1)** Do [Homework 1](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/N01)
-- **2)** Do [Homework 2](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/N02)
+- **1)** Do [Homework 1](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/S01)
+- **2)** Do [Homework 2](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/S02)
 - **3)** Be able to dynamically allocate memory for a single dimensional array.
 - **4)** Be able to dynamically allocate memory for a two dimensional array.
 
