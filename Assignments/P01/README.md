@@ -1,6 +1,6 @@
-## Program 1 - 2D Array
-#### Due: Monday February 9<sup>th</sup> by 10:00am
+## Program 1 -  List Class
+#### Due: Tuesday September 17<sup>th</sup> by classtime
 
 ### Overview
 
-TBD
+Using the starter code from 
