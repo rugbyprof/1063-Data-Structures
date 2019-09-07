@@ -22,42 +22,51 @@ template <typename T>
 class TwoDarray
 {
 private:
-    T **array;
     // data members
+    T **array;
+    int rows;
+    int cols;
 public:
     // constructor
-    TwoDarray()
+    TwoDarray(int r,int c)
     {
-        array = new T *[10];
+        rows = r;
+        cols = c; 
+        
+        array = new T *[rows];
 
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < rows; i++)
         {
-            array[i] = new T[10];
+            array[i] = new T[cols];
         }
 
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < rows; i++)
         {
-            for (int j = 0; j < 10; j++)
+            for (int j = 0; j < cols; j++)
             {
-                array[i][j] = rand();
+                array[i][j] = 0;
             }
         }
 
-        for (int i = 0; i < 10; i++)
+
+    }
+    // methods
+    void PrintArray(){
+        for (int i = 0; i < rows; i++)
         {
-            for (int j = 0; j < 10; j++)
+            for (int j = 0; j < cols; j++)
             {
                 cout << array[i][j] << " ";
             }
             cout << endl;
         }
     }
-    // methods
 };
 
 int main()
 {
-    TwoDarray<int> A;
+    TwoDarray<int> A(10,30);
 
+    A.PrintArray();
 
 }
