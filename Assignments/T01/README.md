@@ -1,6 +1,8 @@
 ## Test 1 - Functions and Arrays and some Structs
 #### Due: Thursday September 12<sup>th</sup> at 11:00 a.m.
 
+### Study The Following
+
 #### Arrays
 
 - **1)** Do [Homework 1](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/S01)
