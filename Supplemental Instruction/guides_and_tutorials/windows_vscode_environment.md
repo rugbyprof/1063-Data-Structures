@@ -9,7 +9,7 @@
     * The first two options allow you to open VSCode by right clicking in a folder or file. The third option lets you open VSCode from command line using the command `code [folder_path]`.
 * Install [Git](https://git-scm.com/downloads)
     * Once Git is installed, we need to configure it to know who you are (Git logs who makes changes to a project). As far as I can tell, it is unavoidable that you will have to do this bit through the command line. Don't worry, just two commands and then everything else can be done through VSCode.
-    * Open Git Bash and type the following two commands (replacing the name and email with your name and email)
+    * Open Git Bash and type the following two commands. Replace John Doe's name and email (inside the quotes) with your name and email. Make sure to include the quotation marks!
         * `git config --global user.name "John Doe"`
         * `git config --global user.email "johndoe1955@hotmail.com"`
 * Install [MinGW](https://osdn.net/projects/mingw/releases/)
