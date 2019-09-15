@@ -1,4 +1,3 @@
-emp_id first_name last_name gender email hourly_pay
 67-2381325 Clare Petkens F cpetkens0@engadget.com 88.91
 84-5359169 Estrella Linton F elinton1@wisc.edu 71.24
 85-3604202 Mendie Colclough M mcolclough2@ning.com 32.35
@@ -45,7 +44,6 @@ emp_id first_name last_name gender email hourly_pay
 78-2991690 Tiffi Trevaskiss F ttrevaskiss17@chicagotribune.com 62.63
 11-5360643 Gwendolin Tripett F gtripett18@cpanel.net 18.10
 39-9048858 Philbert Galvan M pgalvan19@addtoany.com 24.46
-91-7120466 Juanita Van Der Weedenburg F jvanderweedenburg1a@bloglovin.com 79.32
 94-8317887 Crichton Esp M cesp1b@cyberchimps.com 93.93
 86-2132909 Gery Peyzer M gpeyzer1c@mayoclinic.com 83.85
 54-4215154 Johann Mazzeo M jmazzeo1d@fc2.com 67.32
@@ -131,8 +129,6 @@ emp_id first_name last_name gender email hourly_pay
 05-9812659 Shaine Sleaford M ssleaford3l@biblegateway.com 95.54
 39-9464364 Marty Haller M mhaller3m@mayoclinic.com 40.59
 62-6983309 Guglielmo Goodbarne M ggoodbarne3n@mapquest.com 92.15
-16-1508382 Boothe Redwall M bredwall3o@businesswire.com 17.57
-17-5883116 Chrotoem De Vaux M cdevaux3p@drupal.org 25.74
 75-5461735 Cal Wethey M cwethey3q@google.fr 79.71
 91-7594750 Foster Skuse M fskuse3r@netvibes.com 87.15
 46-2659421 Phil Frissell M pfrissell3s@cafepress.com 65.00
@@ -169,7 +165,6 @@ emp_id first_name last_name gender email hourly_pay
 52-0200767 Kat Pabst F kpabst4n@csmonitor.com 67.47
 84-7248196 Darnell Mager M dmager4o@people.com.cn 99.07
 29-4523417 Letta Charlesworth F lcharlesworth4p@miibeian.gov.cn 12.23
-60-7957441 Federico Van Baaren M fvanbaaren4q@rediff.com 11.81
 31-5267131 Shellysheldon Bourgourd M sbourgourd4r@goo.ne.jp 85.84
 33-5824804 Cherri Spera F cspera4s@liveinternet.ru 93.71
 80-0075408 Thorsten Steketee M tsteketee4t@cdbaby.com 85.63
@@ -218,7 +213,6 @@ emp_id first_name last_name gender email hourly_pay
 83-8794894 Carree Schukraft F cschukraft60@sina.com.cn 55.19
 07-4026604 Laughton Scibsey M lscibsey61@ucoz.ru 18.95
 54-0751692 Bobina Ikins F bikins62@squarespace.com 28.61
-45-6647287 Claudie De Brett F cdebrett63@guardian.co.uk 76.90
 03-4533788 Nelia Merrison F nmerrison64@mlb.com 54.40
 68-6159288 Cobby Ambrozewicz M cambrozewicz65@technorati.com 96.90
 38-7506667 Findlay Snelle M fsnelle66@guardian.co.uk 94.64
@@ -430,7 +424,6 @@ emp_id first_name last_name gender email hourly_pay
 23-4038700 Leon Ishchenko M lishchenkobw@google.pl 32.51
 79-6193242 Jasmina Skeemer F jskeemerbx@abc.net.au 88.22
 96-3392074 Ardys Diboll F adibollby@wunderground.com 17.99
-11-0712321 Karlene O' Connell F koconnellbz@infoseek.co.jp 73.89
 25-4367594 Lancelot Harragin M lharraginc0@furl.net 34.51
 79-3189978 Olivero Gornar M ogornarc1@mapquest.com 71.67
 11-6397330 Brocky Busfield M bbusfieldc2@joomla.org 53.04
@@ -491,7 +484,6 @@ emp_id first_name last_name gender email hourly_pay
 58-1090462 Jameson Thornber M jthornberdl@indiatimes.com 25.62
 30-5022855 Nanny MacCostigan F nmaccostigandm@illinois.edu 38.29
 33-2694750 Jessie Siley M jsileydn@virginia.edu 86.79
-65-4474589 Gabriel Mc Ilwrick F gmcilwrickdo@ted.com 22.43
 48-8200589 Piotr Gaine M pgainedp@vimeo.com 67.83
 46-6258206 Sayers Lias M sliasdq@irs.gov 26.95
 97-5793160 Elwyn Lockery M elockerydr@gnu.org 57.43
@@ -515,7 +507,6 @@ emp_id first_name last_name gender email hourly_pay
 25-5465589 Jami Garter F jgartere9@house.gov 85.88
 87-1860394 Simmonds Sedgemond M ssedgemondea@infoseek.co.jp 21.63
 36-2209455 Harriott Daft F hdafteb@slate.com 31.18
-52-6846802 Osbourn Van Arsdalen M ovanarsdalenec@bluehost.com 63.56
 70-0633103 Fern Nairns F fnairnsed@reverbnation.com 50.81
 17-4575336 Jorie Rouchy F jrouchyee@blog.com 22.17
 30-8145313 Darwin Hardwick M dhardwickef@bbb.org 53.30
@@ -545,7 +536,6 @@ emp_id first_name last_name gender email hourly_pay
 53-8412412 Fancie Hargroves F fhargrovesf3@flavors.me 62.42
 97-5435736 Bernice Adamou F badamouf4@toplist.cz 41.26
 51-0654107 Haydon Ciraldo M hciraldof5@printfriendly.com 41.98
-83-3379129 Robin De Bruijn F rdebruijnf6@imdb.com 94.38
 36-6609157 Alfi Dwelling F adwellingf7@wufoo.com 86.98
 01-8757672 Fabio Barr M fbarrf8@about.com 57.21
 25-4909908 Laurianne Coules F lcoulesf9@princeton.edu 68.71
@@ -683,7 +673,6 @@ emp_id first_name last_name gender email hourly_pay
 80-7285703 Aleece Andersch F aanderschix@vinaora.com 59.36
 53-0304884 Shelly Gon F sgoniy@weibo.com 27.23
 04-1276846 Glenden Dagg M gdaggiz@4shared.com 50.43
-49-7342261 Hillie Le Noury M hlenouryj0@bloomberg.com 52.66
 96-5627337 Ofelia Muskett F omuskettj1@google.it 37.30
 55-9598692 Stefania Loidl F sloidlj2@lulu.com 24.26
 49-5117169 Kinna Mortlock F kmortlockj3@miitbeian.gov.cn 61.19
@@ -831,7 +820,6 @@ emp_id first_name last_name gender email hourly_pay
 09-7670828 Freemon Haggerwood M fhaggerwoodn1@hubpages.com 68.84
 60-6271297 Katya Fearnsides F kfearnsidesn2@comsenz.com 86.16
 34-9723230 Hartley Bousler M hbouslern3@nifty.com 24.48
-36-0552375 Lothario de Savery M ldesaveryn4@storify.com 58.80
 09-8496501 Armin Flukes M aflukesn5@ifeng.com 51.99
 98-0321426 Clyde Adriaens M cadriaensn6@slideshare.net 77.85
 77-0556509 Joelle Johnys F jjohnysn7@icio.us 49.05
@@ -896,7 +884,6 @@ emp_id first_name last_name gender email hourly_pay
 18-7824617 Dilly Blanchette M dblanchetteou@pbs.org 39.80
 76-0602502 Bing Blackburn M bblackburnov@constantcontact.com 69.03
 03-2967405 Zsazsa Biever F zbieverow@discuz.net 58.61
-01-4014304 Dana Le Prevost M dleprevostox@lycos.com 38.28
 79-3999279 Myriam Youthead F myoutheadoy@goodreads.com 30.32
 96-3707874 Mahmoud Codling M mcodlingoz@ehow.com 45.11
 90-3266012 Ollie Kinahan M okinahanp0@theglobeandmail.com 84.51
