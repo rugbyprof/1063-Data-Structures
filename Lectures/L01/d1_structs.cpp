@@ -5,6 +5,9 @@
  * Structs
  * Arrays of Structs
  * 
+ * Written by: Terry Griffin
+ * Class : CMPS 1063
+ * Date: 29 Aug 19
  */
 #include <iostream> // write to and read from stdin and stdout
 #include <ctime>    // access system clock (we used for rand function)

@@ -94,7 +94,7 @@ Will write out:
 - Create an output file that prints:
     - The first 30 Employee Id's, one per line.
     - After that write the results of searching for `salon`, one per line (just the email addresses).
-
+- Turn your printed program in at the beginning of class with proper comments
 
 
 
