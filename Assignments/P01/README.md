@@ -26,7 +26,7 @@ The data you will be loading into your list has the following fields:
 | email      | string    |
 | hourly_pay | double    |
 
-The `find` and `delete` methods should be able to search using any of the fields in the employee record. When implementing your code, just start with one field. I'll discuss ways of changing fields in class.
+The `find` and `delete` methods should be able to search using any of the fields in the employee record. When implementing your code, just start with one field. I'll discuss ways of changing fields in class. Base your search on email for now.
 
 Create an output file with the results of a search for: 
 
@@ -84,13 +84,17 @@ Will write out:
 ```
 
 
+
 ### Deliverables
 
 - Make sure you have an `assignments` folder on github.
 - Create another folder inside assignments called `P01`
 - Write your code in a file called `list.cpp`
 - Make sure your input file makes it to the repo.
-- 
+- Create an output file that prints:
+    - The first 30 Employee Id's, one per line.
+    - After that write the results of searching for `salon`, one per line (just the email addresses).
+
 
 
 
