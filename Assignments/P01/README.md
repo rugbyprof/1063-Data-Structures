@@ -3,7 +3,7 @@
 
 ### Overview
 
-This program you will write a list class that stores employee information, one per node. You will write list methods to perform some basic tasks. You can use the starter code from [Lecture 04](../../Lectures/L04) to help you get going.
+This program you will write a list class that stores employee information, one per node. You will write list methods to perform some basic tasks. You can use the starter code from [here](./starter2.cpp) to help you get going.
 
 ### Requirements
 
