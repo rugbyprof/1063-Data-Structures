@@ -91,7 +91,7 @@ Will write out:
 - Create another folder inside assignments called `P01`
 - Write your code in a file called `list.cpp`
 - Make sure your input file makes it to the repo.
-- Create an output file that prints:
+- Create an output file that prints values from your list:
     - The first 30 Employee Id's, one per line.
     - After that write the results of searching for `salon`, one per line (just the email addresses).
 - Turn your printed program in at the beginning of class with proper comments
