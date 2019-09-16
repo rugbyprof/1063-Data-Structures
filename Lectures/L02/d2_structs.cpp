@@ -1,6 +1,9 @@
 /**
  * This program gives an example of a simple Class definition and usage.
  * 
+ * Written by: Terry Griffin
+ * Class : CMPS 1063
+ * Date: 10 Sep 19
  */
 
 #include <iostream> // write to and read from stdin and stdout

@@ -1,3 +1,12 @@
+/**
+ * Class lecture code
+ * 
+ * Written by: Terry Griffin
+ * Class : CMPS 1063
+ * Date: 15 Sep 19
+ */
+
+
 #include <iostream>
 #include <fstream>
 #include <string>

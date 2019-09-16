@@ -1,3 +1,11 @@
+/**
+ * Class lecture code
+ * 
+ * Written by: Terry Griffin
+ * Class : CMPS 1063
+ * Date: 12 Sep 19
+ */
+
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -10,7 +18,6 @@ using namespace std;
  *      A data type that holds additional information along with the array.
  *      This may not be something we would really do, but it allowed us to
  *      return multiple values from a function. 
- * 
  */
 struct arrayContainer
 {
