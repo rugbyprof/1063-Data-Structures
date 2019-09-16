@@ -3,16 +3,16 @@
 
 ### Overview
 
-This program you will write a list class that stores employee information, one per node. You will write list methods to perform some basic tasks. You can use the starter code from [Lecture 04](../../Lectures/L04) to help you get going.
+This program you will write a list class that stores employee information, one per node. You will write list methods to perform some basic tasks. You can use the starter code from this folder ([starter.cpp](./starter.cpp) and [starter2.cpp](./starter2.cpp)) to help you get going.
 
 ### Requirements
 
 At a minimum, your class will contain these methods:
 
-- push()        : adds an item to the front of the list
-- pop()         : removes an item from the front of the list
+- push()        : adds an employee to the front of the list
+- pop()         : removes an employee from the front of the list (does not have to return employee)
 - find()        : returns a boolean true/false if an item is in the list
-- delete()      : removes an item from anywhere in the list
+- delete()      : removes an item from anywhere in the list (you can base the delete off of any field. if your find is based on email, this may be the easiest to use).
 - add additional methods to meet some questions below
 
 The data you will be loading into your list has the following fields:
@@ -26,7 +26,7 @@ The data you will be loading into your list has the following fields:
 | email      | string    |
 | hourly_pay | double    |
 
-The `find` and `delete` methods should be able to search using any of the fields in the employee record. When implementing your code, just start with one field. I'll discuss ways of changing fields in class.
+The `find` and `delete` methods should be able to search using any of the fields in the employee record. When implementing your code, just start with one field. I'll discuss ways of changing fields in class. Base your search on email for now.
 
 Create an output file with the results of a search for: 
 
@@ -84,13 +84,17 @@ Will write out:
 ```
 
 
+
 ### Deliverables
 
 - Make sure you have an `assignments` folder on github.
 - Create another folder inside assignments called `P01`
 - Write your code in a file called `list.cpp`
 - Make sure your input file makes it to the repo.
-- 
+- Create an output file that prints values from your list:
+    - The first 30 Employee Id's, one per line.
+    - After that write the results of searching for `salon`, one per line (just the email addresses).
+- Turn your printed program in at the beginning of class with proper comments
 
 
 
