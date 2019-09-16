@@ -9,10 +9,10 @@ This program you will write a list class that stores employee information, one p
 
 At a minimum, your class will contain these methods:
 
-- push()        : adds an item to the front of the list
-- pop()         : removes an item from the front of the list
+- push()        : adds an employee to the front of the list
+- pop()         : removes an employee from the front of the list (does not have to return employee)
 - find()        : returns a boolean true/false if an item is in the list
-- delete()      : removes an item from anywhere in the list
+- delete()      : removes an item from anywhere in the list (you can base the delete off of any field. if your find is based on email, this may be the easiest to use).
 - add additional methods to meet some questions below
 
 The data you will be loading into your list has the following fields:
