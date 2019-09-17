@@ -12,37 +12,29 @@ void print_diamond(int N)
 {
     int i, j;
     int s = (N/2);
-    for (i = 1; i <= N; i++)
-    {
-        if (i % 2 == 1)
-        {
+    for (i = 1; i <= N; i++){
+        if (i % 2 == 1){
             continue;
         }
-        for (j = 0; j < s; j++)
-        {
+        for (j = 0; j < s; j++){
             cout << '.';
         }
         s--;
-        for (int j = 0; j < i; j++)
-        {
+        for (int j = 0; j < i; j++){
             cout << '*';
         }
         cout << endl;
     }
     s = 2;
-    for (i = N-2; i >= 1; i--)
-    {
-        if (i % 2 == 1)
-        {
+    for (i = N-2; i >= 1; i--){
+        if (i % 2 == 1){
             continue;
         }
-        for (j = s; j > 0; j--)
-        {
+        for (j = s; j > 0; j--){
             cout << '.';
         }
         s++;
-        for (int j = i; j > 0; j--)
-        {
+        for (int j = i; j > 0; j--){
             cout << '*';
         }
         cout << endl;
