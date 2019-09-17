@@ -20,6 +20,9 @@ struct Employee{
         gender = "";
         email = "";
         hourly_pay = 0.0;
+
+        // I forgot to init Next!!!!!!
+        Next = NULL;
     }
 
     Employee(string id,string first,string last,string sex,string mail, double pay){
