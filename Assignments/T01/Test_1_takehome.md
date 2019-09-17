@@ -1,5 +1,3 @@
-Name **********____**********
-
 # Test 1 - Functions and Arrays - Take Home Help
 
 ## Instructions:
