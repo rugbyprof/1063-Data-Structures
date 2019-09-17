@@ -68,7 +68,9 @@ int SumNums(int A, int B){  // params that contrubute to the answer
 - Write a function that receives a 1D array and returns true if some int key is in the array of integers.
 - Call your function `keyExists`
 
-
+>
+>
+>
 
 - Ok I know my function is working on an array, so thats one parameter
 - I also should remember that size always must accompany my array so I can stop looping when I need to. 
