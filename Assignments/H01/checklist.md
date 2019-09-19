@@ -20,18 +20,12 @@
 |   4.1   | Output looks very close to example below.                                       |         |        |
 | Totals: | **100**                                                                          | **100** |        |
 
-
 ```
 Students
 =================================
 1. Joseph Wilson:    23  24
 2. Suzy Smart   :   100 100 50 89
-3. Bill Bob     :    89  89 90 66
-4. Jon Smith    :    89
+...
 ```
 
-### Comments:
-```
-
-```
 
