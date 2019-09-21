@@ -95,7 +95,7 @@ printTemp(one,two,count,nums);  // print first chunk of data
 2. Incorporate at least two functions:
     - `loadClassList` that opens the file and reads the data.
     - `printClassList` which will print out the results in a nicely formatted manner.
-3. Create and output file with your printed students and grades.
+3. Create an output file with your printed students and grades.
 3. Fully comment your code.
 
 ___Example Output:___
