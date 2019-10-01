@@ -70,7 +70,8 @@ delete [] Temp;
 
 - Initialize a stack to be of size 10.
 - Open the input file and read it. It will contain push and pop commands where `push` = `+` and `pop` = `-`
-- All the numbers will be `integers > 0`. Any zero value is paired with the pop character and is only there to make your code simpler.
+- All the numbers will be `integers > 0`. 
+- Pop characters are followed by a zero the make reading the input easier. 
 - Example:
 
 ```
