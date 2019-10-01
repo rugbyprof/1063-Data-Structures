@@ -1,4 +1,4 @@
-## Program 2 - Arbitrary Precision Math
+## Program 3 - Arbitrary Precision Math
 #### Due: TBD
 
 #### What is arbitrary precision math? 
