@@ -111,7 +111,8 @@ Values: 4 5 6 7 55 6 77 67 23 45 ......
     - your intput file, `input_data.txt`
     - your output file, which should be named `stack_out.dat`
 - ANY file you use with your assignment should ALWAYS end up in your assignment folder. 
-- Print a copy of your code, input file, and output file and bring to class ___Teusday___ Oct 8<sup>rd</sup>___ at the beginning of class.
+- Make sure you implement the 3 methods: `checkResize`, `Enlarge`, and `Reduce`.
+- Print a copy of your code, input file, and output file and bring to class ___Tuesday___ Oct 8<sup>rd</sup>___ at the beginning of class.
   - Order: Code on top then output file. 
   - Stapled: Upper left corner (close to the corner).
   - Your name should be on each page ( NO HAND WRITING !!  ).
