@@ -1,0 +1,5 @@
+gorilla 2000 .50
+honeybadger 25 .99
+bear 1500 .30
+chicken 3 .03
+clowns 185 .89
