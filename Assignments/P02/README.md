@@ -32,7 +32,7 @@ If its over the "threshold" (whatever we decide it is 75%,80%,90%, etc.) we allo
 
 **Allocate a new BIGGER array**
 ```cpp
-int new_size = size * 2;
+int new_size = size * 1.5;
 int *Array2 = new int [new_size];
 
 ```
