@@ -6,4 +6,4 @@
  | [L03](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L03) | [ Lectures L03 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L03) | [ No Description](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L03) | [N/A](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L03) |
  | [L04](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L04) | [ Lectures L04 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L04) | [ No Description](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L04) | [N/A](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L04) |
 
-<sup>Last Updated: 2019-09-11 (Wed @ 22:26)</sup>
+<sup>Last Updated: 2019-09-30 (Mon @ 14:47)</sup>
