@@ -1,37 +1,119 @@
-## Program 2 - Arbitrary Precision Math
-#### Due: TBD
-
-#### What is arbitrary precision math? 
-
-Also called bignum arithmetic, multiple-precision arithmetic, or sometimes infinite-precision arithmetic, indicates that calculations are performed on numbers whose digits of precision are limited only by the available memory of the host system. This contrasts with the faster fixed-precision arithmetic found in most arithmetic logic unit (ALU) hardware, which typically offers between 8 and 64 bits of precision.
-
-<sup>source: https://en.wikipedia.org/wiki/Arbitrary-precision_arithmetic </sup>
-
-Yaaaaawwwn....  Did you nod off? I did. Ok, just for a second.
-
-This is actually a pretty cool idea. Each number is ultimately stored in a register, and registers are of a fixed size. Integers are only 4 bytes (32 bits), which limits the size of the integer to 2<sup>32</sup>-1 What does this mean? Read about this on [Stack Overflow](https://stackoverflow.com/questions/94591/what-is-the-maximum-value-for-an-int32). Yes, this post went Nerd real fast, but the fact that so many individuals obsess over some power of 2 implies a lot! When I started reading the post I was reminded that I'm not the smartest person in the room, but I love the fact that this whole thread went off the rails like it did!!
-
-
-The bottom line is that there are times when doing arithmetic with big numbers can be somewhat limiting. Simply 2^<sup>32</sup> isn't big enough! Depending on the computer architecture your working with, you may have access to 8 byte number sizes using `long` or `double`, but depending on the precision you need, this still may not be enough!! (http://floating-point-gui.de/formats/fp/). 
-
-Honestly, for us, 2<sup>32</sup> **almost always is big enough**. But we wouldn't be computer scientists if we settled for petty `primitive data types` like `int`, `float`, and `double`. Lets make our own!
+## Program 2 - Resizable Array Stack
+#### Due : October 8<sup>th</sup> by classtime.
 
 ### Overview
 
-Lets limit (for now) our problem to integers. And if we want to add: 
+Using the code in [L05](../../Lectures/L05/README.md) add the necessary code to `resize` the array of the stack gets 80% full. You should resize the array to be 1.5 times larger than it previously was. Also, you should reduce the size of your array by half (0.5) if the stack gets down to 20% full (and this should only happen if it was previously enlarged).
 
-**`42304820394820934820394802394823094802394809 to 2318283123123893786234671923682346734`**
+### Requirements
 
-what data type do we use?? Int? Double? Ha! 2<sup>31</sup> = 2147483647 not nearly close enough! 2<sup>63</sup> = 9223372036854775808, still not close enough. I guess we need to solve this ourselves (note: `sign bit`, that's why `31` and not `32` and `63` and not `64`). In the example below, you can see that the far left bit (8<sup>th</sup> bit) is needed to make a number positive (0) or negative (1).
+- Add a method called `checkResize` that will look at the current ratio that the stack contains and decide to enlarge or shrink.
+- Add a method called `Enlarge` that will grow the array. 
+- Add a method called `Reduce` that will shrink the array.
 
-#### Sign Bit
+Remember a resize of the array requires allocating a brand new array, and copying the values over to the new container.
 
-![](https://cl.ly/pg9C/signbit.png)
+### Resizing An Array
+
+**Allocate a new array**
+```cpp
+int size = 8;
+int *Array = new int[size];
+```
+
+<img src="http://cs.msutexas.edu/~griffin/zcloud/zcloud-files/array_resizing_1b.png" width="100">
 
 
-#### Adding Numbers
+At some point we find that our array is getting full (in this case its 75% full):
 
-![](https://cl.ly/ppxA/carry_add.gif)
+<img src="http://cs.msutexas.edu/~griffin/zcloud/zcloud-files/array_resizing_2b.png" width="100">
+
+If its over the "threshold" (whatever we decide it is 75%,80%,90%, etc.) we allocate new memory and copy our values over:
+
+**Allocate a new BIGGER array**
+```cpp
+int new_size = size * 1.5;
+int *Array2 = new int [new_size];
+
+```
+
+<img src="http://cs.msutexas.edu/~griffin/zcloud/zcloud-files/array_resizing_5b.png" width="100">
 
 
+**Copy data over to new array**
+```cpp
 
+for(int i=0;i<size;i++){
+    Array2[i] = Array[i];
+}
+```
+
+|                                                                                       |                                                                                       |
+| :-----------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: |
+| <img src="http://cs.msutexas.edu/~griffin/zcloud/zcloud-files/array_resizing_3b.png" width="175"> | <img src="http://cs.msutexas.edu/~griffin/zcloud/zcloud-files/array_resizing_4b.png" width="100"> |
+
+
+**Arrange pointers and Delete old array**
+```cpp
+int *temp = Array;
+
+Array = Array2;
+
+delete [] Temp;
+```
+
+|                                                                                       |                                                                                       |                                                                                      |
+| :-----------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: |:-----------------------------------------------------------------------------------: |
+| <img src="http://cs.msutexas.edu/~griffin/zcloud/zcloud-files/array_resizing_6b.png" width="150"> | <img src="http://cs.msutexas.edu/~griffin/zcloud/zcloud-files/array_resizing_7b.png" width="100"> | <img src="http://cs.msutexas.edu/~griffin/zcloud/zcloud-files/array_resizing_8b.png" width="150"> |
+
+### Requirements
+
+- Initialize a stack to be of size 10.
+- Open the input file and read it. It will contain push and pop commands where `push` = `+` and `pop` = `-`
+- All the numbers will be `integers > 0`. 
+- Pop characters are followed by a zero to make reading the input easier. 
+- Example:
+
+```
++ 10
++ 9 
++ 4
+- 0
+- 0
++ 2
+```
+
+- As your stack fills, enlarge it.
+- If it gets down to 20%, shrink it.
+- Your output will be
+  - The final size of your stack. 
+  - The largest size your stack was.
+  - And the remaining items in the stack print from left to right.
+- Example:
+
+```
+Your Name
+The Date
+Homework 2
+
+Stack Size: 33
+Largest Size: 109
+Values: 4 5 6 7 55 6 77 67 23 45 ......
+```
+
+
+### Deliverables
+
+- Create a folder called `homework_2` in your `assignments` folder.
+- In this folder create a file called `main.cpp` with c++ code that fulfills the requirements.
+- Your `homework_2` folder should contain:
+    - `main.cpp` 
+    - your intput file, `input_data.txt`
+    - your output file, which should be named `stack_out.dat`
+- ANY file you use with your assignment should ALWAYS end up in your assignment folder. 
+- Make sure you implement the 3 methods: `checkResize`, `Enlarge`, and `Reduce`.
+- Print a copy of your code, input file, and output file and bring to class ___Tuesday___ Oct 8<sup>th</sup> at the beginning of class.
+  - Order: Code on top then output file. 
+  - Stapled: Upper left corner (close to the corner).
+  - Your name should be on each page ( NO HAND WRITING !!  ).
+- FAILURE TO FOLLOW INSTRUCTIONS: 1 letter grade. 
