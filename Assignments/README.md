@@ -13,8 +13,4 @@
  | [S03](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/S03) | [ Study 3 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/S03) | [ 2D Array Practice](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/S03) | [No Due Date](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/S03) |
  | [T01](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/T01) | [ Test 1 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/T01) | [ Functions and Arrays and some Structs](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/T01) | [Thursday September 12<sup>th</sup> at 11:00 a.m.](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/T01) |
 
-<<<<<<< HEAD
 <sup>Last Updated: 2019-10-07 (Mon @ 14:56)</sup>
-=======
-<sup>Last Updated: 2019-10-08 (Tue @ 21:48)</sup>
->>>>>>> 4c8b3905f3e4763399f96aa3bc897a0699101f91
