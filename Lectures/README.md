@@ -8,4 +8,4 @@
  | [L05](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L05) | [ Stack ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L05) | [ Array Based](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L05) | [L05](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L05) | [ Files](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L05) | [N/A](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L05) |
  | [L06](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L06) | [ Array Based Queue ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L06) | [ Basic Circular Queue](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L06) | [N/A](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L06) |
 
-<sup>Last Updated: 2019-10-03 (Thu @ 12:54)</sup>
+<sup>Last Updated: 2019-10-07 (Mon @ 14:56)</sup>
