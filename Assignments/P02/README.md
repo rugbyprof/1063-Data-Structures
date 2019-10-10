@@ -3,7 +3,7 @@
 
 ### Overview
 
-Using the code in [L05](../../Lectures/L05/README.md) add the necessary code to `resize` the array of the stack gets 80% full. You should resize the array to be 1.5 times larger than it previously was. Also, you should reduce the size of your array if the stack gets down to 20% full (and this should only happen if it was previously enlarged).
+Using the code in [L05](../../Lectures/L05/README.md) add the necessary code to `resize` the array of the stack gets 80% full. You should resize the array to be 1.5 times larger than it previously was. Also, you should reduce the size of your array by half (0.5) if the stack gets down to 20% full (and this should only happen if it was previously enlarged).
 
 ### Requirements
 
@@ -32,7 +32,7 @@ If its over the "threshold" (whatever we decide it is 75%,80%,90%, etc.) we allo
 
 **Allocate a new BIGGER array**
 ```cpp
-int new_size = size * 2;
+int new_size = size * 1.5;
 int *Array2 = new int [new_size];
 
 ```
