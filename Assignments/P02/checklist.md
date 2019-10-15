@@ -7,6 +7,7 @@
 |   1.3   | `main.cpp` `input_data.txt`  `stack_out.dat` exists in `homework_02`                |         |        |
 | ***2*** | ***Comments***                                                                      |      20 |        |
 |   2.1   | Program has a comment block at the top of the the file, and one for every function. |         |        |
+|   2.2   | Name was on every page. 
 | ***3*** | ***Code***                                                                          |      20 |        |
 |   3.1   | Program compiles and runs.                                                          |         |        |
 |   3.2   | Make sure you implement the 3 methods: `checkResize`, `Enlarge`, and `Reduce`.      |         |        |
