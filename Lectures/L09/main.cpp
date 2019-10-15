@@ -2,8 +2,8 @@
 #include <iostream>
 #include <math.h>
 
-using namespace std::chrono;
 using namespace std;
+
 
 /**
  * Swap
@@ -161,25 +161,27 @@ int BinarySearch(int *A, int size, int key) {
  * 
  */
 struct TimeFacade{
-    chrono::steady_clock::time_point t1;
-    chrono::steady_clock::time_point t2;
+
+    std::chrono::steady_clock::time_point t1;
+    std::chrono::steady_clock::time_point t2;
     std::chrono::duration<double, std::milli> duration;
+
     TimeFacade(){
-        t1 = high_resolution_clock::now();
+        t1 = std::chrono::high_resolution_clock::now();
     }
 
     void start(){
-        t1 = high_resolution_clock::now();
+        t1 = std::chrono::high_resolution_clock::now();
     }
 
     void stop(){
-        t2 = high_resolution_clock::now();
+        t2 = std::chrono::high_resolution_clock::now();
     }
 
     string getDuration(){
-        t2 = high_resolution_clock::now();
-        chrono::duration<double> elapsed_seconds = t2 - t1;
-        auto x = chrono::duration_cast<chrono::microseconds>(elapsed_seconds);
+        t2 = std::chrono::high_resolution_clock::now();
+        std::chrono::duration<double> elapsed_seconds = t2 - t1;
+        auto x = chrono::duration_cast<std::chrono::microseconds>(elapsed_seconds);
 
         string result = to_string(x.count());
 
@@ -198,6 +200,8 @@ int main() {
     int size = pow(2, 15);  // 2^15 = 32768
     int *A = new int[size]; // dyanimically allocate a 32768 sized array
 
+    int value;
+
     // Fill our array with random numbers
     // including duplicates
     for (int i = 0; i < size; i++) {
@@ -205,15 +209,24 @@ int main() {
     }
 
     // Sort our large array
-    cout << "starting sort" << endl;
+    std::cout << "Starting sort ... " << endl;
     T.start();
     BubbleSort(A, size);
-    cout << "done sorting" << endl;
-    cout << "It took: " << T.getDuration() << " microseconds to sort the values" << endl;
+    cout << "Done sorting ... " << endl;
+    cout << "It took: " << T.getDuration() << " microseconds to sort the values." << endl;
 
-    cout << "starting search" << endl;
+    cout << "Starting linear search ... " << endl;
     T.start();
-    int value = BinarySearch(A, size, 1957747793);
-    cout << "done searching" << endl;
-    cout << "It took: " << T.getDuration() << " microseconds to perform search" << endl;
+    value = LinearSearch(A, size, A[rand()%size]);
+    cout << "Done searching ... " << endl;
+    cout << "It took: " << T.getDuration() << " microseconds to perform linear search." << endl;
+
+
+    cout << "Starting binary search ..." << endl;
+    T.start();
+    value = BinarySearch(A, size, A[rand()%size]);
+    cout << "Done searching ... " << endl;
+    cout << "It took: " << T.getDuration() << " microseconds to perform binary search." << endl;
+
 }
+
