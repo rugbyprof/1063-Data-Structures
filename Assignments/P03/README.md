@@ -33,12 +33,12 @@ what data type do we use?? Int? Double? Ha! 2<sup>31</sup> = 2147483647 not near
 Looking at the image below, we see 3 doubly linked lists with the bottom list being the result. There are different ways to approach adding linked lists together but we are going to store our numbers with the "most significant" digits toward the head and "least significant" toward the tail of our list. Since we have a doubley linked list, we can load the digits from head to tail as we read them from an input file, and them process them from tail to head as we add them together. 
 
 
-|     |
-|-----:|
-| <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.1.png" height="150"> |
-| <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.2.png" height="150"> |
-| <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.3.png" height="150"> |
-| <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.4.png" height="150"> |
-| <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.5.png" height="150"> |
-| <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.6.png" height="150"> |
+|     |     |
+|:-----|-----:|
+| 6 + 3 = 9 (no carry) | <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.1.png" height="150"> |
+| 7 + 2 + carry = 9 (no carry)  |<img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.2.png" height="150"> |
+| 9 + 9 + carry = 8 (carry 1) |<img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.3.png" height="150"> |
+| 5 + 7 + carry = 3 (carry 1) |<img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.4.png" height="150"> |
+| 9 + carry = 0 (carry 1) |<img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.5.png" height="150"> |
+| Prepend carry in new node. |<img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.6.png" height="150"> |
 
