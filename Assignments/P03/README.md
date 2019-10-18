@@ -35,10 +35,10 @@ Looking at the image below, we see 3 doubly linked lists with the bottom list be
 
 |     |
 |-----:|
-| <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.1.png"> |
-| <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.2.png"> |
-| <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.3.png"> |
-| <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.4.png"> |
-| <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.5.png"> |
-| <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.6.png"> |
+| <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.1.png" height="150"> |
+| <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.2.png" height="150"> |
+| <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.3.png" height="150"> |
+| <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.4.png" height="150"> |
+| <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.5.png" height="150"> |
+| <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.6.png" height="150"> |
 
