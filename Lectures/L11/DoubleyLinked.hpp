@@ -1,3 +1,11 @@
+/**
+ * Topic: Doubley Linked List
+ * Aurhor: Terry Griffin
+ * Course: CMPS 1063 - Fall 2019
+ * Date: October 2019
+ * Description:
+ *    Basic Doubley Linked List
+ */
 #include <iostream>
 
 using namespace std;
@@ -24,6 +32,7 @@ private:
   int Count;
   int MiddleLoc;
   void UpdateMiddle();
+  void _RecPrint(Node*);
 public:
   
   DoubleyLinked();
@@ -31,6 +40,7 @@ public:
   void Print();
   void Delete();
   void RevPrint();
+  void RecPrint();
 };
 
 
@@ -117,4 +127,21 @@ void DoubleyLinked::RevPrint(){
       Temp = Temp->Prev;
     }
     cout<<endl;
+}
+
+// private
+void DoubleyLinked::_RecPrint(Node* ptr){
+  // 1) base case
+  if(!ptr){
+    return;
+  }
+  cout<<ptr->data<<endl;
+  //3) recursive call
+      // 2) reduce problem space
+  _RecPrint(ptr->Next);
+}
+
+// public
+void DoubleyLinked::RecPrint(){
+  _RecPrint(Head);
 }

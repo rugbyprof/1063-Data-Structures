@@ -1,5 +1,5 @@
 #include <iostream>
-#include "doubley_linked.hpp"
+#include "DoubleyLinked.hpp"
 
 using namespace std;
 
