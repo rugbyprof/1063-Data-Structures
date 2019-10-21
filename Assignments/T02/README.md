@@ -6,7 +6,7 @@
 struct Node{  
     int data;  
     Node* next;  
-}  
+}
 ```
 
 Write a constructor for the **struct** above.
