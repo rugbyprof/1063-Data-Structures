@@ -195,30 +195,28 @@ Write a code snippet that dynamically allocate an array of integers that has 500
 
 Trace the following code. User input is the following sequence of numbers:
 
-***4  5  67  89  21  3  0  76***
+***4,  5,  67,  89,  21,  3,  0,  76***
 
 ```cpp
-int main(){
-    Queue intQ;
 
-	int i;
+Queue intQ;
 
-	cin>>i;
+int i;
 
-	while (i != 0)
-	{
-		if (i < 35) {
-			intQ.Push(i);
-        }
-		cin>>i;
-	}
+cin >> i;
 
-	while (!intQ.IsEmpty())
-	{
-		i = intQ.Pop();
-		cout<<i<<endl;
-	}
+while (i != 0) {
+    if (i < 35) {
+        intQ.Push(i);
+    }
+    cin >> i;
 }
+
+while (!intQ.IsEmpty()) {
+    i = intQ.Pop();
+    cout << i << endl;
+}
+
 ```
 
 
