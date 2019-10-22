@@ -12,5 +12,6 @@
  | [N/A](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/N/A) |
  | [L10](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L10) | [ Binary Search ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L10) | [ along with bubble sort.](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L10) | [L10](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L10) | [ Files:](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L10) | [N/A](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L10) |
  | [L11](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L11) | [ Doubley Linked Lists](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L11) | [L11](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L11) | [ Files](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L11) | [N/A](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/L11) |
+ | [N/A](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Lectures/N/A) |
 
-<sup>Last Updated: 2019-10-15 (Tue @ 10:47)</sup>
+<sup>Last Updated: 2019-10-22 (Tue @ 09:17)</sup>
