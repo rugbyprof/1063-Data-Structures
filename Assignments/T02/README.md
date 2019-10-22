@@ -133,6 +133,8 @@ string word = "theworldisinyourpocket";
 Write a code snippet to print that string out in reverse. You don't have to use both the stack and the queue, but you have to use one of them to assist you.
 
 
+---
+
 **QUESTION 12** 
 
 ```cpp
@@ -154,9 +156,16 @@ for (int i = 0; i < 2; i++)
 cout<<n<<endl;
 ```
 
+---
+
+
 **QUESTION 13** 
 
 What is the difference between array based implementations vs list based. List pros and cons of each.
+
+
+---
+
 
 **QUESTION 14** 
 
@@ -172,9 +181,17 @@ void Stack::Push(int newItem)
 }
 ```
 
+
+---
+
+
 **QUESTION 15** 
 
 Write a code snippet that dynamically allocate an array of integers that has 500 elements. Then load it with zeros.
+
+
+---
+
 
 **QUESTION 16**
 
@@ -206,17 +223,33 @@ int main(){
 }
 ```
 
+
+---
+
+
 **QUESTION 17**
 
 Write the Push method for a list based stack that holds integers.
+
+
+---
+
 
 **QUESTION 18**
 
 Write the Pop method for an array based queue that holds strings.
 
+
+---
+
+
 **QUESTION 19**
 
 Write the Push method for an array based stack that holds strings.
+
+
+---
+
 
 **QUESTION 20**
 
