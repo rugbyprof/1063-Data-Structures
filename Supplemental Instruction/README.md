@@ -1,13 +1,19 @@
 # Supplemental Instruction files and information
-The `study_sessions` folder contains code from our study sessions. For
-some helpful tutorials on setting up your c++ environment and more, see the
-table at the end of this readme.
 
 ## Who am I?
 My name is Jeremy Glebe. I am a software developer, a computer science student
 at Midwestern State University, and a supplemental instructor for Data
 Structures & ADT.
 jeremyglebe@gmail.com
+
+## Study Sessions
+[Click here to see code from our study sessions](https://github.com/jeremyglebe/1063_Supplemental_Instruction/tree/master/study_sessions). For
+some helpful tutorials on setting up your c++ environment and more, see the
+table at the end of this readme.
+
+Please fill out [this form](https://webforms2.msutexas.edu/TakeSurvey.aspx?PageNumber=1&SurveyID=82KKnp2K&Preview=true) every time you attend an SI Session. Supplemental
+Instructors are asked to log how many people attend SI Sessions and it helps us
+to be more useful in the future. Thanks!
 
 ## Dev Tool Tutorials
 |    Tutorial Name     | Description                                        |

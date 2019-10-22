@@ -6,7 +6,7 @@
 struct Node{  
     int data;  
     Node* next;  
-}  
+}
 ```
 
 Write a constructor for the **struct** above.
@@ -77,7 +77,7 @@ Given a list delete, write a function to delete a node from the list. Your node 
 struct Node{  
     string data;  
     Node* next;  
-}  
+}
 ```
 
 <sub>Example function header:</sub>
