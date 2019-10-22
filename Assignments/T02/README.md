@@ -248,6 +248,7 @@ string ListQueue::Pop(){
 
 
 **QUESTION 19**
+
 Finish this `Pop` method:
 
 ```cpp
