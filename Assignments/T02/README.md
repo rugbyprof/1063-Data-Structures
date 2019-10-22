@@ -167,31 +167,13 @@ What is the difference between array based implementations vs list based. List p
 
 **QUESTION 14** 
 
-```cpp
-void Stack::Push(int newItem)
-{
-  if( IsFull() )
-    cout<<"Fullstack exception thrown";
-  else
-{
-  	/* add code here */	
-
-}
-```
-
-
----
-
-
-**QUESTION 15** 
-
 Write a code snippet that dynamically allocate an array of integers that has 500 elements. Then load it with zeros.
 
 
 ---
 
 
-**QUESTION 16**
+**QUESTION 15**
 
 Trace the following code. User input is the following sequence of numbers:
 
@@ -219,34 +201,66 @@ while (!intQ.IsEmpty()) {
 
 ```
 
+---
+
+**QUESTION 16** 
+
+Finish this `Push` method:
+
+```cpp
+void ArrayStack::Push(int x){
+
+
+}
+```
+
 
 ---
 
 
 **QUESTION 17**
 
-Write the Push method for a list based stack that holds integers.
 
+Finish this `Push` method:
+
+```cpp
+void ListStack::Push(string x){
+
+
+}
+```
 
 ---
 
 
 **QUESTION 18**
 
-Write the Pop method for an array based queue that holds strings.
+Finish this `Pop` method:
 
+```cpp
+string ListQueue::Pop(){
+
+
+}
+```
 
 ---
 
 
 **QUESTION 19**
+Finish this `Pop` method:
 
-Write the Push method for an array based stack that holds strings.
+```cpp
+int ArrayQueue::Pop(){
 
+
+
+}
+```
 
 ---
 
 
 **QUESTION 20**
 
-Write the Pop method for an list based queue that holds doubles.
+So we've been talking about list based stacks and queues as well as array based stacks and queues. Which implementations of each (4 different total) need methods for `isEmpty()` or `isFull()` ??
