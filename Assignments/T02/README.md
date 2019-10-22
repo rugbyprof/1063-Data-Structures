@@ -52,7 +52,7 @@ int Pop(Node* Nptr);
 
 <img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/test2.1.a.png">
 
-What will the following code do the the list?
+What will the following code do to the list?
 
 ```cpp
 Head->next->next->data = Head->next->next->next->data/3;
