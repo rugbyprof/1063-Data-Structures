@@ -18,7 +18,7 @@ Write a constructor for the **struct** above.
 Given a list, and a key to search for, return true if the key is in the list, false otherwise.  
 
 <sub>Example function header:</sub>
-```
+```cpp
 bool Find(Node* Nptr, int key);
 ```
 
@@ -29,7 +29,7 @@ bool Find(Node* Nptr, int key);
 Given a list delete all the nodes on the list. 
 
 <sub>Example function header:</sub>
-```
+```cpp
 void DeleteAll(Node* Nptr);
 ```
 
@@ -40,7 +40,7 @@ void DeleteAll(Node* Nptr);
 Given a list: delete the first node and return its value. 
 
 <sub>Example function header:</sub>
-```
+```cpp
 int Pop(Node* Nptr);
 ```
 
@@ -81,7 +81,7 @@ struct Node{
 ```
 
 <sub>Example function header:</sub>
-```
+```cpp
 void Delete(Node* Nptr, string key);
 ```
 
