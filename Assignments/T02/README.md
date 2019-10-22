@@ -119,8 +119,6 @@ are performed on a stack, what are the sequence of popped out values:
 ---
 For questions that ask you to *use* a **Stack** and **Queue**, only use the high level functions: **Push**, **Pop**.  If I want you to implement something (like a Push function, then I'll ask you to).
 
----
-
 **QUESTION 11** 
 
 Given:
