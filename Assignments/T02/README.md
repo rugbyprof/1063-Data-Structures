@@ -37,7 +37,7 @@ void DeleteAll(Node* Nptr);
 
 **QUESTION 4** 
 
-Given a list delete, the first node, and return its value. 
+Given a list: delete the first node and return its value. 
 
 <sub>Example function header:</sub>
 ```
@@ -105,8 +105,7 @@ If the sequence of operations:
 
 are performed on a stack, what are the sequence of popped out values:
 
-<center>
-<img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/test.2.4.png"></center>
+<center><img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/test.2.4.png"></center>
 
 ---
 **QUESTION 10** 
@@ -133,6 +132,92 @@ string word = "theworldisinyourpocket";
 
 Write a code snippet to print that string out in reverse. You don't have to use both the stack and the queue, but you have to use one of them to assist you.
 
-**MORE TO FOLLOW SOON .....**
 
+**QUESTION 12** 
 
+```cpp
+int [] values = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19 };
+Stack s = new Stack;
+for (int 1 = 0; i < values.length; i++){
+    s.push( values[ i ] );
+}
+
+int n = 25;
+
+for (int i = 0; i < 4; i++){
+    n += s.pop( );
+}
+for (int i = 0; i < 2; i++)
+{
+    n -= s.pop( );
+}
+cout<<n<<endl;
+```
+
+**QUESTION 13** 
+
+What is the difference between array based implementations vs list based. List pros and cons of each.
+
+**QUESTION 14** 
+
+```cpp
+void Stack::Push(int newItem)
+{
+  if( IsFull() )
+    cout<<"Fullstack exception thrown";
+  else
+{
+  	/* add code here */	
+
+}
+```
+
+**QUESTION 15** 
+
+Write a code snippet that dynamically allocate an array of integers that has 500 elements. Then load it with zeros.
+
+**QUESTION 16**
+
+Trace the following code. User input is the following sequence of numbers:
+
+***4  5  67  89  21  3  0  76***
+
+```cpp
+int main(){
+    Queue intQ;
+
+	int i;
+
+	cin>>i;
+
+	while (i != 0)
+	{
+		if (i < 35) {
+			intQ.Push(i);
+        }
+		cin>>i;
+	}
+
+	while (!intQ.IsEmpty())
+	{
+		i = intQ.Pop();
+		cout<<i<<endl;
+	}
+}
+```
+
+**QUESTION 17**
+
+Write the Push method for a list based stack that holds integers.
+
+**QUESTION 18**
+
+Write the Pop method for an array based queue that holds strings.
+
+**QUESTION 19**
+
+Write the Push method for an array based stack that holds strings.
+
+**QUESTION 20**
+
+Write the Pop method for an list based queue that holds doubles.
