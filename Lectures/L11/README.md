@@ -1,4 +1,4 @@
-## Doubley Linked Lists
+## Linked List - Doubly Linked
 
 #### Files
 
