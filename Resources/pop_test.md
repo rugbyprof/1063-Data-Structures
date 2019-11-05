@@ -1,3 +1,4 @@
+```cpp
 #include <iostream>
 
 /**
@@ -67,20 +68,6 @@ struct List{
       return size;
     }
     
-    /**
-    * OrderedSert
-    * @params:
-    *    int x : value to be placed in the list
-    * @returns:
-    *    void
-    */
-    void OrderedSert(int x){
-
-
-
-
-
-    }
     
     /**
     * DeleteNode
@@ -146,11 +133,30 @@ struct List{
       }
       cout<<endl;
     }
+```
+
+
+
+```cpp
+    /**
+    * OrderedSert
+    * @params:
+    *    int x : value to be placed in the list
+    * @returns:
+    *    void
+    */
+    void OrderedSert(int x){
+
+
+
+
+
+    }
 
 };
+```
 
-
-
+```cpp
 int main() {
 
 
@@ -171,3 +177,4 @@ int main() {
   
     return 0;
 }
+```
