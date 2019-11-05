@@ -2,6 +2,8 @@
 #### Due: Thursday October 24<sup>th</sup> at 11:00 a.m.
 
 **QUESTION 1** 
+
+Unless specified, assume this structure for all list nodes.
 ```cpp  
 struct Node{  
     int data;  
