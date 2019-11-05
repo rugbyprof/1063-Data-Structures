@@ -298,4 +298,4 @@ void AsciiDraw::PrintRotator(int times,int x,int y,int speed){
 }
 
 
-
+//"cpp": "cd $dir && clear && echo '\n' && g++ -std=c++11 *.cpp -o runit && cd $dir && ./runit"
