@@ -1,1 +1,1 @@
-## Bubblesort
+## Bubblesort - Simple and Slow O(N<sup>2</sup>) 
