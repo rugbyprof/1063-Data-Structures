@@ -1,5 +1,5 @@
 ## Program 3 - Arbitrary Precision Math
-#### Due: October 29 <sup>th</sup>
+#### Due: November 14 <sup>th</sup>
 
 #### What is arbitrary precision math? 
 
@@ -42,3 +42,121 @@ Looking at the image below, we see 3 doubly linked lists with the bottom list be
 | 9 + carry = 0 (carry 1) |<img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.5.png" height="150"> |
 | Prepend carry in new node. |<img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/arb_math.6.png" height="150"> |
 
+
+# Requirements
+
+
+- Write a program that uses a doubly linked list that will have the ability to **add**, **subtract**, and **multiply** two arbitrarily long integers positive integers. 
+- The number will be stored in a file like the example below:
+
+```
++
+12112313121234132412312132414
+13241414124124123412341324132
+-
+5858584774657857855674746735463
+474657474657456745674567467
+*
+9993939393938383933883
+3783783783783873783
+```
+
+Where the operator is read in, then two numbers seperated by a `newline`. I say this because the numbers can be so big that they actually have to word wrap.
+
+- Read each number into a doubly linked list
+- Perform the operation on the lists storing the result in a third doubly linked list.
+- Write your answer out to an output file. 
+
+**Output**
+
+```
+Your Name
+Program 3
+Arbitrary Precision Math
+
+Operation 1: Addition
+Answer:
+
+982098271409179713241324 ... 1324071234
+
+Operation 2: Multiplication
+Answer:
+
+928374928374987324928374 ... 02938402938423
+
+ETC...
+```
+
+### Comments
+
+**Example Top Comment Block for every file you wrote code in ...**
+
+```cpp
+///////////////////////////////////////////////////////////////////////////////
+//
+// Author:           (YOUR NAME IN ALL CAPS)
+// Assignment:       Program_03
+// Date:             14 November 2019
+// Title:            Program 3 - Graphs
+// Semester:         Spring 2018
+// Course:           CMPS 1063 
+// 
+// Files:            apm.cpp, 
+//                   doubly_linked.hpp, 
+//                   input_data.txt 
+//                   output.num
+// Description:
+//       describe program here thoroughly
+//
+/////////////////////////////////////////////////////////////////////////////////
+```
+
+**Example Function Comment Block**
+
+```cpp
+/**
+ * Swap
+ * 
+ * Description:
+ *      Adds to doubly linked lists together.
+ * 
+ * Params:
+ *      string val1 : A string representation of an integer number.
+ *      string val2 : A string representation of an integer number.
+ * 
+ * Returns:
+ *      Node* : a list with addition results
+ */
+Node* Add(string val1, string val2) {
+    // put comments for most lines in your implementaion
+}
+```
+
+### Deliverables
+
+
+- Create a folder called `program_3` in your `assignments` folder.
+- In this folder create a file called `apm.cpp` with c++ code that fulfills the requirements.
+- Your `program_3` folder should contain:
+    - `apm.cpp` 
+    - your intput file, `input_data.txt`
+    - your output file, which should be named `output.num`
+- ANY file you use with your assignment should ALWAYS end up in your assignment folder. 
+- Make sure you use a doubly linked list to implement your solution.
+- At a minimum add methods to an existing doubly linked class:
+  - `Node* Add(string val1, string val2)`
+  - `Node* Sub(string val1, string val2)`
+  - `Node* Mul(string val1, string val2)`
+- Where the method returns a Node* to a new doubly linked list with the answer.
+- Also include a method to print your answer: `void PrintResult(Node* answer)`
+- Print a copy of your code, input file, and output file and bring to class Thursday Nov 14<sup>th</sup> at the beginning of class.
+  - Order: Code on top then output file. 
+  - Stapled: Upper left corner (close to the corner).
+  - Your name should be on each page ( NO HAND WRITING !!  ).
+- FAILURE TO FOLLOW INSTRUCTIONS: 1 letter grade. 
+
+
+### Bonus
+
+I'm not requiring it, but for an algorithm to do division, see below:
+http://justinparrtech.com/JustinParr-Tech/an-algorithm-for-arbitrary-precision-integer-division/
