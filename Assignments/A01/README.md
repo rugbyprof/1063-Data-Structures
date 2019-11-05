@@ -1,6 +1,7 @@
 ## Assignment 1 - Getting Started
 #### Due: Friday August 29th by 5:00pm
 [//]: # (###### Tue Nov 5 16:53:25 CST 2019)
+###### Tue Nov 5 16:53:25 CST 2019
 
 ## Getting Setup
 
