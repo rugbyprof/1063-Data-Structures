@@ -14,4 +14,4 @@
  | [T01](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/T01) | [ Test 1 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/T01) | [ Functions and Arrays and some Structs](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/T01) | [Thursday September 12<sup>th</sup> at 11:00 a.m.](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/T01) |
  | [T02](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/T02) | [ Test 2 ](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/T02) | [ Lists, Stacks, Queues](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/T02) | [Thursday October 24<sup>th</sup> at 11:00 a.m.](https://github.com/rugbyprof/1063-Data-Structures/tree/master/Assignments/T02) |
 
-<sup>Last Updated: 2019-11-05 (Tue @ 09:10)</sup>
+<sup>Last Updated: 2019-11-05 (Tue @ 09:11)</sup>
