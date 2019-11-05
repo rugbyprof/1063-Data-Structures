@@ -50,6 +50,7 @@ Looking at the image below, we see 3 doubly linked lists with the bottom list be
 - The number will be stored in a file like the example below:
 
 ```
+3
 +
 12112313121234132412312132414
 13241414124124123412341324132
@@ -60,9 +61,11 @@ Looking at the image below, we see 3 doubly linked lists with the bottom list be
 9993939393938383933883
 3783783783783873783
 ```
-
-Where the operator is read in, then two numbers seperated by a `newline`. I say this because the numbers can be so big that they actually have to word wrap.
-
+- Where the first number is how many problems you will read in.
+- Then there will be 3 reads for each problem:
+    - The operator to tell you what operation to run. Use a switch statement to call the appropriate function.
+    - A string for the first number.
+    - A string for the second number.
 - Read each number into a doubly linked list
 - Perform the operation on the lists storing the result in a third doubly linked list.
 - Write your answer out to an output file. 
