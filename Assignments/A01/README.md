@@ -1,10 +1,10 @@
 ## Assignment 1 - Getting Started
 #### Due: Friday August 29th by 5:00pm
+[//]: # ()
 
 ## Getting Setup
 
 I usually discuss setting up a development environment for a first assignment, but in 1063 things are pretty simple. So we only need to address a couple of things. Both things however are super important. See below: 
-
 
 ### Team Chat
 ---

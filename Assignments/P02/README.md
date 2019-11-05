@@ -1,6 +1,8 @@
 ## Program 2 - Resizable Array Stack
 #### Due: October 8<sup>th</sup> by classtime.
 
+
+
 ### Overview
 
 Using the code in [L05](../../Lectures/L05/README.md) add the necessary code to `resize` the array of the stack gets 80% full. You should resize the array to be 1.5 times larger than it previously was. Also, you should reduce the size of your array by half (0.5) if the stack gets down to 20% full (and this should only happen if it was previously enlarged).
