@@ -1,4 +1,4 @@
-## Array Based Queue - Basic Circular Queue
+## Queue - Array Based Circular Queue
 
 - [main.cpp](./main.cpp)
 - [queue.cpp](./queue.cpp)
