@@ -1,5 +1,5 @@
 ## Program 2 - Resizable Array Stack
-#### Due : October 8<sup>th</sup> by classtime.
+#### Due: October 8<sup>th</sup> by classtime.
 
 ### Overview
 

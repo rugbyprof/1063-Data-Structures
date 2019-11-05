@@ -1,5 +1,5 @@
 ## Program 3 - Arbitrary Precision Math
-#### Due: November 14 <sup>th</sup>
+#### Due: November 14<sup>th</sup>
 
 #### What is arbitrary precision math? 
 
