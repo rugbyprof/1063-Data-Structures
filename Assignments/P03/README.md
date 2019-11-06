@@ -162,4 +162,5 @@ Node* Add(string val1, string val2) {
 ### Bonus
 
 I'm not requiring it, but for an algorithm to do division, see below:
-http://justinparrtech.com/JustinParr-Tech/an-algorithm-for-arbitrary-precision-integer-division/
+
+<sub>http://justinparrtech.com/JustinParr-Tech/an-algorithm-for-arbitrary-precision-integer-division/</sub>
