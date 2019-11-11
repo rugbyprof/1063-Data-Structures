@@ -16,6 +16,7 @@ struct Node {
 class Dictionary {
 private:
     Node *Start;
+    Node *Tail;
 
     string LowerCase(string input) {
         for (int i = 0; i < input.length(); i++) {
@@ -29,6 +30,7 @@ private:
 public:
     Dictionary() {
         Start = NULL;
+        Tail = NULL;
     }
 
     void Add(string word) {
@@ -40,6 +42,7 @@ public:
         // if list is empty hook in new Node
         if (Start == NULL) {
             Start = temp;
+            Tail = temp;
         } else {
             // get ready to walk the list
             Node *traverse = Start;
@@ -49,6 +52,7 @@ public:
             }
             // now at proper place to link in new memory
             traverse->Next = temp;
+            Tail = temp;
         }
     }
 
@@ -82,21 +86,19 @@ public:
     void ReOrder() {
         // pointers for new list
         Node *NewList = NULL; 
-        Node *Tail = NULL;
+        Node *Tail2 = NULL;
 
         int i;
         char ch;
 
-        while (Start != NULL) {
+        while (Start->Next != Tail) {
 
             // helper pointers to manipulate lists
             Node *Ptr = Start;
             Node *Min = Start;
             Node *Prev = Start;
             Node *MinPrev = Start;
-
-            cin.get(ch);
-
+    
             // find one minimum word in old list
             while (Ptr != NULL) {
                 if (Ptr->word < Min->word) {
@@ -112,14 +114,14 @@ public:
             // add one word to new list
 
 
-
             if (!NewList) {
                 NewList = Min;
+                Tail2 = Min;
             } else {
-                Tail->Next = Min;
+                Tail2->Next = Min;
             }
 
-            Tail = Min;
+            Tail2 = Min;
             if (MinPrev == Start) {
                 Start = Start->Next;
             } else {
@@ -134,13 +136,17 @@ public:
             //   }
             // adding one word to new list
 
-            // Node *Temptemptmemp = NewList;
 
-            // while (Temptemptmemp) {
-            //     cout << Temptemptmemp->word << " ";
-            //     Temptemptmemp = Temptemptmemp->Next;
-            // }
-            // cout << endl;
+            char ch;
+
+            cin.get(ch);
+            Node *Temptemptmemp = NewList;
+            cout<<"New List: ";
+            while (Temptemptmemp) {
+                cout << Temptemptmemp->word << " ";
+                Temptemptmemp = Temptemptmemp->Next;
+            }
+            cout << endl;
         }
 
         Start = NewList;
@@ -171,10 +177,10 @@ int main() {
 
     W.Add("Ant");
     W.Add("Rabbit");
-    W.Add("Dog");
-    //   W.Add("Aaron");
-    //   W.Add("Aardvark");
     W.Add("Cow");
+    W.Add("Aaron");
+    W.Add("Aardvark");
+    W.Add("Dog");
 
     W.Print();
 

@@ -147,9 +147,11 @@ Node* Add(string val1, string val2) {
 - ANY file you use with your assignment should ALWAYS end up in your assignment folder. 
 - Make sure you use a doubly linked list to implement your solution.
 - At a minimum add methods to an existing doubly linked class:
-  - `Node* Add(string val1, string val2)`
-  - `Node* Sub(string val1, string val2)`
-  - `Node* Mul(string val1, string val2)`
+  - `Node* Add(Node* list2)`
+  - `Node* Sub(Node* list2)`
+  - `Node* Mul(Node* list2)`
+
+
 - Where the method returns a Node* to a new doubly linked list with the answer.
 - Also include a method to print your answer: `void PrintResult(Node* answer)`
 - Print a copy of your code, input file, and output file and bring to class Thursday Nov 14<sup>th</sup> at the beginning of class.
