@@ -21,3 +21,8 @@ to be more useful in the future. Thanks!
 | [C++ w/ Windows, VSCode](https://github.com/jeremyglebe/dev_tool_tutorials/tree/master/win_vsc) | Setting up a c++ dev environment with vscode on Windows |
 | [VSC C++ Multi Files](https://github.com/jeremyglebe/dev_tool_tutorials/tree/master/vsc_mf) | Compiling c++ programs with multiple files in Visual Studio Code |
 | [C++ w/ Cygwin, VSCode](https://github.com/jeremyglebe/dev_tool_tutorials/tree/master/cyg_vsc) | Using Cygwin with your c++ VSCode environment |
+
+## TermGame
+I wrote a library to help with the creation of games in terminal. It will be
+used in this class. You only need to download and include the .h file. [The
+project, and its documentation, can be found here.](https://github.com/jeremyglebe/TermGame)
