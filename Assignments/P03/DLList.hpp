@@ -60,8 +60,7 @@ DLList::DLList(const DLList &list){
 
     Node* Other = list.Head;
     while(Other){
-        Node* Temp = new Node(Other->data);
-        _EndSert(Temp);
+        InsertBack(Other->data);
         Other = Other->Next;
     }
 }
