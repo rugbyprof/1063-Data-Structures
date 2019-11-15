@@ -55,11 +55,16 @@ DLList::DLList() {
  *      constructs a new list with values from another list. 
  */
 DLList::DLList(const DLList &list){
-    Head = Tail = NULL;
+    Head = Tail = NULL; // Initialize pointers like always
     Count = 0;
 
+    // Point to "Other" lists head. Even though its private we
+    // can access it beacuase we are in a class of the same type.
     Node* Other = list.Head;
+
+    // Travers the other list
     while(Other){
+        // Insert values into new nodes in this list.
         InsertBack(Other->data);
         Other = Other->Next;
     }
