@@ -1,3 +1,12 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+// Author:           Terry Griffin
+// Assignment:       Program_03
+// Date:             14 November 2019
+// Description:
+//       This file is an implementation of a doubly linked list of integers.
+//
+/////////////////////////////////////////////////////////////////////////////////
 #include <iostream>
 
 using namespace std;
