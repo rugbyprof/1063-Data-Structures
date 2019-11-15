@@ -118,10 +118,10 @@ ETC...
 
 ```cpp
 /**
- * Swap
+ * Add
  * 
  * Description:
- *      Adds to doubly linked lists together.
+ *      Adds two strings together and returs a doubly linked list.
  * 
  * Params:
  *      string val1 : A string representation of an integer number.
@@ -133,6 +133,25 @@ ETC...
 Node* Add(string val1, string val2) {
     // put comments for most lines in your implementaion
 }
+
+//OR
+
+/**
+ * Add
+ * 
+ * Description:
+ *      Adds an "other" doubly linked list to "this" list 
+ * 
+ * Params:
+ *      BigNum other    : An "other" list
+ * 
+ * Returns:
+ *      BigNum : a doubley linked list with addition results
+ */
+BigNum Add(BigNum other) {
+    // put comments for most lines in your implementaion
+}
+
 ```
 
 ### Deliverables
