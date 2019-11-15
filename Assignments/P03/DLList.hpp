@@ -30,11 +30,10 @@ private:
     Node *Head;               // Head of list pointer
     Node *Tail;               // Tail of list pointer
     int Count;                // Count of items in list
-    void _FrontSert(Node *&); // Insert to head of list
-    void _EndSert(Node *&);   // Insert to rear (tail) of list
 
 public:
     DLList();                   // Constructor
+    DLList(const DLList &);     // Copy Constructor
     ~DLList();                  // Destructor
     void InsertFront(int);      
     void InsertBack(int);       
@@ -49,6 +48,22 @@ public:
 DLList::DLList() {
     Head = Tail = NULL;
     Count = 0;
+}
+
+/**
+ * Public Copy Constructor 
+ *      constructs a new list with values from another list. 
+ */
+DLList::DLList(const DLList &list){
+    Head = Tail = NULL;
+    Count = 0;
+
+    Node* Other = list.Head;
+    while(Other){
+        Node* Temp = new Node(Other->data);
+        _EndSert(Temp);
+        Other = Other->Next;
+    }
 }
 
 /**
@@ -80,7 +95,15 @@ DLList::~DLList() {
 void DLList::InsertFront(int data) {
     Node *Temp = new Node(data);
 
-    _FrontSert(Temp);
+    if (!Head) {
+        Head = Temp;
+        Tail = Temp;
+    } else {
+        Head->Prev = Temp;
+        Temp->Next = Head;
+        Head = Temp;
+    }
+    Count++;
 }
 
 /**
@@ -99,49 +122,6 @@ void DLList::InsertFront(int data) {
 void DLList::InsertBack(int data) {
     Node *Temp = new Node(data);
 
-    _EndSert(Temp);
-}
-
-/**
- * Private _FrontSert
- * 
- * Adds item to head of list
- * 
- * @Params:
- * 
- *     Node* : node to be linked to front of list
- * 
- * @Returns:
- * 
- *     void
- */
-void DLList::_FrontSert(Node *&Temp) {
-
-    if (!Head) {
-        Head = Temp;
-        Tail = Temp;
-    } else {
-        Head->Prev = Temp;
-        Temp->Next = Head;
-        Head = Temp;
-    }
-    Count++;
-}
-
-/**
- * Private _EndSert
- * 
- * Adds item to tail end of list
- * 
- * @Params:
- * 
- *     Node* : node to be linked to front of list
- * 
- * @Returns:
- * 
- *     void
- */
-void DLList::_EndSert(Node *&Temp) {
     if (!Head) {
         Head = Temp;
         Tail = Temp;
@@ -204,9 +184,4 @@ void DLList::RevPrint() {
         Temp = Temp->Prev;
     }
     cout << endl;
-}
-
-int main() {
-    DLList D;
-    return 0;
 }
