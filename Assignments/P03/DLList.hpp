@@ -5,6 +5,8 @@
 // Date:             14 November 2019
 // Description:
 //       This file is an implementation of a doubly linked list of integers.
+// 
+//       Feel free to use and alter or destroy. Do what you like with this code.
 //
 /////////////////////////////////////////////////////////////////////////////////
 #include <iostream>
