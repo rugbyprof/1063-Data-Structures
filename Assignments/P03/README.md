@@ -90,14 +90,67 @@ Answer:
 ETC...
 ```
 
-### Organizing Your Project
+### Organizing Your Problem Solving
 
 - In this folder there is a `BigNum` header file along with a working `Doubley Linked List`.
-- The Doubley Linked List has almost of the implementation you need for this assignment to help you implement the `BigNum` class. I know you don't think it does.
+- The Doubley Linked List has almost all of the implementation you need for this assignment to help you correctly implement the `BigNum` class. 
+- I know you don't think it does, but it does. 
+- Actually implementing the operations (Add, Sub, and Mul) are not the biggest part of the project, getting the groundwork layed with processing the data should come first.
+
+#### Read The Input and Start Outfile
+- When solving the problem, you first need to be able to read the file and correctly grab:
+  - The operation
+  - The first and second number
+- When you correctly obtain each value in a variable of your choice, then start writing a portion of your output file. At least the header and some of the output.
+- Now you have a nice chunk of your program written and working.
 
 
-- Where the work to add, sub, and multiply is handled by your class behind the scenes (not in main).
-- Also include a method to print your answer: `BigNum.PrintResult()`
+#### Parsing the strings
+- Now you have a main program that processes an input file, but still doesn't add numbers together. 
+- But, before any operations can be performed, you need to be able to turn a string into a list of numbers. 
+- This code snippet pulls each digit off of a string. It does no error checking (for bad digits), but thats ok for now.
+  
+```cpp
+  string number = "6353736356373459658564353";
+  int digit=0;
+
+  for(int i=0;i<number.size();i++){
+    digit = number[i]-48;
+  }
+```
+
+- If you create an instance of your `BigNum` class and send in a string when doing so:
+
+```cpp
+
+    string num1;    // read from file  "6353736356373459658564353"
+    string num2;    // read from file  "6300986363826263804443"
+    string op;      // read from file  "+"
+
+    fin>>op>>num1>>num2; 
+    
+    BigNum bum1(num1); 
+    BigNum bum2(num2);
+
+```
+- Then you could construct the list using similar logic from above in your constructor. 
+
+#### CheckPoint
+- At this point, you should be able to:
+  1. Read input file
+  2. write part of the output file
+  3. parse a string inside the class and load the list with each digit.
+- Prove it to yourself by printing out both list representing each number.
+- The majority of your program is done, and we havent even attempted to implement an operation!
+- Nothing to this point is new, and should be familiar code. 
+
+
+#### Doing The Operations
+
+- Implementing the operations is the hard part, but if you follow this path of solving the problem you should be in a very good position to succeed.
+- The descriptions up top should help you finish from here.
+- Remember to draw pics and trace your code with those pics. 
+- Good Luck!
 
 ### Comments
 
