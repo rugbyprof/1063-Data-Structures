@@ -165,15 +165,29 @@ BigNum Add(BigNum other) {
     - your output file, which should be named `output.num`
 - ANY file you use with your assignment should ALWAYS end up in your assignment folder. 
 - Make sure you use a doubly linked list to implement your solution.
-- At a minimum add methods to an existing doubly linked class:
-  - `Node* Add(Node* list2)`
-  - `Node* Sub(Node* list2)`
-  - `Node* Mul(Node* list2)`
+- At a minimum add methods to an existing doubly linked class to ADD, SUBTRACT, and MULTIPLY. 
+- How you implement your methods is up to you:
+
+  - `string Add(string other)`
+  - `string Sub(string other)`
+  - `string Mul(string other)`
+
+OR
+
+  - `string Add(string lhs, string rhs)`
+  - `string Sub(string lhs, string rhs)`
+  - `string Mul(string lhs, string rhs)`
+
+OR
+  - `BigNum` = `doubley linked list class`
+  - `BigNum Add(BigNum other)`
+  - `BigNum Sub(BigNum other)`
+  - `BigNum Mul(BigNum other)`
 
 
-- Where the method returns a Node* to a new doubly linked list with the answer.
-- Also include a method to print your answer: `void PrintResult(Node* answer)`
-- Print a copy of your code, input file, and output file and bring to class Thursday Nov 14<sup>th</sup> at the beginning of class.
+- Where the work to add, sub, and multiply is handled by your class behind the scenes (not in main).
+- Also include a method to print your answer: `BigNum.PrintResult()`
+- Print a copy of your code, input file, and output file and bring to class Thursday Nov 21<sup>st</sup> at the beginning of class.
   - Order: Code on top then output file. 
   - Stapled: Upper left corner (close to the corner).
   - Your name should be on each page ( NO HAND WRITING !!  ).
