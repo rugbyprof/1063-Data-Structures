@@ -90,6 +90,15 @@ Answer:
 ETC...
 ```
 
+### Organizing Your Project
+
+- In this folder there is a `BigNum` header file along with a working `Doubley Linked List`.
+- The Doubley Linked List has almost of the implementation you need for this assignment to help you implement the `BigNum` class. I know you don't think it does.
+
+
+- Where the work to add, sub, and multiply is handled by your class behind the scenes (not in main).
+- Also include a method to print your answer: `BigNum.PrintResult()`
+
 ### Comments
 
 **Example Top Comment Block for every file you wrote code in ...**
@@ -166,27 +175,7 @@ BigNum Add(BigNum other) {
 - ANY file you use with your assignment should ALWAYS end up in your assignment folder. 
 - Make sure you use a doubly linked list to implement your solution.
 - At a minimum add methods to an existing doubly linked class to ADD, SUBTRACT, and MULTIPLY. 
-- How you implement your methods is up to you:
 
-  - `string Add(string other)`
-  - `string Sub(string other)`
-  - `string Mul(string other)`
-
-OR
-
-  - `string Add(string lhs, string rhs)`
-  - `string Sub(string lhs, string rhs)`
-  - `string Mul(string lhs, string rhs)`
-
-OR
-  - `BigNum` = `doubley linked list class`
-  - `BigNum Add(BigNum other)`
-  - `BigNum Sub(BigNum other)`
-  - `BigNum Mul(BigNum other)`
-
-
-- Where the work to add, sub, and multiply is handled by your class behind the scenes (not in main).
-- Also include a method to print your answer: `BigNum.PrintResult()`
 - Print a copy of your code, input file, and output file and bring to class Thursday Nov 21<sup>st</sup> at the beginning of class.
   - Order: Code on top then output file. 
   - Stapled: Upper left corner (close to the corner).

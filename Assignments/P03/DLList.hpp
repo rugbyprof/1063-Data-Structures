@@ -30,16 +30,17 @@ private:
     Node *Head;               // Head of list pointer
     Node *Tail;               // Tail of list pointer
     int Count;                // Count of items in list
-
+    void _DeleteTail();
 public:
     DLList();                   // Constructor
     DLList(const DLList &);     // Copy Constructor
     ~DLList();                  // Destructor
+    int Size();
     void InsertFront(int);      
     void InsertBack(int);       
     void Print();
-    void Delete();
     void RevPrint();
+    void Delete();
 };
 
 /**
@@ -161,6 +162,70 @@ void DLList::Print() {
         Temp = Temp->Next;
     }
     cout << endl;
+}
+
+/**
+ * Private _DeleteTail
+ * 
+ * Deletes last node in list
+ * 
+ * @Params:
+ * 
+ *     Void
+ * 
+ * @Returns:
+ * 
+ *     void
+ */
+void DLList::_DeleteTail() {
+    
+    if(Tail){
+        Node *Temp = Tail;
+        if(Tail == Head){
+            Tail = Head = NULL;
+            delete Temp;
+        }else{
+            
+            Tail = Tail->Prev;
+            Tail->Next = NULL;
+            delete Temp;
+        }
+        Count--;
+    }
+}
+
+/**
+ * Public Delete
+ * 
+ * Deletes last node in list
+ * 
+ * @Params:
+ * 
+ *     Void
+ * 
+ * @Returns:
+ * 
+ *     void
+ */
+void DLList::Delete() {
+    _DeleteTail();
+}
+
+/**
+ * Public Size
+ * 
+ * Returns size of list
+ * 
+ * @Params:
+ * 
+ *     Void
+ * 
+ * @Returns:
+ * 
+ *     int
+ */
+int DLList::Size(){
+    return Count;
 }
 
 
