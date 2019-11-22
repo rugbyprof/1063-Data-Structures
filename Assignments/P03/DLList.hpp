@@ -5,7 +5,7 @@
 // Date:             14 November 2019
 // Description:
 //       This file is an implementation of a doubly linked list of integers.
-// 
+//
 //       Feel free to use and alter or destroy. Do what you like with this code.
 //
 /////////////////////////////////////////////////////////////////////////////////
@@ -26,21 +26,25 @@ struct Node {
 };
 
 class DLList {
-private:
-    Node *Head;               // Head of list pointer
-    Node *Tail;               // Tail of list pointer
-    int Count;                // Count of items in list
+protected:
+    Node *Head; // Head of list pointer
+    Node *Tail; // Tail of list pointer
+    int Count;  // Count of items in list
     void _DeleteTail();
+
 public:
-    DLList();                   // Constructor
-    DLList(const DLList &);     // Copy Constructor
-    ~DLList();                  // Destructor
+    DLList();               // Constructor
+    DLList(const DLList &); // Copy Constructor
+    DLList(Node *);
+    ~DLList(); // Destructor
     int Size();
-    void InsertFront(int);      
-    void InsertBack(int);       
+    void InsertFront(int);
+    void InsertBack(int);
+    int GetBack();
     void Print();
     void RevPrint();
     void Delete();
+    void DestroyList();
 };
 
 /**
@@ -52,22 +56,43 @@ DLList::DLList() {
 }
 
 /**
+ * Public Overloaded constructor accepts a node pointer
+ * to another list.
+ */
+DLList::DLList(Node *Other) {
+    Head = Tail = NULL;
+    Count = 0;
+
+    // Point to "Other" lists head. Even though its private we
+    // can access it beacuase we are in a class of the same type.
+
+    // Travers the other list
+    while (Other) {
+        // Insert values into new nodes in this list.
+        InsertBack(Other->data);
+        Other = Other->Next;
+        Count++;
+    }
+}
+
+/**
  * Public Copy Constructor 
  *      constructs a new list with values from another list. 
  */
-DLList::DLList(const DLList &list){
+DLList::DLList(const DLList &list) {
     Head = Tail = NULL; // Initialize pointers like always
     Count = 0;
 
     // Point to "Other" lists head. Even though its private we
     // can access it beacuase we are in a class of the same type.
-    Node* Other = list.Head;
+    Node *Other = list.Head;
 
     // Travers the other list
-    while(Other){
+    while (Other) {
         // Insert values into new nodes in this list.
         InsertBack(Other->data);
         Other = Other->Next;
+        Count++;
     }
 }
 
@@ -178,14 +203,14 @@ void DLList::Print() {
  *     void
  */
 void DLList::_DeleteTail() {
-    
-    if(Tail){
+
+    if (Tail) {
         Node *Temp = Tail;
-        if(Tail == Head){
+        if (Tail == Head) {
             Tail = Head = NULL;
             delete Temp;
-        }else{
-            
+        } else {
+
             Tail = Tail->Prev;
             Tail->Next = NULL;
             delete Temp;
@@ -211,6 +236,14 @@ void DLList::Delete() {
     _DeleteTail();
 }
 
+int DLList::GetBack() {
+    if (Size() > 0) {
+        return Tail->data;
+    } else {
+        return 0;
+    }
+}
+
 /**
  * Public Size
  * 
@@ -227,7 +260,6 @@ void DLList::Delete() {
 int DLList::Size(){
     return Count;
 }
-
 
 /**
  * Public RevPrint
@@ -253,4 +285,16 @@ void DLList::RevPrint() {
         Temp = Temp->Prev;
     }
     cout << endl;
+}
+
+void DLList::DestroyList() {
+    Node *temp = Head;
+
+    while (temp) {
+        temp = temp->Next;
+        delete Head;
+        Head = temp;
+    }
+    Head = Tail = NULL;
+    Count = 0;
 }

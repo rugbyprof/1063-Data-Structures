@@ -1,68 +1,83 @@
-#include <string>
 #include "DLList.hpp"
+#include <string>
 
 using namespace std;
-
-
-/**
- * Basic idea for the layout of main()
- * 
- * - Read in strings X and Y from the file
- * 
- * - Read an operation OP from the file
- * 
- * - Create two BigNums using the strings X and Y.
- * 
- * - Perform OP on X and Y resulting in a BigNum Z.
- *     ex) Z = X.Add(Y)
- * 
- * - Get a string S from Z and print it to a file.
- *     ex) S = Z.ToString()
- * 
- * 
- * Example algorithm for operation (Add, Subtract, Multiply)
- * 
- * - Assuming we are inside BigNum X and passed in BigNum Y:
- *     Make a copy of X (called xx)
- *       Ex) xx.Copy(X)
- *     Make a copy of Y (called yy)
- *       Ex) yy.Copy(Y)
- * 
- * - This will prevent us from destroying the original lists.
- * 
- * - Perform the actual operation on the two copies, creating a
- *   new BigNum called zz.
- * 
- * - Return the zz to main.
- */
 
 /**
  * A BigNum is just a doubly-linked list with some math operations. Each Node
  * should represent a single digit of some large number.
  */
-class BigNum: public DLList{
+class BigNum : public DLList {
 public:
     /**
      * Create a BigNum with an empty list. No value yet.
      */
-    BigNum(){
+    BigNum() {
+        InsertBack(0);
+    }
 
+    BigNum(const BigNum &B) {
+        Node *temp = B.Head;
+
+        while (temp) {
+            InsertBack(temp->data);
+            temp = temp->Next;
+        }
     }
     /**
      * Create a BigNum from a string. Each digit will be stored in a Node.
      */
-    BigNum(string big_number){
-        for(int i=0;i<big_number.size();i++){
-            InsertBack(big_number[i]-'0');
+    BigNum(const string big_number) {
+        for (int i = 0; i < big_number.size(); i++) {
+            InsertBack(big_number[i] - '0');
         }
     };
     /**
      * Add some other BigNum to this BigNum and return the
      * result (as a BigNum). The original two BigNums should be unaffected.
      */
-    BigNum Add(BigNum other){
-        DLList
+    BigNum Add(BigNum other) {
+        // Make copies of each list
+        BigNum lhs(ToString());
+        BigNum rhs(other.ToString());
+        BigNum result;
+        int sum = 0;
+        int carry = 0;
+
+        cout<<"lhs"<<lhs.ToString()<<endl;
+
+
+        while (lhs.Size()) {
+            sum = lhs.GetBack() + rhs.GetBack() + carry;
+            cout<<"size: "<<lhs.Size()<<endl;
+            carry = sum / 10;
+            sum = sum % 10;
+            result.InsertFront(sum);
+
+            lhs.Delete();
+            rhs.Delete();
+        }
+
+        rhs.Print();
+
+        if (rhs.Size()) {
+            while (rhs.Size()) {
+                sum = rhs.GetBack() + carry;
+                carry = sum / 10;
+                sum = sum % 10;
+                result.InsertFront(sum);
+
+                rhs.Delete();
+            }
+        } else {
+            if (carry > 0) {
+                result.InsertFront(carry);
+            }
+        }
+
+        return result;
     }
+
     /**
      * Subtract some other BigNum from this BigNum and return the
      * result (as a BigNum). The original two BigNums should be unaffected.
@@ -78,10 +93,53 @@ public:
      * Traverse list and add the number from each Node to a string. Return
      * that string.
      */
-    string ToString();
+    string ToString() {
+        // Points to "Head" of the
+        Node *temp = Head;
+        string s;
 
+        while (temp) {
+            int d = temp->data;
+            s += to_string(d);
+            temp = temp->Next;
+        }
+
+        return s;
+    }
+
+    void Print() {
+        cout << ToString() << endl;
+    }
+
+    BigNum &operator=(const string &big_number) {
+        DestroyList();
+        for (int i = 0; i < big_number.size(); i++) {
+            InsertBack(big_number[i] - '0');
+        }
+        return *this;
+    }
+
+    BigNum operator=(const BigNum &bignum) {
+        BigNum B(bignum);
+        return B;
+    }
+
+    BigNum operator+(BigNum &other) {
+        cout << "adding" << endl;
+        BigNum B;
+        B.Add(*this);
+
+        B.Print();
+
+        B.Add(other);
+        B.Print();
+        return B;
+    }
+
+    friend ostream &operator<<(ostream &os, BigNum &bn){
+        os << bn.ToString() ;
+        return os;
+    }
 
 private:
-
-
 };
