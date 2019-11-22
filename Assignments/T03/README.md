@@ -1,6 +1,6 @@
 ## Test 3 - Assessment
 
-### Recursion
+## Recursion
 
 - Be able to recall the 3 components of recursion.
 - Be able to trace a recursive function.
@@ -21,7 +21,7 @@ void PrintReverse(int num){
 ```
 
 
-### Class Components and Concepts
+## Class Components and Concepts
 
 - What are the components that make up a class?
 - What is the difference between a class and a struct?
