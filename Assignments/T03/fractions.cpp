@@ -1,1 +1,98 @@
-dbd6bb7063fabbac8150a83659b9e1daf2b31a9990223cf4c4968a39cf856edae23b682c6dfe4f1b2f9fe1a56b584aeb35d063e3aa4a514550d8de527dd83c83eb3d15b08a3ba014645807eed5f598a1aabac1f9c01036f5e82e7910d7b2d17dcb0a03e1044eff0a26296079f1578ddd9823fd14116b7312d747994d0346eaef6d6ec353a1eb4588773bbe263e9e5caffc9c03b2f51ebfb3d5fc70785ddf84531e2b9a71eb569451f9509099f14db1238bdb81df4f6c9ad5ccdd5c6564d49533fae97c5be4214021f77935068e6595d7fb26184a1fa19d164657edc3546ddd3ec912c36ebb8ed09115110777471bff51fbf7db3584ee59b32ed9b0ecb7c9ec0653b0220514c6ed66dd91c80850e794acb5e9548807d58313900203072c6a668346e86c58f84bb43a8967b31419237897ae5c61edb3ac1fa5fc79542fc9acd30a7be0ff73d6a15843d2cbe74a7db52a652282fbf58b5b57e58ffcbf372452c034914c1ce35247238caed8ac8420b2b2c61734a8d55e1fc20f20f413df7adb0dd442e944170b8df2e8ee465b47e4662cd66a4ffedd942ae82b21495c8cfc08318783e7a597383cb80789e8de2ad57117f2d65419a1bace85d00bf927db603102789f88a7f97ef7a38a712b64d609e94debbb7a8c0fed5b9e6228c516344f2cc4f9ca91d30f62a34fddbf674ad7646b7b1eae35ebdf6d6fe03329941c0ebbc8d8c9f57195b91e8e9fbc2a4673c6df7b81df5981dcb7cd825156a9489c3b6f1f9d33dddc9b0040279c1a1498b1412e513e637c6a8d4d736ab2db64eb941d9e5773eb11995520e9993978f4d91607ff300dd06e39a0bfa7587cc3db6a125a6c7ac816f4613d50cd3ec805563bedcae80654c0d7743b9ccca29e790ca034dceb6a8b4d0d3a931c8268c2ca5cc3f7705aae78f3c0e1de13155b984f83a582ef66820f1a4516f3142c6ab4c4ffcda5014de5373763497f65e1ca9a574686ef0b30399a70d6e12a6aee5bdfd3c25cca254d7f19946ebf12d89dc3b8c98a8d366c78b4ffd83dacedd6ce94e0a65c699a945b344ad6f39e663725141511616fb14108200f2ff3d6c3bb0cb5703c25dd63e677378cab531d23c99196522874fc42e47cbb762db8c549e77ff3608f4f7eb91e17c39cf84f41f6468498027f88d6e6caa039d754432508fa777be974ae235ad7bc2587986b48ce0ea9e194a962d1792c77dd6c0da2fc7734c9c35911b194cb622481f4fd51a11a59788af0089f42a68804cfed27d6fe05e1c9cc1a1fa8ac08aa3fe1d286a144ee2699e063c5cbc3188839d98ce16b82bef9cd105e5f8dd166089329b732eb2bbdbee924ceedb4f619e0e87aeb24a1252c228672cd3a57aecb556c5c6c9ec89cdaba4e32270858f49c1091a7ba57b6f8010e3edc0571c0ad5f4d0508c7ffd6f419d4e6d04dcb75f0c50abf9261440e3896d1b997408a493c62015dd172cee46b5f227fd4a48cf409128a4136e03ecf73fb54cd71e10c93eb1af47bd1f98d2cd2a64289c5b375762944f1293d1c2ea6dab3e35b893bbd6a068ac16dc8519ff2ac5def1ba065e5726193caf9c09f882dbcc8f3a34c2c5f2de9a15e1153214b28cc186ce91896d1533fdc008e2644ac6ad83a15403db7ffad70b2ddec4ee368ed88405cfd9fa2eb517af9db66a26006a73184c01f4a34fed0ce476133c10800003301a7e1d101fa2565468da0134cd40ccc76407e3078c50a9bcce8ec11cc31c0629c5c616e40f4661c7b92e3c36f82a339eabfa1e24732cb0907bdd86b0a449e8bccd27eb76eef0179fb9827de0adecf52b5344d27766c4bec0ba4383e1d4c07ee5f81ba2e0f5ec958aa1f0c587486be513581aa2e9c9aef725bc0f2b29e530fbd730d9e465d00f25573b1b538e433cf8f3d64a1cb17c4f18802d36e1745833be722ce4c7db79ea319d80725094c82a45f31f5076bf5b1b1683460911b0619af53afcc8cb635678f335edd82160d27bff33e62cffc38e7688e4be82ef89bfabb6ed8ea3603d693fbb481cf333cdcf6
+#include<iostream>
+
+using namespace std; 
+
+int sum_digits(int x){
+    if(x == 0){
+        return 0;
+    }
+    return x % 10 + sum_digits(x / 10);
+}
+
+class Fraction{
+private:
+    int num;
+    int den;
+
+    // Function to return gcd of a and b 
+    int Gcd(int a, int b) 
+    { 
+        if (a == 0) 
+            return b;
+        //cout<<(b%a)<<","<<a<<endl;
+        return Gcd(b%a, a); 
+    } 
+    
+    void Lowest() 
+    { 
+
+        int common_factor = Gcd(num,den); 
+    
+        den = den/common_factor; 
+        num = num/common_factor; 
+    } 
+public:
+
+    Fraction(){
+        num = 1;
+        den = 1;
+    }
+    Fraction(int n, int d){
+        if(d == 0){
+            cout<<"Error: denominator == 0!";
+            exit(0);
+        }
+        num = n;
+        den = d;
+    }
+
+    int GetDen(){
+        return den;
+    }
+
+    int GetNum(){
+        return num;
+    }
+
+    int SetDen(int d){
+        den = d;
+    }
+
+    int SetNum(int n){
+        num = n;
+    }
+
+    void Add(Fraction rhs){
+        
+        int common = den * rhs.GetDen();
+
+        cout<<"common:"<<common<<endl;
+
+        num = ((common / den) * num) + ((common / rhs.GetDen()) * rhs.GetNum());
+        den = common;
+        Lowest();
+    }
+
+    void Print(){
+        cout<<"("<<num<<"/"<<den<<")";
+    }
+};
+  
+// Driver program 
+int main() 
+{ 
+    // int num1=3, den1=8, num2=2, den2=12, den3, num3; 
+    // addFraction(num1, den1, num2, den2, num3, den3); 
+    // printf("%d/%d + %d/%d is equal to %d/%d\n", num1, den1, 
+    //                                num2, den2, num3, den3); 
+
+    //cout<<sum_digits(11111111)<<endl;
+    Fraction f1(2,8);
+    Fraction f2(3,11);
+
+    f1.Add(f2);
+
+    cout<<f1.GetNum()<<"/"<<f1.GetDen()<<endl;
+    f1.Print();
+    return 0; 
+} 

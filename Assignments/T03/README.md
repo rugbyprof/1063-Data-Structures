@@ -53,7 +53,7 @@ void PrintReverse(int num){
       - `void Print()`
 
 - Ok, we should be ready to "write" our class. But there might be some issues with our distance function, especially if we store our `x` and `y` values as `private` data members of our class! Next point fixes this issue.
-- I have discussed this in class, but I dont really do it all the time because its time consuming, but if you have Dr. Stringfellow for a class you had better write `setters` and `getters` for all of the data members in your class (with some exceptions). So, to solve the `private` data member problem, we can use a getter method to access them.
+- I have discussed this in class, but I dont really do it all the time because its time consuming, but if you have Dr. Stringfellow for a class you had better write `setters` and `getters` for all of the data members in your class (with some exceptions). So, to solve the `private` data member problem, we can use a getter method to access them (there are other better OOP ways, but not for now).
 - Also, I don't write destructors in class either, but on a test, you should include an empty destructor to show you know there should be one.
 
 ### Our Class
