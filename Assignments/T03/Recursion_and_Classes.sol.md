@@ -67,3 +67,78 @@ Fraction F2(2/3);   // results with numerator = 2 and denominator = 3
 - Printing a fraction should look like: `(2/3)` with parens around the values.
 - Don't forget all the little things that are necessary for a complete class definition.
 
+```cpp
+class Fraction{
+private:
+    int num;
+    int den;
+
+    // Function to return gcd of a and b 
+    int Gcd(int a, int b) 
+    { 
+        if (a == 0) 
+            return b;
+        //cout<<(b%a)<<","<<a<<endl;
+        return Gcd(b%a, a); 
+    } 
+    
+    void Lowest() 
+    { 
+
+        int common_factor = Gcd(num,den); 
+    
+        den = den/common_factor; 
+        num = num/common_factor; 
+    } 
+public:
+
+    Fraction(){
+        num = 1;
+        den = 1;
+    }
+    Fraction(int n, int d){
+        if(d == 0){
+            cout<<"Error: denominator == 0!";
+            exit(0);
+        }
+        num = n;
+        den = d;
+    }
+
+    int GetDen(){
+        return den;
+    }
+
+    int GetNum(){
+        return num;
+    }
+
+    void SetDen(int d){
+        den = d;
+    }
+
+    void SetNum(int n){
+        num = n;
+    }
+
+    void Add(Fraction rhs){
+        
+        int common = den * rhs.den;
+
+        num = ((common / den) * num) + ((common / rhs.den) * rhs.num);
+        den = common;
+        Lowest();
+    }
+
+    void Mul(Fraction rhs){
+
+        num *= rhs.num;
+        den *= rhs.den;
+        Lowest();
+    }
+
+    void Print(){
+        cout<<"("<<num<<"/"<<den<<")";
+    }
+};
+```
