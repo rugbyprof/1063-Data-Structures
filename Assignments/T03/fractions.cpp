@@ -45,6 +45,8 @@ public:
         num = n;
         den = d;
     }
+    
+    ~Fraction(){}
 
     int GetDen(){
         return den;
