@@ -54,22 +54,27 @@ public:
         return num;
     }
 
-    int SetDen(int d){
+    void SetDen(int d){
         den = d;
     }
 
-    int SetNum(int n){
+    void SetNum(int n){
         num = n;
     }
 
     void Add(Fraction rhs){
         
-        int common = den * rhs.GetDen();
+        int common = den * rhs.den;
 
-        cout<<"common:"<<common<<endl;
-
-        num = ((common / den) * num) + ((common / rhs.GetDen()) * rhs.GetNum());
+        num = ((common / den) * num) + ((common / rhs.den) * rhs.num);
         den = common;
+        Lowest();
+    }
+
+    void Mul(Fraction rhs){
+
+        num *= rhs.num;
+        den *= rhs.den;
         Lowest();
     }
 
@@ -81,18 +86,11 @@ public:
 // Driver program 
 int main() 
 { 
-    // int num1=3, den1=8, num2=2, den2=12, den3, num3; 
-    // addFraction(num1, den1, num2, den2, num3, den3); 
-    // printf("%d/%d + %d/%d is equal to %d/%d\n", num1, den1, 
-    //                                num2, den2, num3, den3); 
 
-    //cout<<sum_digits(11111111)<<endl;
     Fraction f1(2,8);
     Fraction f2(3,11);
 
     f1.Add(f2);
-
-    cout<<f1.GetNum()<<"/"<<f1.GetDen()<<endl;
     f1.Print();
     return 0; 
 } 
